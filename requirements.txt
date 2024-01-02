@@ -15,7 +15,6 @@ djangorestframework
 lxml
 mysql
 mysql-connector-python
-mysqlclient
 numpy
 opencv-python
 openpyxl
