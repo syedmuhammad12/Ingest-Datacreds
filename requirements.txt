@@ -31,7 +31,6 @@ PyJWT
 pyspellchecker
 pytesseract
 PyWavelets
-pywin32
 PyYAML
 requests
 rsa
