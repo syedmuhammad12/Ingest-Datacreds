@@ -20,7 +20,6 @@ opencv-python
 openpyxl
 pandas
 pdf2image
-pdftotree
 Pillow
 protobuf
 pybase64
