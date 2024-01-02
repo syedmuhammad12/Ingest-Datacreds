@@ -1,0 +1,1075 @@
+﻿PatientInitials,Country,DescribeReaction,Day_DOB,Month_DOB,Year_DOB,Age,Sex,Height,Weight,Day_ReactionOnset,Month_ReactionOnset,Year_ReactionOnset,DateOfConsequence_Day,DateOfConsequence_Month,DateOfConsequence_Year,Consequence,SuspectDrug,SuspectDrug2,DailyDose,RouteOfAdministration,IndicationForUse,IndicatonForUse2,TherapyDatesFromTo,TherapyDuration,OneTimeDose,LotNo,ConcomitantDrugs,OtherRelevantHistory,NameAndAddresManufacturer,MFRControlNo,Date_Received_Manufacturer,Date_This_Report,ReporterInformation,EudraCTNo,StudyNo,CenterNo,FileName,VendorName,Reaction Information ( Cont...),Describe Reaction(s)(Include relevant test/lab data) ( Cont...),Suspect Drugs (Cont...),Concomitant Drugs (Cont...),Other relevant history (Cont...),Company Remarks (Sender's comments) (Cont...),Literature Information (Cont...),Additional Information(Continuation),Column1,FileName_1
+Privacy 8 9 Kg,Portugal,"INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664)) - Fatal Protocol relatedness: As per reporter: UNK As per company: UNK DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse large B-cell lymphoma recurrent (10012821)) - Unknown Protocol relatedness: As per reporter: UNK As per company: UNK DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse large B-cell lymphoma refractory (10012822)) - Unknown Protocol relatedness: As per reporter: UNK As per company: UNK Continued",??,??,??,,M,,,7,AUG,2019,,,,,"VINCRISTINE(VINCRISTINE)(Unknown)(VI NCRISTINE) ,UNKNOWN,UNKNOWN",15. DAILY DOSE(S) 1) UNK 2) UNK,1) UNK 2) UNK,,18. THERAPY DATES(from/to) 1) 07-AUG-2019,,,,,,Concomitant Drugs Not Reported,Concurrent Disease: Diffuse large B-cell lymphoma[10012818 - Diffuse large B-cell lymphoma] (09-Nov-2017/08-Mar-2018) ( Continuing: Yes) CHRONIC OBSTRUCTIVE PULMONARY DISEASE[10009033 - lymphoma] (UNK) ( Continuing: UNK),"Janssen Research & Development, LLC 850 Ridgeview Drive Horsham, PA 19044 United States of America",20191142422 (2),08-May-20,12-May-20,FOLLOWUP,,,,JJ1.pdf,BAXTER\JnJ," 
+
+Seq. No. : 1
+Reaction : INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+Start Date : UNK
+Stop Date : UNK
+Duration : UNK
+
+Seq. No. : 2
+Reaction : DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma 
+recurrent (10012821), Diffuse large B-cell lymphoma recurrent (10012821))
+Start Date : 07-Nov-2019  
+Stop Date : UNK
+Duration : UNK  
+Seq. No. : 3
+Reaction : DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma 
+ 
+refractory (10012822), Diffuse large B-cell lymphoma refractory (10012822))
+Start Date : 07-Nov-2019
+Stop Date : UNK
+Duration : UNK  
+
+Seq. No. : 4
+Reaction : DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product 
+effect decreased (10082201))  
+Start Date : UNK
+Stop Date : UNK
+Duration : UNK  
+Seq. No. : 5
+Reaction : DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents 
+(10070863))
+Start Date : UNK
+Stop Date : UNK
+Duration : UNK
+
+Seq. No. : 6
+Reaction : OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+Start Date : 07-Aug-2019      
+Stop Date : UNK
+Duration : UNK
+
+Seq. No. : 7
+Reaction : DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication 
+(10053746), Product use in unapproved indication (10076476))
+Start Date : 07-Aug-2019      
+Stop Date : UNK
+Duration : UNK
+
+ "," 
+
+DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201)) - 
+Unknown
+Protocol relatedness:
+As per reporter: UNK
+As per company: UNK
+
+DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863)) - Unknown
+Protocol relatedness:
+As per reporter: UNK
+As per company: UNK
+
+OFF LABEL USE (Off label use (10053762), Off label use (10053762)) - Unknown
+Protocol relatedness:
+As per reporter: UNK
+As per company: UNK
+
+DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in unapproved 
+indication (10076476)) - Unknown
+Protocol relatedness:
+As per reporter: UNK
+As per company: UNK
+
+Case level outcome :Fatal
+
+This spontaneous report received from a physician via a Regulatory Authority [EMEA EVHUMAN, PT-ROCHE-2469942], 
+and concerned an 84-year-old male.
+The patient's weight was 89 kilograms and height was not reported. The patient's medical history and concurrent
+     
+conditions included diffuse large b-cell lymphoma, chronic obstructive pulmonary disease, Pfeiffer syndrome and
+   
+b-cell lymphoma. The patient received doxorubicin hydrochloride (solution for infusion, unknown, batch number 
+not reported) dose and frequency not reported, from 07-AUG-2019 to 18-SEP-2019 for diffuse large b-cell 
+lymphoma (characterized as off label use and drug used for unapproved indication). Non-company suspect drugs 
+     
+included: vincristine, prednisolone, rituximab and cyclophosphamide, all (unknown formulation, unknown, batch 
+number not reported) dose, frequency not reported, 22-FEB-2019 to 17-JUN-2019 and 07-AUG-2019 to 18-SEP-2019, 
+all for diffuse large b-cell lymphoma and polatuzumab vedotin (unknown formulation, unknown, batch number not 
+reported) dose and frequency not reported, from 02-JAN-2020 to JAN-2020 for b-cell lymphoma. On 07-NOV-2019, 
+the patient had diffuse large b-cell lymphoma recurrent and diffuse large b cell lymphoma refractory. On an 
+unspecified date, the patient experienced infection (pneumonia), drug less effective and drug toxicity. On an 
+unspecified date, the patient died from infection (pneumonia and other unknown cause). It was unknown if an  Date :12-MAY-2020
+ Page : 3 / 5
+
+ Continuation Sheet for CIOMS report   Mfr. Control No. :20191142422(2) 
+
+autopsy was performed. 
+Action taken with doxorubicin hydrochloride, prednisolone, rituximab, vincristine and cyclophosphamide with 
+respect to events diffuse large b-cell lymphoma recurrent, diffuse large b cell lymphoma refractory, drug 
+toxicity and drug less effective was drug withdrawn (on 18-SEP-2019), and with respect to infection (pneumonia)
+was not applicable. The action taken with doxorubicin with respect to off label use and drug used for 
+unapproved indication was not reported and with prednisolone, rituximab, vincristine and cyclophosphamide was 
+not applicable. The action taken with polatuzumab vedotin with respect to all events were not applicable. The 
+outcome of diffuse large b-cell lymphoma recurrent, diffuse large b cell lymphoma refractory, off label use, 
+drug used for unapproved indication, drug toxicity and drug less effective was not reported.
+This report was serious (Death and Other Medically Important Condition).
+
+Upon review, the following information were amended and updated along with the follow-up inform   
+ation: Therapy 
+dates for all previously reported suspects were mentioned in narrative.
+ Company Remarks (Sender's comments)  (Cont...)   
+
+V2: Follow up information in this version pertains to addition of fatal event of pneumonia, ser  
+ious event of 
+drug less effective and non serious event of drug toxicity. Additional information does not change the 
+previously reported causality assessment.
+This report is of an 84-year-old male patient who had recurrent and refractory diffuse large b-cell lymphoma 
+(nearly 3 months after initiation and 19 days after last dose), drug less effective and died to   
+  of pneumonia 
+(unspecified duration) after initiation of doxorubicin (solution for infusion, dose and frequency not reported)
+for diffuse large b-cell lymphoma. Considering the progressive nature of the underlying DLBCL, causality for 
+the events of recurrent and refractory DLBCL assessed as not related to doxorubicin. Drug efficacy can vary 
+ 
+between individuals and depends on various factors such as disease severity, metabolism, patient compliance and
+hence causality for drug less effective assessed as not related to doxorubicin. The available information about
+the event of pneumonia precludes a complete and meaningful medical assessment, hence causality for the event is
+unassessable.  
+ "," 
+
+ Product-Reaction level 
+
+ Seq.No. : XXX
+ Drug :
+
+ Route of Admin : 1)Unknown
+ Therapy Dates/Duration : 1) 07-AUG-2019 - 18-SEP-2019      
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible      
+ Dechallenge  :  N/A
+ Rechallenge  :  N/A
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Drug discontinued
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  N/A
+ Rechallenge  :  N/A
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))
+ Action(s) taken with drug  :  Drug discontinued
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  N/A
+ Rechallenge  :  N/A
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Drug discontinued
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  N/A
+ Rechallenge  :  N/A
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Drug discontinued
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  UNK
+ Rechallenge  :  UNK
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+ Action(s) taken with drug  :  Unknown
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  N/A
+ Rechallenge  :  N/A
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))  
+   
+ Action(s) taken with drug  :  Unknown
+   :   
+ Causality as per reporter (Drug/Vaccine) Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  N/A
+     
+ Rechallenge  :  N/A
+
+ Seq.No. : 2
+ Drug : VINCRISTINE(VINCRISTINE)(Unknown)(VINCRISTINE),UNKNOWN,UNKNOWN Date :12-MAY-2020
+ Page : 4 / 5
+
+ Continuation Sheet for CIOMS report   Mfr. Control No. :20191142422(2) 
+
+ Route of Admin : 1)Unknown
+2)Unknown
+ Therapy Dates/Duration : 1) 22-FEB-2019 - 17-JUN-2019
+
+2) 07-AUG-2019 - 18-SEP-2019 (42 Days)
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Drug discontinued  
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))  
+ Action(s) taken with drug  :  Drug discontinued
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Drug discontinued  
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Drug discontinued
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+ Action(s) taken with drug  :  Not Applicable  
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))
+ Action(s) taken with drug  :  Not Applicable  
+
+ Seq.No. : 3
+ Drug : PREDNISOLONE(PREDNISOLONE)(Unknown)(PREDNISOLONE)  
+ Route of Admin : 1)Unknown
+2)Unknown
+ Indication for use : 1)Diffuse large B-cell lymphoma[10012818 - Diffuse large B-cell lymphoma]
+ Therapy Dates/Duration : 1) 07-AUG-2019 - 18-SEP-2019 (42 Days)
+
+2) 22-FEB-2019 - 17-JUN-2019 (115 Days)
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable      
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Drug discontinued
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))
+ Action(s) taken with drug  :  Drug discontinued      
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Drug discontinued
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Drug discontinued
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+ Action(s) taken with drug  :  Not Applicable
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))
+ Action(s) taken with drug  :  Not Applicable
+
+ Seq.No. : 4
+ Drug : RITUXIMAB(RITUXIMAB)(Unknown)(RITUXIMAB)
+ Route of Admin : 1)Unknown
+2)Unknown
+ Indication for use : 1)Diffuse large B-cell lymphoma[10012818 - Diffuse large B-cell lymphoma]
+ Therapy Dates/Duration : 1) 07-AUG-2019 - 18-SEP-2019 (42 Days)
+
+2) 22-FEB-2019 - 17-JUN-2019 (115 Days)
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Drug discontinued
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))
+ Action(s) taken with drug  :  Drug discontinued
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Drug discontinued
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Drug discontinued
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+ Action(s) taken with drug  :  Not Applicable
+     
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))  
+ 
+ Action(s) taken with drug  :  Not Applicable
+
+     
+
+ Seq.No. : 5
+ Drug : CYCLOPHOSPHAMIDE(CYCLOPHOSPHAMIDE)(Unknown)(CYCLOPHOSPHAMIDE)
+ Route of Admin : 1)Unknown
+2)Unknown
+ Indication for use : 1)Diffuse large B-cell lymphoma[10012818 - Diffuse large B-cell lymphoma] Date :12-MAY-2020
+ Page : 5 / 5
+
+ Continuation Sheet for CIOMS report   Mfr. Control No. :20191142422(2) 
+
+ Therapy Dates/Duration : 1) 22-FEB-2019 - 17-JUN-2019 (115 Days)
+
+2) 07-AUG-2019 - 18-SEP-2019 (42 Days)
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Drug discontinued
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))  
+ Action(s) taken with drug  :  Drug discontinued
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Drug discontinued  
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Drug discontinued  
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+ Action(s) taken with drug  :  Not Applicable
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))  
+ Action(s) taken with drug  :  Not Applicable
+
+ 
+ Seq.No. : 6
+ Drug : POLATUZUMAB VEDOTIN(POLATUZUMAB VEDOTIN)(Unknown)(POLATUZUMAB VEDOTIN),UNKNOWN
+ Route of Admin : 1)Unknown
+ Indication for use : 1)B-CELL LYMPHOMA[10003899 - B-cell lymphoma]  
+ Therapy Dates/Duration : 1) 02-JAN-2020 - ??-JAN-2020
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Not Applicable      
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))
+ Action(s) taken with drug  :  Not Applicable
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Not Applicable
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Not Applicable
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))      
+ Action(s) taken with drug  :  Not Applicable
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))
+ Action(s) taken with drug  :  Not Applicable
+
+ ",," 
+
+PFEIFFER SYNDROME[10082289 - Pfeiffer syndrome] (UNK) ( Continuing: UNK)
+B-CELL LYMPHOMA[10003899 - B-cell lymphoma] (UNK) ( Continuing: UNK)
+
+     
+   
+
+     Page 1 of 2Page 2 of 2
+
+https://res.cisco.com/envelopeopener/postxeo/oo/fDFfXzFiZmFmNTdlMDAwMDAxNzI... 5/13/2020",,,,JJ1.pdf,JJ1.pdf
+Privacy 8 9 Kg,china,"INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664)) - Fatal Protocol relatedness: As per reporter: UNK As per company: UNK DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse large B-cell lymphoma recurrent (10012821)) - Unknown Protocol relatedness: As per reporter: UNK As per company: UNK DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse large B-cell lymphoma refractory (10012822)) - Unknown Protocol relatedness: As per reporter: UNK As per company: UNK Continued",??,??,??,,F,,,7,AUG,2019,,,,,"VINCRISTINE(VINCRISTINE)(Unknown)(VI NCRISTINE) ,UNKNOWN,UNKNOWN",15. DAILY DOSE(S) 1) UNK 2) UNK,1) UNK 2) UNK,,18. THERAPY DATES(from/to) 1) 07-AUG-2019,,,,,,Concomitant Drugs Not Reported,Concurrent Disease: Diffuse large B-cell lymphoma[10012818 - Diffuse large B-cell lymphoma] (UNK) ( Continuing: Yes) CHRONIC OBSTRUCTIVE PULMONARY DISEASE[10009033 - Continuing: UNK),"Janssen Research & Development, LLC 850 Ridgeview Drive Horsham, PA 19044 United States of America",20191142422 (2),08-May-20,12-May-20,FOLLOWUP,,,,JJ1.pdf,BAXTER\JnJ," 
+
+Seq. No. : 1
+Reaction : INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+Start Date : UNK
+Stop Date : UNK
+Duration : UNK
+
+Seq. No. : 2
+Reaction : DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma 
+recurrent (10012821), Diffuse large B-cell lymphoma recurrent (10012821))
+Start Date : 07-Nov-2019  
+Stop Date : UNK
+Duration : UNK  
+Seq. No. : 3
+Reaction : DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma 
+ 
+refractory (10012822), Diffuse large B-cell lymphoma refractory (10012822))
+Start Date : 07-Nov-2019
+Stop Date : UNK
+Duration : UNK  
+
+Seq. No. : 4
+Reaction : DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product 
+effect decreased (10082201))  
+Start Date : UNK
+Stop Date : UNK
+Duration : UNK  
+Seq. No. : 5
+Reaction : DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents 
+(10070863))
+Start Date : UNK
+Stop Date : UNK
+Duration : UNK
+
+Seq. No. : 6
+Reaction : OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+Start Date : 07-Aug-2019      
+Stop Date : UNK
+Duration : UNK
+
+Seq. No. : 7
+Reaction : DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication 
+(10053746), Product use in unapproved indication (10076476))
+Start Date : 07-Aug-2019      
+Stop Date : UNK
+Duration : UNK
+
+ "," 
+
+DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201)) - 
+Unknown
+Protocol relatedness:
+As per reporter: UNK
+As per company: UNK
+
+DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863)) - Unknown
+Protocol relatedness:
+As per reporter: UNK
+As per company: UNK
+
+OFF LABEL USE (Off label use (10053762), Off label use (10053762)) - Unknown
+Protocol relatedness:
+As per reporter: UNK
+As per company: UNK
+
+DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in unapproved 
+indication (10076476)) - Unknown
+Protocol relatedness:
+As per reporter: UNK
+As per company: UNK
+
+Case level outcome :Fatal
+
+This spontaneous report received from a physician via a Regulatory Authority [EMEA EVHUMAN, PT-ROCHE-2469942], 
+and concerned an 84-year-old male.
+The patient's weight was 89 kilograms and height was not reported. The patient's medical history and concurrent
+     
+conditions included diffuse large b-cell lymphoma, chronic obstructive pulmonary disease, Pfeiffer syndrome and
+   
+b-cell lymphoma. The patient received doxorubicin hydrochloride (solution for infusion, unknown, batch number 
+not reported) dose and frequency not reported, from 07-AUG-2019 to 18-SEP-2019 for diffuse large b-cell 
+lymphoma (characterized as off label use and drug used for unapproved indication). Non-company suspect drugs 
+     
+included: vincristine, prednisolone, rituximab and cyclophosphamide, all (unknown formulation, unknown, batch 
+number not reported) dose, frequency not reported, 22-FEB-2019 to 17-JUN-2019 and 07-AUG-2019 to 18-SEP-2019, 
+all for diffuse large b-cell lymphoma and polatuzumab vedotin (unknown formulation, unknown, batch number not 
+reported) dose and frequency not reported, from 02-JAN-2020 to JAN-2020 for b-cell lymphoma. On 07-NOV-2019, 
+the patient had diffuse large b-cell lymphoma recurrent and diffuse large b cell lymphoma refractory. On an 
+unspecified date, the patient experienced infection (pneumonia), drug less effective and drug toxicity. On an 
+unspecified date, the patient died from infection (pneumonia and other unknown cause). It was unknown if an  Date :12-MAY-2020
+ Page : 3 / 5
+
+ Continuation Sheet for CIOMS report   Mfr. Control No. :20191142422(2) 
+
+autopsy was performed. 
+Action taken with doxorubicin hydrochloride, prednisolone, rituximab, vincristine and cyclophosphamide with 
+respect to events diffuse large b-cell lymphoma recurrent, diffuse large b cell lymphoma refractory, drug 
+toxicity and drug less effective was drug withdrawn (on 18-SEP-2019), and with respect to infection (pneumonia)
+was not applicable. The action taken with doxorubicin with respect to off label use and drug used for 
+unapproved indication was not reported and with prednisolone, rituximab, vincristine and cyclophosphamide was 
+not applicable. The action taken with polatuzumab vedotin with respect to all events were not applicable. The 
+outcome of diffuse large b-cell lymphoma recurrent, diffuse large b cell lymphoma refractory, off label use, 
+drug used for unapproved indication, drug toxicity and drug less effective was not reported.
+This report was serious (Death and Other Medically Important Condition).
+
+Upon review, the following information were amended and updated along with the follow-up inform   
+ation: Therapy 
+dates for all previously reported suspects were mentioned in narrative.
+ Company Remarks (Sender's comments)  (Cont...)   
+
+V2: Follow up information in this version pertains to addition of fatal event of pneumonia, ser  
+ious event of 
+drug less effective and non serious event of drug toxicity. Additional information does not change the 
+previously reported causality assessment.
+This report is of an 84-year-old male patient who had recurrent and refractory diffuse large b-cell lymphoma 
+(nearly 3 months after initiation and 19 days after last dose), drug less effective and died to   
+  of pneumonia 
+(unspecified duration) after initiation of doxorubicin (solution for infusion, dose and frequency not reported)
+for diffuse large b-cell lymphoma. Considering the progressive nature of the underlying DLBCL, causality for 
+the events of recurrent and refractory DLBCL assessed as not related to doxorubicin. Drug efficacy can vary 
+ 
+between individuals and depends on various factors such as disease severity, metabolism, patient compliance and
+hence causality for drug less effective assessed as not related to doxorubicin. The available information about
+the event of pneumonia precludes a complete and meaningful medical assessment, hence causality for the event is
+unassessable.  
+ "," 
+
+ Product-Reaction level 
+
+ Seq.No. : XXX
+ Drug :
+
+ Route of Admin : 1)Unknown
+ Therapy Dates/Duration : 1) 07-AUG-2019 - 18-SEP-2019      
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible      
+ Dechallenge  :  N/A
+ Rechallenge  :  N/A
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Drug discontinued
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  N/A
+ Rechallenge  :  N/A
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))
+ Action(s) taken with drug  :  Drug discontinued
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  N/A
+ Rechallenge  :  N/A
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Drug discontinued
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  N/A
+ Rechallenge  :  N/A
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Drug discontinued
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  UNK
+ Rechallenge  :  UNK
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+ Action(s) taken with drug  :  Unknown
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  N/A
+ Rechallenge  :  N/A
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))  
+   
+ Action(s) taken with drug  :  Unknown
+   :   
+ Causality as per reporter (Drug/Vaccine) Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  N/A
+     
+ Rechallenge  :  N/A
+
+ Seq.No. : 2
+ Drug : VINCRISTINE(VINCRISTINE)(Unknown)(VINCRISTINE),UNKNOWN,UNKNOWN Date :12-MAY-2020
+ Page : 4 / 5
+
+ Continuation Sheet for CIOMS report   Mfr. Control No. :20191142422(2) 
+
+ Route of Admin : 1)Unknown
+2)Unknown
+ Therapy Dates/Duration : 1) 22-FEB-2019 - 17-JUN-2019
+
+2) 07-AUG-2019 - 18-SEP-2019 (42 Days)
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Drug discontinued  
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))  
+ Action(s) taken with drug  :  Drug discontinued
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Drug discontinued  
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Drug discontinued
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+ Action(s) taken with drug  :  Not Applicable  
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))
+ Action(s) taken with drug  :  Not Applicable  
+
+ Seq.No. : 3
+ Drug : PREDNISOLONE(PREDNISOLONE)(Unknown)(PREDNISOLONE)  
+ Route of Admin : 1)Unknown
+2)Unknown
+ Indication for use : 1)Diffuse large B-cell lymphoma[10012818 - Diffuse large B-cell lymphoma]
+ Therapy Dates/Duration : 1) 07-AUG-2019 - 18-SEP-2019 (42 Days)
+
+2) 22-FEB-2019 - 17-JUN-2019 (115 Days)
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable      
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Drug discontinued
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))
+ Action(s) taken with drug  :  Drug discontinued      
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Drug discontinued
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Drug discontinued
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+ Action(s) taken with drug  :  Not Applicable
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))
+ Action(s) taken with drug  :  Not Applicable
+
+ Seq.No. : 4
+ Drug : RITUXIMAB(RITUXIMAB)(Unknown)(RITUXIMAB)
+ Route of Admin : 1)Unknown
+2)Unknown
+ Indication for use : 1)Diffuse large B-cell lymphoma[10012818 - Diffuse large B-cell lymphoma]
+ Therapy Dates/Duration : 1) 07-AUG-2019 - 18-SEP-2019 (42 Days)
+
+2) 22-FEB-2019 - 17-JUN-2019 (115 Days)
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Drug discontinued
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))
+ Action(s) taken with drug  :  Drug discontinued
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Drug discontinued
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Drug discontinued
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+ Action(s) taken with drug  :  Not Applicable
+     
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))  
+ 
+ Action(s) taken with drug  :  Not Applicable
+
+     
+
+ Seq.No. : 5
+ Drug : CYCLOPHOSPHAMIDE(CYCLOPHOSPHAMIDE)(Unknown)(CYCLOPHOSPHAMIDE)
+ Route of Admin : 1)Unknown
+2)Unknown
+ Indication for use : 1)Diffuse large B-cell lymphoma[10012818 - Diffuse large B-cell lymphoma] Date :12-MAY-2020
+ Page : 5 / 5
+
+ Continuation Sheet for CIOMS report   Mfr. Control No. :20191142422(2) 
+
+ Therapy Dates/Duration : 1) 22-FEB-2019 - 17-JUN-2019 (115 Days)
+
+2) 07-AUG-2019 - 18-SEP-2019 (42 Days)
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Drug discontinued
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))  
+ Action(s) taken with drug  :  Drug discontinued
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Drug discontinued  
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Drug discontinued  
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+ Action(s) taken with drug  :  Not Applicable
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))  
+ Action(s) taken with drug  :  Not Applicable
+
+ 
+ Seq.No. : 6
+ Drug : POLATUZUMAB VEDOTIN(POLATUZUMAB VEDOTIN)(Unknown)(POLATUZUMAB VEDOTIN),UNKNOWN
+ Route of Admin : 1)Unknown
+ Indication for use : 1)B-CELL LYMPHOMA[10003899 - B-cell lymphoma]  
+ Therapy Dates/Duration : 1) 02-JAN-2020 - ??-JAN-2020
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Not Applicable      
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))
+ Action(s) taken with drug  :  Not Applicable
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Not Applicable
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Not Applicable
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))      
+ Action(s) taken with drug  :  Not Applicable
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))
+ Action(s) taken with drug  :  Not Applicable
+
+ ",," 
+
+PFEIFFER SYNDROME[10082289 - Pfeiffer syndrome] (UNK) ( Continuing: UNK)
+B-CELL LYMPHOMA[10003899 - B-cell lymphoma] (UNK) ( Continuing: UNK)
+
+     
+   
+
+     Page 1 of 2Page 2 of 2
+
+https://res.cisco.com/envelopeopener/postxeo/oo/fDFfXzFiZmFmNTdlMDAwMDAxNzI... 5/13/2020",,,,JJ1.pdf,JJ1.pdf
+Privacy 8 9 Kg,japan,"INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664)) - Fatal Protocol relatedness: As per reporter: UNK As per company: UNK DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse large B-cell lymphoma recurrent (10012821)) - Unknown Protocol relatedness: As per reporter: UNK As per company: UNK DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse large B-cell lymphoma refractory (10012822)) - Unknown Protocol relatedness: As per reporter: UNK As per company: UNK Continued",??,??,??,,unknown,,,7,AUG,2019,,,,,"VINCRISTINE(VINCRISTINE)(Unknown)(VI NCRISTINE) ,UNKNOWN,UNKNOWN",15. DAILY DOSE(S) 1) UNK 2) UNK,1) UNK 2) UNK,,18. THERAPY DATES(from/to) 1) 07-AUG-2019,,,,,,Concomitant Drugs Not Reported,Concurrent Disease: Diffuse large B-cell lymphoma[10012818 - Diffuse large B-cell lymphoma] (UNK) ( Continuing: Yes) CHRONIC OBSTRUCTIVE PULMONARY DISEASE[10009033 - Continuing: UNK),"Janssen Research & Development, LLC 850 Ridgeview Drive Horsham, PA 19044 United States of America",20191142422 (2),08-May-20,12-May-20,FOLLOWUP,,,,JJ1.pdf,BAXTER\JnJ," 
+
+Seq. No. : 1
+Reaction : INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+Start Date : UNK
+Stop Date : UNK
+Duration : UNK
+
+Seq. No. : 2
+Reaction : DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma 
+recurrent (10012821), Diffuse large B-cell lymphoma recurrent (10012821))
+Start Date : 07-Nov-2019  
+Stop Date : UNK
+Duration : UNK  
+Seq. No. : 3
+Reaction : DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma 
+ 
+refractory (10012822), Diffuse large B-cell lymphoma refractory (10012822))
+Start Date : 07-Nov-2019
+Stop Date : UNK
+Duration : UNK  
+
+Seq. No. : 4
+Reaction : DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product 
+effect decreased (10082201))  
+Start Date : UNK
+Stop Date : UNK
+Duration : UNK  
+Seq. No. : 5
+Reaction : DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents 
+(10070863))
+Start Date : UNK
+Stop Date : UNK
+Duration : UNK
+
+Seq. No. : 6
+Reaction : OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+Start Date : 07-Aug-2019      
+Stop Date : UNK
+Duration : UNK
+
+Seq. No. : 7
+Reaction : DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication 
+(10053746), Product use in unapproved indication (10076476))
+Start Date : 07-Aug-2019      
+Stop Date : UNK
+Duration : UNK
+
+ "," 
+
+DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201)) - 
+Unknown
+Protocol relatedness:
+As per reporter: UNK
+As per company: UNK
+
+DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863)) - Unknown
+Protocol relatedness:
+As per reporter: UNK
+As per company: UNK
+
+OFF LABEL USE (Off label use (10053762), Off label use (10053762)) - Unknown
+Protocol relatedness:
+As per reporter: UNK
+As per company: UNK
+
+DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in unapproved 
+indication (10076476)) - Unknown
+Protocol relatedness:
+As per reporter: UNK
+As per company: UNK
+
+Case level outcome :Fatal
+
+This spontaneous report received from a physician via a Regulatory Authority [EMEA EVHUMAN, PT-ROCHE-2469942], 
+and concerned an 84-year-old male.
+The patient's weight was 89 kilograms and height was not reported. The patient's medical history and concurrent
+     
+conditions included diffuse large b-cell lymphoma, chronic obstructive pulmonary disease, Pfeiffer syndrome and
+   
+b-cell lymphoma. The patient received doxorubicin hydrochloride (solution for infusion, unknown, batch number 
+not reported) dose and frequency not reported, from 07-AUG-2019 to 18-SEP-2019 for diffuse large b-cell 
+lymphoma (characterized as off label use and drug used for unapproved indication). Non-company suspect drugs 
+     
+included: vincristine, prednisolone, rituximab and cyclophosphamide, all (unknown formulation, unknown, batch 
+number not reported) dose, frequency not reported, 22-FEB-2019 to 17-JUN-2019 and 07-AUG-2019 to 18-SEP-2019, 
+all for diffuse large b-cell lymphoma and polatuzumab vedotin (unknown formulation, unknown, batch number not 
+reported) dose and frequency not reported, from 02-JAN-2020 to JAN-2020 for b-cell lymphoma. On 07-NOV-2019, 
+the patient had diffuse large b-cell lymphoma recurrent and diffuse large b cell lymphoma refractory. On an 
+unspecified date, the patient experienced infection (pneumonia), drug less effective and drug toxicity. On an 
+unspecified date, the patient died from infection (pneumonia and other unknown cause). It was unknown if an  Date :12-MAY-2020
+ Page : 3 / 5
+
+ Continuation Sheet for CIOMS report   Mfr. Control No. :20191142422(2) 
+
+autopsy was performed. 
+Action taken with doxorubicin hydrochloride, prednisolone, rituximab, vincristine and cyclophosphamide with 
+respect to events diffuse large b-cell lymphoma recurrent, diffuse large b cell lymphoma refractory, drug 
+toxicity and drug less effective was drug withdrawn (on 18-SEP-2019), and with respect to infection (pneumonia)
+was not applicable. The action taken with doxorubicin with respect to off label use and drug used for 
+unapproved indication was not reported and with prednisolone, rituximab, vincristine and cyclophosphamide was 
+not applicable. The action taken with polatuzumab vedotin with respect to all events were not applicable. The 
+outcome of diffuse large b-cell lymphoma recurrent, diffuse large b cell lymphoma refractory, off label use, 
+drug used for unapproved indication, drug toxicity and drug less effective was not reported.
+This report was serious (Death and Other Medically Important Condition).
+
+Upon review, the following information were amended and updated along with the follow-up inform   
+ation: Therapy 
+dates for all previously reported suspects were mentioned in narrative.
+ Company Remarks (Sender's comments)  (Cont...)   
+
+V2: Follow up information in this version pertains to addition of fatal event of pneumonia, ser  
+ious event of 
+drug less effective and non serious event of drug toxicity. Additional information does not change the 
+previously reported causality assessment.
+This report is of an 84-year-old male patient who had recurrent and refractory diffuse large b-cell lymphoma 
+(nearly 3 months after initiation and 19 days after last dose), drug less effective and died to   
+  of pneumonia 
+(unspecified duration) after initiation of doxorubicin (solution for infusion, dose and frequency not reported)
+for diffuse large b-cell lymphoma. Considering the progressive nature of the underlying DLBCL, causality for 
+the events of recurrent and refractory DLBCL assessed as not related to doxorubicin. Drug efficacy can vary 
+ 
+between individuals and depends on various factors such as disease severity, metabolism, patient compliance and
+hence causality for drug less effective assessed as not related to doxorubicin. The available information about
+the event of pneumonia precludes a complete and meaningful medical assessment, hence causality for the event is
+unassessable.  
+ "," 
+
+ Product-Reaction level 
+
+ Seq.No. : XXX
+ Drug :
+
+ Route of Admin : 1)Unknown
+ Therapy Dates/Duration : 1) 07-AUG-2019 - 18-SEP-2019      
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible      
+ Dechallenge  :  N/A
+ Rechallenge  :  N/A
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Drug discontinued
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  N/A
+ Rechallenge  :  N/A
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))
+ Action(s) taken with drug  :  Drug discontinued
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  N/A
+ Rechallenge  :  N/A
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Drug discontinued
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  N/A
+ Rechallenge  :  N/A
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Drug discontinued
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  UNK
+ Rechallenge  :  UNK
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+ Action(s) taken with drug  :  Unknown
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  N/A
+ Rechallenge  :  N/A
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))  
+   
+ Action(s) taken with drug  :  Unknown
+   :   
+ Causality as per reporter (Drug/Vaccine) Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge  :  N/A
+     
+ Rechallenge  :  N/A
+
+ Seq.No. : 2
+ Drug : VINCRISTINE(VINCRISTINE)(Unknown)(VINCRISTINE),UNKNOWN,UNKNOWN Date :12-MAY-2020
+ Page : 4 / 5
+
+ Continuation Sheet for CIOMS report   Mfr. Control No. :20191142422(2) 
+
+ Route of Admin : 1)Unknown
+2)Unknown
+ Therapy Dates/Duration : 1) 22-FEB-2019 - 17-JUN-2019
+
+2) 07-AUG-2019 - 18-SEP-2019 (42 Days)
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Drug discontinued  
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))  
+ Action(s) taken with drug  :  Drug discontinued
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Drug discontinued  
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Drug discontinued
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+ Action(s) taken with drug  :  Not Applicable  
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))
+ Action(s) taken with drug  :  Not Applicable  
+
+ Seq.No. : 3
+ Drug : PREDNISOLONE(PREDNISOLONE)(Unknown)(PREDNISOLONE)  
+ Route of Admin : 1)Unknown
+2)Unknown
+ Indication for use : 1)Diffuse large B-cell lymphoma[10012818 - Diffuse large B-cell lymphoma]
+ Therapy Dates/Duration : 1) 07-AUG-2019 - 18-SEP-2019 (42 Days)
+
+2) 22-FEB-2019 - 17-JUN-2019 (115 Days)
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable      
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Drug discontinued
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))
+ Action(s) taken with drug  :  Drug discontinued      
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Drug discontinued
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Drug discontinued
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+ Action(s) taken with drug  :  Not Applicable
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))
+ Action(s) taken with drug  :  Not Applicable
+
+ Seq.No. : 4
+ Drug : RITUXIMAB(RITUXIMAB)(Unknown)(RITUXIMAB)
+ Route of Admin : 1)Unknown
+2)Unknown
+ Indication for use : 1)Diffuse large B-cell lymphoma[10012818 - Diffuse large B-cell lymphoma]
+ Therapy Dates/Duration : 1) 07-AUG-2019 - 18-SEP-2019 (42 Days)
+
+2) 22-FEB-2019 - 17-JUN-2019 (115 Days)
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Drug discontinued
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))
+ Action(s) taken with drug  :  Drug discontinued
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Drug discontinued
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Drug discontinued
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+ Action(s) taken with drug  :  Not Applicable
+     
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))  
+ 
+ Action(s) taken with drug  :  Not Applicable
+
+     
+
+ Seq.No. : 5
+ Drug : CYCLOPHOSPHAMIDE(CYCLOPHOSPHAMIDE)(Unknown)(CYCLOPHOSPHAMIDE)
+ Route of Admin : 1)Unknown
+2)Unknown
+ Indication for use : 1)Diffuse large B-cell lymphoma[10012818 - Diffuse large B-cell lymphoma] Date :12-MAY-2020
+ Page : 5 / 5
+
+ Continuation Sheet for CIOMS report   Mfr. Control No. :20191142422(2) 
+
+ Therapy Dates/Duration : 1) 22-FEB-2019 - 17-JUN-2019 (115 Days)
+
+2) 07-AUG-2019 - 18-SEP-2019 (42 Days)
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Drug discontinued
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))  
+ Action(s) taken with drug  :  Drug discontinued
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Drug discontinued  
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Drug discontinued  
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))
+ Action(s) taken with drug  :  Not Applicable
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))  
+ Action(s) taken with drug  :  Not Applicable
+
+ 
+ Seq.No. : 6
+ Drug : POLATUZUMAB VEDOTIN(POLATUZUMAB VEDOTIN)(Unknown)(POLATUZUMAB VEDOTIN),UNKNOWN
+ Route of Admin : 1)Unknown
+ Indication for use : 1)B-CELL LYMPHOMA[10003899 - B-cell lymphoma]  
+ Therapy Dates/Duration : 1) 02-JAN-2020 - ??-JAN-2020
+
+
+ Causality 
+
+1)INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664))
+ Action(s) taken with drug  :  Not Applicable
+2)DIFFUSE LARGE B-CELL LYMPHOMA RECURRENT (Diffuse large B-cell lymphoma recurrent (10012821), Diffuse 
+large B-cell lymphoma recurrent (10012821))
+ Action(s) taken with drug  :  Not Applicable      
+3)DIFFUSE LARGE B CELL LYMPHOMA REFRACTORY (Diffuse large B-cell lymphoma refractory (10012822), Diffuse 
+large B-cell lymphoma refractory (10012822))
+ Action(s) taken with drug  :  Not Applicable
+4)DRUG LESS EFFECTIVE (Drug effect decreased (10013678), Therapeutic product effect decreased (10082201))
+ Action(s) taken with drug  :  Not Applicable
+5)DRUG TOXICITY (Drug toxicity (10013746), Toxicity to various agents (10070863))
+ Action(s) taken with drug  :  Not Applicable
+6)OFF LABEL USE (Off label use (10053762), Off label use (10053762))      
+ Action(s) taken with drug  :  Not Applicable
+7)DRUG USED FOR UNAPPROVED INDICATION (Drug use for unapproved indication (10053746), Product use in 
+unapproved indication (10076476))
+ Action(s) taken with drug  :  Not Applicable
+
+ ",," 
+
+PFEIFFER SYNDROME[10082289 - Pfeiffer syndrome] (UNK) ( Continuing: UNK)
+B-CELL LYMPHOMA[10003899 - B-cell lymphoma] (UNK) ( Continuing: UNK)
+
+     
+   
+
+     Page 1 of 2Page 2 of 2
+
+https://res.cisco.com/envelopeopener/postxeo/oo/fDFfXzFiZmFmNTdlMDAwMDAxNzI... 5/13/2020",,,,JJ1.pdf,JJ1.pdf

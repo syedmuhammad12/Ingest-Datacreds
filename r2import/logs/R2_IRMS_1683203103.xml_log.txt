@@ -1,0 +1,159 @@
+04-05-2023 17:55:17,379 ERROR    [helper.py:214] start
+04-05-2023 17:55:17,401 ERROR    [helper.py:214] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\r2import\helper.py 167:'authoritynumb'
+04-05-2023 17:55:17,413 ERROR    [helper.py:214] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\r2import\views.py 73:The connection 'simplesafety' doesn't exist.
+04-05-2023 18:05:15,299 WARNING  [log.py:241] Bad Request: /file/upload/
+04-05-2023 18:05:53,30 DEBUG    [hooks.py:420] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+04-05-2023 18:05:53,35 DEBUG    [hooks.py:420] Changing event name from before-call.apigateway to before-call.api-gateway
+04-05-2023 18:05:53,37 DEBUG    [hooks.py:420] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+04-05-2023 18:05:53,40 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+04-05-2023 18:05:53,42 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+04-05-2023 18:05:53,45 DEBUG    [hooks.py:420] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+04-05-2023 18:05:53,49 DEBUG    [hooks.py:420] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+04-05-2023 18:05:53,56 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+04-05-2023 18:05:53,57 DEBUG    [hooks.py:420] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+04-05-2023 18:05:53,57 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+04-05-2023 18:05:53,58 DEBUG    [hooks.py:420] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+04-05-2023 18:05:53,737 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\boto3\data\s3\2006-03-01\resources-1.json
+04-05-2023 18:05:53,744 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\endpoints.json
+04-05-2023 18:05:53,757 DEBUG    [hooks.py:210] Event choose-service-name: calling handler <function handle_service_name_alias at 0x0000018E508A2280>
+04-05-2023 18:05:54,219 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json
+04-05-2023 18:05:54,242 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x0000018E508501F0>
+04-05-2023 18:05:54,243 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x0000018E7F6A7670>
+04-05-2023 18:05:54,247 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x0000018E5084CF70>
+04-05-2023 18:05:54,251 DEBUG    [endpoint.py:292] Setting s3 timeout as (60, 60)
+04-05-2023 18:05:54,284 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\_retry.json
+04-05-2023 18:05:54,284 DEBUG    [client.py:165] Registering retry handlers for service: s3
+04-05-2023 18:05:54,286 DEBUG    [factory.py:65] Loading s3:s3
+04-05-2023 18:05:54,291 DEBUG    [factory.py:65] Loading s3:Bucket
+04-05-2023 18:05:54,292 DEBUG    [model.py:358] Renaming Bucket attribute name
+04-05-2023 18:05:54,293 DEBUG    [hooks.py:210] Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x0000018E7F6A7550>
+04-05-2023 18:05:54,294 DEBUG    [action.py:80] Calling s3:put_object with {'Bucket': 'dss-dev-ritrace', 'Key': 'media/public/automation_poc/uploads/9/1.pdf', 'Body': <InMemoryUploadedFile: 1.pdf (application/pdf)>}
+04-05-2023 18:05:54,294 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x0000018E508BE820>
+04-05-2023 18:05:54,294 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x0000018E508B8C10>
+04-05-2023 18:05:54,294 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x0000018E508BF160>
+04-05-2023 18:05:54,295 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x0000018E508B8B80>
+04-05-2023 18:05:54,295 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x0000018E7F548F10>>
+04-05-2023 18:05:54,295 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x0000018E7F5486A0>>
+04-05-2023 18:05:54,295 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x0000018E508B89D0>
+04-05-2023 18:05:54,296 DEBUG    [hooks.py:210] Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x0000018E50746DC0>
+04-05-2023 18:05:54,297 DEBUG    [hooks.py:210] Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x0000018E508B8EE0>
+04-05-2023 18:05:54,297 DEBUG    [handlers.py:300] Adding expect 100 continue header to request.
+04-05-2023 18:05:54,297 DEBUG    [hooks.py:210] Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x0000018E7F548F10>>
+04-05-2023 18:05:54,297 DEBUG    [hooks.py:210] Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x0000018E508BF280>
+04-05-2023 18:05:54,297 DEBUG    [endpoint.py:100] Making request for OperationModel(name=PutObject) with params: {'url_path': '/dss-dev-ritrace/media/public/automation_poc/uploads/9/1.pdf', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38 Resource', 'Content-MD5': 'LCncuRu2G+IWAs7h7mlTYw==', 'Expect': '100-continue'}, 'body': <InMemoryUploadedFile: 1.pdf (application/pdf)>, 'url': 'https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/uploads/9/1.pdf', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x0000018E7F548610>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'dss-dev-ritrace'}}}
+04-05-2023 18:05:54,297 DEBUG    [hooks.py:210] Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0000018E7F548D90>>
+04-05-2023 18:05:54,298 DEBUG    [hooks.py:210] Event choose-signer.s3.PutObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x0000018E7F5480A0>>
+04-05-2023 18:05:54,298 DEBUG    [hooks.py:210] Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000018E7EEFC340>>
+04-05-2023 18:05:54,298 DEBUG    [hooks.py:210] Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x0000018E508B88B0>
+04-05-2023 18:05:54,298 DEBUG    [hooks.py:210] Event before-sign.s3.PutObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x0000018E7F5480A0>>
+04-05-2023 18:05:54,299 DEBUG    [utils.py:1931] Defaulting to S3 virtual host style addressing with path style addressing fallback.
+04-05-2023 18:05:54,299 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/uploads/9/1.pdf
+04-05-2023 18:05:54,299 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/uploads/9/1.pdf
+04-05-2023 18:05:54,299 DEBUG    [auth.py:380] Calculating signature using v4 auth.
+04-05-2023 18:05:54,300 DEBUG    [auth.py:381] CanonicalRequest:
+PUT
+/media/public/automation_poc/uploads/9/1.pdf
+
+content-md5:LCncuRu2G+IWAs7h7mlTYw==
+host:dss-dev-ritrace.s3.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20230504T123554Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+04-05-2023 18:05:54,300 DEBUG    [auth.py:383] StringToSign:
+AWS4-HMAC-SHA256
+20230504T123554Z
+20230504/us-east-1/s3/aws4_request
+17399ed9f9e35770639b1edaa0dc55ac1c762897b33377062918047025322fbe
+04-05-2023 18:05:54,300 DEBUG    [auth.py:385] Signature:
+3577b3cf110d61681c6481b7018d5eead323bf04b1bff9291aaed67919c5ec06
+04-05-2023 18:05:54,300 DEBUG    [endpoint.py:187] Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/uploads/9/1.pdf, headers={'User-Agent': b'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38 Resource', 'Content-MD5': b'LCncuRu2G+IWAs7h7mlTYw==', 'Expect': b'100-continue', 'X-Amz-Date': b'20230504T123554Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAW3GZXGRDWQCHJYXB/20230504/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=3577b3cf110d61681c6481b7018d5eead323bf04b1bff9291aaed67919c5ec06', 'Content-Length': '135879'}>
+04-05-2023 18:05:54,302 DEBUG    [httpsession.py:51] Certificate path: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\certifi\cacert.pem
+04-05-2023 18:05:54,302 DEBUG    [connectionpool.py:1003] Starting new HTTPS connection (1): dss-dev-ritrace.s3.amazonaws.com:443
+04-05-2023 18:05:55,366 DEBUG    [awsrequest.py:124] Waiting for 100 Continue response.
+04-05-2023 18:05:55,677 DEBUG    [awsrequest.py:168] 100 Continue response seen, now sending request body.
+04-05-2023 18:05:56,943 DEBUG    [connectionpool.py:456] https://dss-dev-ritrace.s3.amazonaws.com:443 "PUT /media/public/automation_poc/uploads/9/1.pdf HTTP/1.1" 200 0
+04-05-2023 18:05:56,944 DEBUG    [parsers.py:233] Response headers: {'x-amz-id-2': 'rtvSR3/E9JoSBoTl7ZSCCiszAoylUizb7P3yqWjWOjgrg/Bd+HOMh2QxIxZQlLSmjFm6hP6rI28=', 'x-amz-request-id': 'BJMXX1DVNJE4RF31', 'Date': 'Thu, 04 May 2023 12:35:30 GMT', 'x-amz-version-id': '3_HWKSz3nHdfLWRqaR4JETtoPwmFwmSz', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"2c29dcb91bb61be21602cee1ee695363"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+04-05-2023 18:05:56,944 DEBUG    [parsers.py:234] Response body:
+b''
+04-05-2023 18:05:56,952 DEBUG    [hooks.py:210] Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x0000018E7F548790>
+04-05-2023 18:05:56,952 DEBUG    [retryhandler.py:187] No retry needed.
+04-05-2023 18:05:56,953 DEBUG    [hooks.py:210] Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x0000018E7F548F10>>
+04-05-2023 18:05:56,953 DEBUG    [action.py:85] Response: {'ResponseMetadata': {'RequestId': 'BJMXX1DVNJE4RF31', 'HostId': 'rtvSR3/E9JoSBoTl7ZSCCiszAoylUizb7P3yqWjWOjgrg/Bd+HOMh2QxIxZQlLSmjFm6hP6rI28=', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amz-id-2': 'rtvSR3/E9JoSBoTl7ZSCCiszAoylUizb7P3yqWjWOjgrg/Bd+HOMh2QxIxZQlLSmjFm6hP6rI28=', 'x-amz-request-id': 'BJMXX1DVNJE4RF31', 'date': 'Thu, 04 May 2023 12:35:30 GMT', 'x-amz-version-id': '3_HWKSz3nHdfLWRqaR4JETtoPwmFwmSz', 'x-amz-server-side-encryption': 'AES256', 'etag': '"2c29dcb91bb61be21602cee1ee695363"', 'server': 'AmazonS3', 'content-length': '0'}, 'RetryAttempts': 0}, 'ETag': '"2c29dcb91bb61be21602cee1ee695363"', 'ServerSideEncryption': 'AES256', 'VersionId': '3_HWKSz3nHdfLWRqaR4JETtoPwmFwmSz'}
+04-05-2023 18:05:56,954 DEBUG    [factory.py:65] Loading s3:Object
+04-05-2023 18:05:56,960 DEBUG    [hooks.py:210] Event creating-resource-class.s3.Object: calling handler <function lazy_call.<locals>._handler at 0x0000018E7F6A7820>
+04-05-2023 18:05:57,30 WARNING  [log.py:241] Bad Request: /file/upload/
+04-05-2023 18:16:58,185 ERROR    [log.py:241] Internal Server Error: /r2xml/
+04-05-2023 18:34:03,512 ERROR    [log.py:241] Internal Server Error: /r2xml/
+04-05-2023 18:43:26,665 ERROR    [log.py:241] Internal Server Error: /r2xml/
+04-05-2023 18:44:15,176 ERROR    [log.py:241] Internal Server Error: /r2xml/
+04-05-2023 18:46:58,602 ERROR    [log.py:241] Internal Server Error: /r2xml/
+04-05-2023 18:47:57,969 DEBUG    [hooks.py:210] Event choose-service-name: calling handler <function handle_service_name_alias at 0x0000018E508A2280>
+04-05-2023 18:47:57,988 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x0000018E508501F0>
+04-05-2023 18:47:57,989 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x0000018E7F6A7670>
+04-05-2023 18:47:57,990 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x0000018E5084CF70>
+04-05-2023 18:47:58,2 DEBUG    [endpoint.py:292] Setting s3 timeout as (60, 60)
+04-05-2023 18:47:58,20 DEBUG    [client.py:165] Registering retry handlers for service: s3
+04-05-2023 18:47:58,25 DEBUG    [factory.py:65] Loading s3:s3
+04-05-2023 18:47:58,29 DEBUG    [factory.py:65] Loading s3:Bucket
+04-05-2023 18:47:58,30 DEBUG    [model.py:358] Renaming Bucket attribute name
+04-05-2023 18:47:58,31 DEBUG    [hooks.py:210] Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x0000018E7F6A7550>
+04-05-2023 18:47:58,34 DEBUG    [action.py:80] Calling s3:put_object with {'Bucket': 'dss-dev-ritrace', 'Key': 'media/public/automation_poc/uploads/10/1.pdf', 'Body': <InMemoryUploadedFile: 1.pdf (application/pdf)>}
+04-05-2023 18:47:58,40 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x0000018E508BE820>
+04-05-2023 18:47:58,40 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x0000018E508B8C10>
+04-05-2023 18:47:58,40 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x0000018E508BF160>
+04-05-2023 18:47:58,41 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x0000018E508B8B80>
+04-05-2023 18:47:58,41 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x0000018E7F9561F0>>
+04-05-2023 18:47:58,42 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x0000018E7F956EE0>>
+04-05-2023 18:47:58,42 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x0000018E508B89D0>
+04-05-2023 18:47:58,43 DEBUG    [hooks.py:210] Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x0000018E50746DC0>
+04-05-2023 18:47:58,45 DEBUG    [hooks.py:210] Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x0000018E508B8EE0>
+04-05-2023 18:47:58,45 DEBUG    [handlers.py:300] Adding expect 100 continue header to request.
+04-05-2023 18:47:58,45 DEBUG    [hooks.py:210] Event before-call.s3.PutObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x0000018E7F9561F0>>
+04-05-2023 18:47:58,45 DEBUG    [hooks.py:210] Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x0000018E508BF280>
+04-05-2023 18:47:58,45 DEBUG    [endpoint.py:100] Making request for OperationModel(name=PutObject) with params: {'url_path': '/dss-dev-ritrace/media/public/automation_poc/uploads/10/1.pdf', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38 Resource', 'Content-MD5': 'LCncuRu2G+IWAs7h7mlTYw==', 'Expect': '100-continue'}, 'body': <InMemoryUploadedFile: 1.pdf (application/pdf)>, 'url': 'https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/uploads/10/1.pdf', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x0000018E7F324E50>, 'has_streaming_input': True, 'auth_type': None, 'signing': {'bucket': 'dss-dev-ritrace'}}}
+04-05-2023 18:47:58,48 DEBUG    [hooks.py:210] Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0000018E7F324EB0>>
+04-05-2023 18:47:58,48 DEBUG    [hooks.py:210] Event choose-signer.s3.PutObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x0000018E7F9561C0>>
+04-05-2023 18:47:58,48 DEBUG    [hooks.py:210] Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000018E7F77E610>>
+04-05-2023 18:47:58,48 DEBUG    [hooks.py:210] Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x0000018E508B88B0>
+04-05-2023 18:47:58,49 DEBUG    [hooks.py:210] Event before-sign.s3.PutObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x0000018E7F9561C0>>
+04-05-2023 18:47:58,49 DEBUG    [utils.py:1931] Defaulting to S3 virtual host style addressing with path style addressing fallback.
+04-05-2023 18:47:58,49 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/uploads/10/1.pdf
+04-05-2023 18:47:58,49 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/uploads/10/1.pdf
+04-05-2023 18:47:58,50 DEBUG    [auth.py:380] Calculating signature using v4 auth.
+04-05-2023 18:47:58,50 DEBUG    [auth.py:381] CanonicalRequest:
+PUT
+/media/public/automation_poc/uploads/10/1.pdf
+
+content-md5:LCncuRu2G+IWAs7h7mlTYw==
+host:dss-dev-ritrace.s3.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20230504T131758Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+04-05-2023 18:47:58,50 DEBUG    [auth.py:383] StringToSign:
+AWS4-HMAC-SHA256
+20230504T131758Z
+20230504/us-east-1/s3/aws4_request
+e58e5f447d4c3afbc7a3071579f7db561a68a1789f8294c9cd16d0a61b7426de
+04-05-2023 18:47:58,53 DEBUG    [auth.py:385] Signature:
+f58106409913aeb3a2ff752c6d61d866de07a6b9a867ffb3efbe2ab6e92cbcc9
+04-05-2023 18:47:58,54 DEBUG    [endpoint.py:187] Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/uploads/10/1.pdf, headers={'User-Agent': b'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38 Resource', 'Content-MD5': b'LCncuRu2G+IWAs7h7mlTYw==', 'Expect': b'100-continue', 'X-Amz-Date': b'20230504T131758Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAW3GZXGRDWQCHJYXB/20230504/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=f58106409913aeb3a2ff752c6d61d866de07a6b9a867ffb3efbe2ab6e92cbcc9', 'Content-Length': '135879'}>
+04-05-2023 18:47:58,59 DEBUG    [httpsession.py:51] Certificate path: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\certifi\cacert.pem
+04-05-2023 18:47:58,61 DEBUG    [connectionpool.py:1003] Starting new HTTPS connection (1): dss-dev-ritrace.s3.amazonaws.com:443
+04-05-2023 18:47:59,139 DEBUG    [awsrequest.py:124] Waiting for 100 Continue response.
+04-05-2023 18:47:59,442 DEBUG    [awsrequest.py:168] 100 Continue response seen, now sending request body.
+04-05-2023 18:48:00,597 DEBUG    [connectionpool.py:456] https://dss-dev-ritrace.s3.amazonaws.com:443 "PUT /media/public/automation_poc/uploads/10/1.pdf HTTP/1.1" 200 0
+04-05-2023 18:48:00,598 DEBUG    [parsers.py:233] Response headers: {'x-amz-id-2': '0cAOlf47SHOEAFa6b9AtF3Ukxng/19z0FJeF67AqsaVB7uSIhhBQnlATzRiwGYBVzElTDoQrrpY=', 'x-amz-request-id': '09HY4A4JN8SBN7YW', 'Date': 'Thu, 04 May 2023 13:17:34 GMT', 'x-amz-version-id': '4aba1kle0yZIwtp9PlLfUrSWdOUyV9ij', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"2c29dcb91bb61be21602cee1ee695363"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+04-05-2023 18:48:00,599 DEBUG    [parsers.py:234] Response body:
+b''
+04-05-2023 18:48:00,605 DEBUG    [hooks.py:210] Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x0000018E7F956E20>
+04-05-2023 18:48:00,606 DEBUG    [retryhandler.py:187] No retry needed.
+04-05-2023 18:48:00,606 DEBUG    [hooks.py:210] Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x0000018E7F9561F0>>
+04-05-2023 18:48:00,606 DEBUG    [action.py:85] Response: {'ResponseMetadata': {'RequestId': '09HY4A4JN8SBN7YW', 'HostId': '0cAOlf47SHOEAFa6b9AtF3Ukxng/19z0FJeF67AqsaVB7uSIhhBQnlATzRiwGYBVzElTDoQrrpY=', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amz-id-2': '0cAOlf47SHOEAFa6b9AtF3Ukxng/19z0FJeF67AqsaVB7uSIhhBQnlATzRiwGYBVzElTDoQrrpY=', 'x-amz-request-id': '09HY4A4JN8SBN7YW', 'date': 'Thu, 04 May 2023 13:17:34 GMT', 'x-amz-version-id': '4aba1kle0yZIwtp9PlLfUrSWdOUyV9ij', 'x-amz-server-side-encryption': 'AES256', 'etag': '"2c29dcb91bb61be21602cee1ee695363"', 'server': 'AmazonS3', 'content-length': '0'}, 'RetryAttempts': 0}, 'ETag': '"2c29dcb91bb61be21602cee1ee695363"', 'ServerSideEncryption': 'AES256', 'VersionId': '4aba1kle0yZIwtp9PlLfUrSWdOUyV9ij'}
+04-05-2023 18:48:00,607 DEBUG    [factory.py:65] Loading s3:Object
+04-05-2023 18:48:00,608 DEBUG    [hooks.py:210] Event creating-resource-class.s3.Object: calling handler <function lazy_call.<locals>._handler at 0x0000018E7F6A7820>
+04-05-2023 18:48:00,677 WARNING  [log.py:241] Bad Request: /file/upload/
+04-05-2023 18:51:13,546 INFO     [autoreload.py:266] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\file_management\views.py changed, reloading.

@@ -1,0 +1,6 @@
+05-05-2023 19:32:44,314 ERROR    [helper.py:214] start
+05-05-2023 19:32:44,330 ERROR    [helper.py:214] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\r2import\helper.py 167:'receivedate'
+05-05-2023 19:32:44,331 ERROR    [helper.py:214] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\r2import\helper.py 167:'receiptdate'
+05-05-2023 19:32:44,335 ERROR    [helper.py:214] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\r2import\helper.py 167:'authoritynumb'
+05-05-2023 19:32:44,337 ERROR    [helper.py:214] Mandatory data missing: ['receivedateformat', 'receivedate', 'receiptdateformat', 'receiptdate']
+08-05-2023 12:46:15,413 INFO     [autoreload.py:266] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\R2xml\jsonfile.py changed, reloading.

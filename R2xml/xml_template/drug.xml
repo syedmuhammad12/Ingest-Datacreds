@@ -1,0 +1,33 @@
+<drug>
+	<drugcharacterization></drugcharacterization>
+	<medicinalproduct></medicinalproduct>
+	<obtaindrugcountry></obtaindrugcountry>
+	<drugbatchnumb></drugbatchnumb>
+	<drugauthorizationnumb></drugauthorizationnumb>
+	<drugauthorizationcountry></drugauthorizationcountry>
+	<drugauthorizationholder></drugauthorizationholder>
+	<drugstructuredosagenumb></drugstructuredosagenumb>
+	<drugstructuredosageunit></drugstructuredosageunit>
+	<drugseparatedosagenumb></drugseparatedosagenumb>
+	<drugintervaldosageunitnumb></drugintervaldosageunitnumb>
+	<drugintervaldosagedefinition></drugintervaldosagedefinition>
+	<drugcumulativedosagenumb></drugcumulativedosagenumb>
+	<drugcumulativedosageunit></drugcumulativedosageunit>
+	<drugdosagetext></drugdosagetext>
+	<drugdosageform></drugdosageform>
+	<drugadministrationroute></drugadministrationroute>
+	<drugindicationmeddraversion></drugindicationmeddraversion>
+	<drugindication></drugindication>
+	<drugstartdateformat></drugstartdateformat>
+	<drugstartdate></drugstartdate>
+	<drugenddateformat></drugenddateformat>
+	<drugenddate></drugenddate>
+	<drugtreatmentduration></drugtreatmentduration>
+	<drugtreatmentdurationunit></drugtreatmentdurationunit>
+	<actiondrug></actiondrug>
+	<drugrecurreadministration></drugrecurreadministration>
+	<drugadditional></drugadditional>
+	<activesubstance>
+		<activesubstancename></activesubstancename>
+	</activesubstance>
+</drug>

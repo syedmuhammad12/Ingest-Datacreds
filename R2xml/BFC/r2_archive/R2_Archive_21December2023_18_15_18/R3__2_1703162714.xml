@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ichicsr>
+<ichicsr lang="en">
+<ichicsrmessageheader>
+<messagetype>ichicsr</messagetype>
+<messageformatversion>2.1</messageformatversion>
+<messageformatrelease>1.0</messageformatrelease>
+<messagenumb>c954c57c-9ffe-11ee-869a-28dfeb6bed73-BIO</messagenumb>
+<messagesenderidentifier>simplesafety</messagesenderidentifier>
+<messagereceiveridentifier>ss</messagereceiveridentifier>
+<messagedateformat>204</messagedateformat>
+<messagedate>20230416181514</messagedate>
+</ichicsrmessageheader>
+<safetyreport>
+<safetyreportversion>0</safetyreportversion>
+
+
+
+<transmissiondateformat>102</transmissiondateformat>
+<transmissiondate>20230416</transmissiondate>
+<reporttype>1</reporttype>
+<serious>2</serious>
+
+
+
+
+
+
+
+
+
+
+<authoritynumb>4207011594259202300043</authoritynumb>
+
+
+
+
+<sender>
+
+<senderorganization>simplesafety</senderorganization>
+</sender>
+<receiver>
+
+<receiverorganization>ss</receiverorganization>
+</receiver>
+<patient>
+<patientinitial>unknown</patientinitial>
+
+
+
+
+<patientbirthdateformat>102</patientbirthdateformat>
+<patientbirthdate>19740411</patientbirthdate>
+<patientonsetage>49</patientonsetage>
+<patientonsetageunit>801</patientonsetageunit>
+
+
+<patientagegroup>5</patientagegroup>
+<patientweight>nan</patientweight>
+
+<patientsex>2</patientsex>
+
+
+
+
+<patientdeath>
+<patientdeathdateformat>102</patientdeathdateformat>
+
+
+</patientdeath><patientdeathcause>
+
+<patientdeathreport>0</patientdeathreport>
+</patientdeathcause><medicalhistoryepisode>
+
+<patientepisodename>10078116</patientepisodename>
+
+
+
+
+
+
+</medicalhistoryepisode><reaction>
+<primarysourcereaction>Neck pruritus</primarysourcereaction>
+
+
+
+
+
+<reactionstartdateformat>102</reactionstartdateformat>
+<reactionstartdate>20230411</reactionstartdate>
+
+
+
+
+
+
+<reactionoutcome>2</reactionoutcome>
+</reaction><reaction>
+<primarysourcereaction>rash</primarysourcereaction>
+
+<reactionmeddrallt>10037844</reactionmeddrallt>
+
+
+
+
+
+
+
+
+
+
+
+
+</reaction><drug>
+<drugcharacterization>1</drugcharacterization>
+<medicinalproduct>Sodium Hyaluronate Injection</medicinalproduct>
+
+
+
+
+
+
+<drugstructuredosageunit>003</drugstructuredosageunit>
+
+
+
+
+
+
+<drugdosageform>Injection</drugdosageform>
+<drugadministrationroute>0</drugadministrationroute>
+
+
+<drugstartdateformat>102</drugstartdateformat>
+<drugstartdate>20230410</drugstartdate>
+<drugenddateformat>102</drugenddateformat>
+<drugenddate>20230410</drugenddate>
+
+
+<actiondrug>0</actiondrug>
+
+
+<activesubstance>
+<activesubstancename>Sodium Hyaluronate Injection</activesubstancename>
+</activesubstance>
+<drugreactionrelatedness>
+
+
+<drugassessmentsource>Reporter</drugassessmentsource>
+<drugassessmentmethod>Global Introspection</drugassessmentmethod>
+<drugresult>possibly</drugresult>
+</drugreactionrelatedness><drugreactionrelatedness>
+
+
+<drugassessmentsource>Company</drugassessmentsource>
+<drugassessmentmethod>Global Introspection</drugassessmentmethod>
+<drugresult>possibly</drugresult>
+</drugreactionrelatedness></drug><summary>
+<narrativeincludeclinical>11-Apr-2023 08:15 Check-in records of Liu XinXing attending physician
+Today, the patient still has lumbago and bilateral knee pain, which is less than before, and sometimes has pain and numbness in the left lower extremity. Physical examination: BP 120/70mmHg, conscious, positive in abdominal raising test, positive in left straight leg elevation test, negative in tibial nerve plucking test, negative in double "4" test, and negative in kidney tapping pain. The tongue is dim, the coating is thin and white, and the pulse is thin. The patient reported an unexplained pruritus and a little rash on the neck. Current management is as follows:
+1. Avoid wind and cold, relax the emotions and rest in a flat hard bed. Give promethazine hydrochloride 25mg intramuscularly and ebastine tablets orally for anti-allergy.
+2. Strengthen lumbar activity exercise in appropriate measures.
+3. Acupuncture point injection of vitamin B12 (Zusanli point in both feet).
+4. No change in rehabilitation treatment.
+5. Continue to observe the changes in the disease.</narrativeincludeclinical>
+</summary></patient></safetyreport>
+</ichicsr>

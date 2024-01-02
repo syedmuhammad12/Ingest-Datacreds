@@ -1,0 +1,4 @@
+08-05-2023 13:21:25,301 ERROR    [helper.py:214] start
+08-05-2023 13:21:25,326 ERROR    [helper.py:214] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\r2import\helper.py 167:'authoritynumb'
+08-05-2023 13:21:25,340 ERROR    [helper.py:214] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\r2import\views.py 73:The connection 'simplesafety' doesn't exist.
+08-05-2023 13:22:01,54 INFO     [autoreload.py:266] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\R2xml\jsonfile.py changed, reloading.

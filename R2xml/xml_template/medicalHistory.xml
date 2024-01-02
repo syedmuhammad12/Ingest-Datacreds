@@ -1,0 +1,10 @@
+<medicalhistoryepisode>
+	<patientepisodenamemeddraversion></patientepisodenamemeddraversion>
+	<patientepisodename></patientepisodename>
+	<patientmedicalstartdateformat></patientmedicalstartdateformat>
+	<patientmedicalstartdate></patientmedicalstartdate>
+	<patientmedicalcontinue></patientmedicalcontinue>
+	<patientmedicalenddateformat></patientmedicalenddateformat>
+	<patientmedicalenddate></patientmedicalenddate>
+	<patientmedicalcomment></patientmedicalcomment>
+</medicalhistoryepisode>

@@ -1,0 +1,8 @@
+<test>
+	<testdateformat></testdateformat>
+	<testdate></testdate>
+	<testname></testname>
+	<testresult></testresult>
+	<lowtestrange></lowtestrange>
+	<hightestrange></hightestrange>
+</test>

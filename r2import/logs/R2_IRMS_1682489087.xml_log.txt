@@ -1,0 +1,5 @@
+26-04-2023 11:35:03,236 ERROR    [helper.py:214] start
+26-04-2023 11:35:03,253 ERROR    [helper.py:214] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\r2import\helper.py 167:'authoritynumb'
+26-04-2023 11:35:03,274 ERROR    [helper.py:214] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\r2import\helper.py 195:'NoneType' object has no attribute 'text'
+26-04-2023 11:35:03,276 ERROR    [helper.py:214] Mandatory data missing: ['medicinalproduct']
+26-04-2023 12:23:11,792 INFO     [autoreload.py:266] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\R2xml\helper.py changed, reloading.

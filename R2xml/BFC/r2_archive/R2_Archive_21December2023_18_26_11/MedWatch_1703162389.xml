@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ichicsr>
+<ichicsr lang="en">
+<ichicsrmessageheader>
+<messagetype>ichicsr</messagetype>
+<messageformatversion>2.1</messageformatversion>
+<messageformatrelease>1.0</messageformatrelease>
+<messagenumb>50a7a9be-a000-11ee-b6d2-28dfeb6bed73-BIO</messagenumb>
+<messagesenderidentifier>simplesafety</messagesenderidentifier>
+<messagereceiveridentifier>ss</messagereceiveridentifier>
+<messagedateformat>204</messagedateformat>
+<messagedate>20130528</messagedate>
+</ichicsrmessageheader>
+<safetyreport>
+
+
+
+
+<transmissiondateformat>102</transmissiondateformat>
+<transmissiondate>20130528</transmissiondate>
+<reporttype>1</reporttype>
+<serious>2</serious>
+<seriousnessdeath>2</seriousnessdeath>
+<seriousnesslifethreatening>2</seriousnesslifethreatening>
+<seriousnesshospitalization>2</seriousnesshospitalization>
+<seriousnessdisabling>2</seriousnessdisabling>
+<seriousnesscongenitalanomali>2</seriousnesscongenitalanomali>
+<seriousnessother>2</seriousnessother>
+<receivedateformat>102</receivedateformat>
+<receivedate>20130528</receivedate>
+<receiptdateformat>102</receiptdateformat>
+<receiptdate>20130528</receiptdate>
+
+<companynumb>simplesafety_ss_1072095820</companynumb>
+
+
+
+<sender>
+
+<senderorganization>simplesafety</senderorganization>
+</sender>
+<receiver>
+
+<receiverorganization>ss</receiverorganization>
+</receiver>
+<patient>
+<patientinitial>S-B  </patientinitial>
+
+
+
+
+<patientbirthdateformat>102</patientbirthdateformat>
+<patientbirthdate>19500809</patientbirthdate>
+<patientonsetage>7</patientonsetage>
+<patientonsetageunit>801</patientonsetageunit>
+
+
+<patientagegroup>3</patientagegroup>
+<patientweight>77</patientweight>
+
+<patientsex>2</patientsex>
+
+
+<patientmedicalhistorytext>Unspecified autoimmune aisoraer, nign blood pressure, gastroesophageal reflux disease (GERD), became very itchy during prior treatment with Levoxyl (levothyroxine sodium) 75mcg and Synthroid (levothyroxine sodium) on unknown dates | Pregnant: No</patientmedicalhistorytext>
+
+<reaction>
+<primarysourcereaction>Horrible headache</primarysourcereaction>
+
+
+
+
+
+<reactionstartdateformat>102</reactionstartdateformat>
+
+<reactionenddateformat>102</reactionenddateformat>
+
+
+
+
+
+
+</reaction><drug>
+<drugcharacterization>1</drugcharacterization>
+<medicinalproduct>Tirosint (levothyroxine sodium)</medicinalproduct>
+
+
+
+
+<drugauthorizationholder>NA</drugauthorizationholder>
+
+
+
+
+
+
+
+<drugdosagetext>75mcg</drugdosagetext>
+
+<drugadministrationroute> oral</drugadministrationroute>
+
+<drugindication>10021114</drugindication>
+<drugstartdateformat>102</drugstartdateformat>
+
+<drugenddateformat>102</drugenddateformat>
+
+
+
+
+
+
+<activesubstance>
+<activesubstancename>Tirosint (levothyroxine sodium)</activesubstancename>
+</activesubstance>
+</drug><summary>
+<narrativeincludeclinical>DescribeReaction
+Horrible headache Spontaneous report received on 13 May 2013 from a 62 year old female consumer (lnitials S-B, weight 170lbs, height 64in) who began treatment with Tirosint (levothyroxine sodium) 75mcg capsules, taking one capsule daily, for hypothyroidism on 01 May 2013. The consumer’s medical history is significant for an unspecified autoimmune disorder, high blood pressure and gastroesophageal reflux disease (GERD). Her medical history also included becoming very itchy during prior treatment with Levoxyl (levothyroxine sodium) 75mcg and Synthroid (levothyroxine sodium) on unknown dates. Concomitant medications included prednisone for the unspecified autoimmune disorder, lisinopril for high blood pressure, and Nexium (esomeprazole fcontinued]
+OtherRelevantHistory
+Unspecified autoimmune aisoraer, nign blood pressure, gastroesophageal reflux disease (GERD), became very itchy during prior treatment with Levoxyl (levothyroxine sodium) 75mcg and Synthroid (levothyroxine sodium) on unknown dates | Pregnant: No</narrativeincludeclinical>
+</summary></patient></safetyreport>
+</ichicsr>

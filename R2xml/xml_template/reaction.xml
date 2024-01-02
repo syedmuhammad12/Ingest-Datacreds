@@ -1,0 +1,17 @@
+<reaction>
+	<primarysourcereaction></primarysourcereaction>
+	<reactionmeddraversionllt></reactionmeddraversionllt>
+	<reactionmeddrallt></reactionmeddrallt>
+	<reactionmeddraversionpt></reactionmeddraversionpt>
+	<reactionmeddrapt></reactionmeddrapt>
+	<termhighlighted></termhighlighted>
+	<reactionstartdateformat></reactionstartdateformat>
+	<reactionstartdate></reactionstartdate>
+	<reactionenddateformat></reactionenddateformat>
+	<reactionenddate></reactionenddate>
+	<reactionduration></reactionduration>
+	<reactiondurationunit></reactiondurationunit>
+	<reactionfirsttime></reactionfirsttime>
+	<reactionfirsttimeunit></reactionfirsttimeunit>
+	<reactionoutcome></reactionoutcome>
+</reaction>

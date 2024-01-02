@@ -1,0 +1,4 @@
+08-05-2023 16:03:03,476 ERROR    [helper.py:214] start
+08-05-2023 16:03:03,499 ERROR    [helper.py:214] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\r2import\helper.py 167:'authoritynumb'
+08-05-2023 16:03:03,512 ERROR    [helper.py:214] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\r2import\views.py 73:The connection 'simplesafety' doesn't exist.
+08-05-2023 16:04:55,214 INFO     [autoreload.py:266] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\R2xml\patientXmlElement.py changed, reloading.

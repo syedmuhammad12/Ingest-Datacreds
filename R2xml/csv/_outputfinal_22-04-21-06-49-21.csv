@@ -1,0 +1,296 @@
+﻿PatientInitials,Country,DescribeReaction,Day_DOB,Month_DOB,Year_DOB,Age,Sex,Height,Weight,Day_ReactionOnset,Month_ReactionOnset,Year_ReactionOnset,DateOfConsequence_Day,DateOfConsequence_Month,DateOfConsequence_Year,Consequence,SuspectDrug,SuspectDrug2,DailyDose,RouteOfAdministration,IndicationForUse,IndicatonForUse2,TherapyDatesFromTo,TherapyDuration,OneTimeDose,LotNo,ConcomitantDrugs,OtherRelevantHistory,NameAndAddresManufacturer,MFRControlNo,Date_Received_Manufacturer,Date_This_Report,ReporterInformation,EudraCTNo,StudyNo,CenterNo,FileName,VendorName,Reaction Information ( Cont...),Describe Reaction(s)(Include relevant test/lab data) ( Cont...),Suspect Drugs (Cont...),Concomitant drugs (Cont,Other relevant history (Cont...),Company Remarks (Sender's comments) (Cont...),Literature Information (Cont...),Additional Information(Continuation),Column1,FileName_1
+PRIVACY,JPN,"CYTOKINE RELEASE SYNDROME (Cytokine release syndrome (10052015), Cytokine release syndrome (10052015)) [v.22.0] - Recovered/resolved Case level outcome :Recovered/resolved Study Title: clinical study of a multicenter phase I/II study for relapsed or refractory CD19+ B-acute lymphoblastic leukemia. Type of Study: multicenter study. Protocol Number: Not Reported Site Number: Not Reported Subject Number: Not Reported Subject Initials: Privacy Study Sponsor: Non-Baxter This is a non-Baxter clinical report from Japan from Shionogi (SOIJP#: manufacturer number: 201911899) via a Physician of CYTOKINE RELEASE SYNDROME in a Cont. . .",9,NOV,1968,YRS 50,M,178.8 cm,75.5 kg,21,JUN,2018,,,,,"ENDOXAN 1g(CYCLOPHOSPHAMIDE, MONOHYDRATE)(Powder for solution for injection)",,1380 mg/body (1 in 1 D),Unknown,B-cell type acute leukemia[10003919] [v.22.0],,08-JUN-2018 - 08-JUN-2018,N/A,,,"aciclovir(ACICLOVIR) 13-MAY-2018 - ?-?-? N/A (200 mg,l in 1 fluconazole(FLUCONAZOLE) 16-MAY-2018 - ?-?-? N/A (100 mg,1 in 1 Cont",24b. MFR. CONTROL NO. 2019BAXO10702,"Baxter Healthcare Corporation One Baxter Parkway DeerField, IL 60015 UNITED STATES OF AMERICA",2019BAXO10702,20-May-19,04-Jun-19,Cont...,EV-99999-25,Not Reported,N,CIOMS.pdf,BAXTER\JnJ," 
+
+Seq. No. : 1
+Reaction : CYTOKINE RELEASE SYNDROME (Cytokine release syndrome (10052015), Cytokine 
+release syndrome (10052015)) [v.22.0]
+Start Date : 21-Jun-2018
+Stop Date : 24-Jun-2018
+Duration : 3 D  
+ ","   
+DRAFT    
+ 50-Year-old, Male subject coincident with Endoxan (cyclophosphamide hydrate) (ENDOXAN 1g) ther   
+apy.
+  
+SUSPECT PRODUCT DETAILS: On 08Jun2018, the subject received treatment with Endoxan (1380 mg, per day, route and
+lot number not reported) for B cell-type acute lymphocytic leukaemia. From 11Jun2018 to 12Jun2018, the subject 
+was transfused with TBI-1501 (route, dose, frequency and lot number not reported) for B cell-type acute 
+lymphocytic leukaemia. The action taken with both the suspects was not reported with respect to the event. The 
+reporter considered TBI-1501 as co-suspect.
+
+EVENT DETAILS: On 01Jul2016, the subject developed acute lymphocytic leukaemia. The subject received a 
+diagnosis of B cell-type acute lymphocytic leukaemia (B-ALL). The subject relapsed acute lymphocytic leukaemia 
+ 
+after the completion of the fourth course of chemotherapy (further details unspecified) (JALSG ALL 202). The 
+subject relapsed acute lymphocytic leukaemia after the participation in the clinical study for blinatumomab. On
+18May2017, the subject underwent cord blood transplant therapy. In Jan2018, the subject was fou  
+nd to have 
+relapsed extramedullary leukemia, therefore a diagnosis of relapsed leukemia was made. On 13Feb2018, the 
+subject gave informed consent to participate in the clinical study for TBI-1501. On 20Feb2018, the subject was 
+registered to the clinical study. On 26Feb2018, the subject underwent material blood sampling. On 08Jun2018, 
+the subject started receiving Endoxan for acute lymphocytic leukaemia. On 11Jun2018 to 12Jun2018, the subject 
+was transfused with TBI-1501 (study drug) and no obvious abnormalities were noted. On 14Jun2018, the 
+Interleukin-6 was at 14.543 and interferon gamma was at 1.118 (units not reported). On 20Jun2018, the subject's
+Interleukin-6 was at 33.879, interferon gamma was at 12.676 (units not reported). On 20Jun2018, the subject's 
+CT was performed. On 21Jun2018, the subject had a fever of 38 degrees C range and the subject experienced 
+general malaise, and tachycardiac tendency with pulse rate around 100 was noted and Blood culture showed 
+negative results, therefore it was determined that the subject experienced CYTOKINE RELEASE SYNDROME, not 
+     
+bacterial infection. On 24Jun2018, on day 13, CRP was increased to 7.33. On 25Jun2018, the subject continuously
+had a fever of 37-38 degrees C range, however, vital signs were stable, and the subject received acetaminophen 
+for the treatment of fever. On 27Jun2018, the subject had a fever of 36-37 degrees C range and Pulse rate was 
+stable in the 70s /min. On 02Jul2018, the CRP level dropped to 0.40, and the subjective symptoms were 
+stabilized. On 06Jul2018, the subject's CT showed shrinking in the mass from head to body in the pancreas were 
+confirmed and disappearance of left lower lobe pneumonia in comparison with the result of CT performed on 
+20Jun2018. On the same day, the level of CRP (C-reactive protein) was increased from day 09. On 09Jul2018, the 
+     
+malaise persisted, but improvement in the symptoms was noted which was comparable to the condition before the 
+start of TBI-1501. It was confirmed that the subject recovered from the event of cytokine release syndrome. As 
+of 11Jul2018, the subject was scheduled to be discharged on 12Jul2018. It was reported that it was difficult to
+make differential diagnosis between acute lymphocytic leukaemia (ALL) and relapsed extramedullary lesion with 
+only plain CT and blood data, however, differential diagnosis was planned to be conducted based on the 
+subsequent clinical course and PETCT. Therefore, it could be determined that the subject recovered from the 
+DRAFT 
+event of cytokine release syndrome.
+
+OUTCOME: CYTOKINE RELEASE SYNDROME: Recovered/resolved (24Jun2018).
+
+MEDICAL HISTORY: B CELL-TYPE ACUTE LYMPHOCYTIC LEUKAEMIA (01Jul2016), FOOD ALLERGY, CORD BLOOD TRANSPLANT 
+THERAPY (18May2017) and the unspecified past drug was taken by subject which caused hypersensitivity reaction.
+
+CONCOMITANT THERAPY: aciclovir, fluconazole, sodium rabeprazole, Baktar, pantethine, E Keppra, Feburic, sodium 
+picosulfate hydrate, Cocarl, Talion OD, Zometa, Meropen, Soldem 6 and Seishoku.
+
+CAUSALITY ASSESSMENT: CYTOKINE RELEASE SYNDROME: Possibly related to the both the suspects (reported as The 
+event of cytokine release syndrome was a known adverse event reported in CAR T-cell therapy, therefore it was 
+considered that the causal relationship between the event and TBI-1501 could not be denied. The onset date of 
+the event was late (developed on Day 10), therefore it was less likely that there was causal relationship 
+between the event and Endoxan).
+
+ "," 
+
+ Product-Reaction level 
+
+ Seq.No. : 1
+ Drug : ENDOXAN 1g(CYCLOPHOSPHAMIDE, MONOHYDRATE)(Powder for solution for injection)
+ Causality 
+
+1)CYTOKINE RELEASE SYNDROME (Cytokine release syndrome (10052015), Cytokine release syndrome (10052015)) 
+[v.22.0]
+ Action(s) taken with drug  :  Unknown
+ Causality as per reporter (Drug/Vaccine)  :  Possible
+ Causality as per Mfr.(Drug/Vaccine)  :  Possible
+ Dechallenge      :  N/A  
+ Rechallenge  :  N/A
+   
+
+ "," ...)     
+
+ Seq.No. : 1
+ Drug : aciclovir(ACICLOVIR)
+ Route of Admin : 1)Oral Date :04-JUN-2019
+Baxter Healthcare Corporation  Page : 3 / 5
+One Baxter Parkway
+DeerField,IL 60015
+UNITED STATES OF AMERICA
+
+ Continuation Sheet for CIOMS report   Mfr. Control No. :2019BAX010702 
+
+ Indication for use : 1)Infection prophylaxis[10049924] [v.22.0]
+
+ Seq.No. : 2
+ Drug : fluconazole(FLUCONAZOLE)
+ Route of Admin : 1)Oral  
+ Indication for use : 1)Infection prophylaxis[10049924] [v.22.0]
+ 
+DRAFT 
+ 
+ Seq.No. : 3
+ Drug : sodium rabeprazole(RABEPRAZOLE SODIUM)
+ Daily Dose : 1) (10 mg,1 in 1 D)
+ Route of Admin : 1)Oral  
+ Indication for use : 1)Gastric ulcer prophylaxis[10050005] [v.22.0]
+ Therapy Dates/Duration : 1) 15-MAY-2018 - ?-?-?
+
+
+ 
+
+ Seq.No. : 4
+ Drug : Baktar(SULFAMETHOXAZOLE, TRIMETHOPRIM)  
+ Daily Dose : 1)1 Dosage forms (1 Dosage forms,1 in 1 D)
+ Route of Admin : 1)Oral
+ Indication for use : 1)Pneumocystis carinii prophylaxis[10049907] [v.22.0]
+ Therapy Dates/Duration : 1) 13-MAY-2018 - ?-?-?
+
+
+ Seq.No. : 5
+ Drug : pantethine(PANTETHINE)      
+ Daily Dose : 1)3 mg (3 mg,1 in 1 D)
+ Route of Admin : 1)Oral
+ Indication for use : 1)Constipation prophylaxis[10052933] [v.22.0]
+ Therapy Dates/Duration : 1) 17-MAY-2018 - ?-?-?
+
+
+     
+
+ Seq.No. : 6
+ Drug : E Keppra(LEVETIRACETAM)
+ Daily Dose : 1) (1000 mg,1 in 1 D)
+ Route of Admin : 1)Oral
+ Indication for use : 1)Prophylaxis[10036898] [v.22.0]
+DRAFT 
+ Therapy Dates/Duration : 1) 08-JUN-2018 - ?-?-?
+
+
+ Seq.No. : 7
+ Drug : Feburic(FEBUXOSTAT)
+ Daily Dose : 1)20 mg (20 mg,1 in 1 D)
+ Route of Admin : 1)Oral
+ Indication for use : 1)Prophylaxis[10036898] [v.22.0]
+ Therapy Dates/Duration : 1) 06-MAY-2018 - ?-?-?
+
+
+ Seq.No. : 8
+ Drug : sodium picosulfate hydrate(SODIUM PICOSULFATE)
+ Route of Admin : 1)Oral
+ Indication for use : 1)Constipation prophylaxis[10052933] [v.22.0]
+ Therapy Dates/Duration : 1) 25-MAY-2018 - ?-?-?
+
+
+ Seq.No. : 9
+ Drug : Cocarl(PARACETAMOL)
+ Route of Admin : 1)Oral
+ Indication for use : 1)Pain relief[10033487] [v.22.0]
+2)Pyrexia[10037660] [v.22.0]
+    
+ Therapy Dates/Duration   : 1) 26-MAY-2018 - ?-?-?
+   
+
+     
+ Seq.No. : 10
+ Drug : Talion OD(BEPOTASTINE BESILATE)
+ Route of Admin : 1)Oral
+ Indication for use : 1)Allergy prophylaxis[10066536] [v.22.0]
+ Therapy Dates/Duration : 1) 17-MAY-2018 - ?-?-?
+ Date :04-JUN-2019
+Baxter Healthcare Corporation  Page : 4 / 5
+One Baxter Parkway
+DeerField,IL 60015
+UNITED STATES OF AMERICA
+
+ Continuation Sheet for CIOMS report   Mfr. Control No. :2019BAX010702 
+
+ Seq.No. : 11
+ Drug : Zometa(ZOLEDRONIC ACID)
+ Daily Dose : 1) (87.5 ml,1 in 1 D)
+ Route of Admin : 1)Intravenous
+ Indication for use : 1)Hypercalcaemia[10020583] [v.22.0]  
+ Therapy Dates/Duration : 1) 21-JUN-2018 - 21-JUN-2018
+
+ 
+DRAFT 
+ 
+ Seq.No. : 12
+ Drug : Meropen(MEROPENEM TRIHYDRATE)
+ Daily Dose : 1)2 mg (2 mg,1 in 1 D)
+ Route of Admin : 1)Intravenous  
+ Indication for use : 1)Infection prophylaxis[10049924] [v.22.0]
+ Therapy Dates/Duration : 1) 21-JUN-2018 - ?-?-?
+
+
+ 
+
+ Seq.No. : 13
+ Drug : Soldem 6(GLUCOSE, SODIUM LACTATE, SODIUM CHLORIDE)  
+ Daily Dose : 1)1500 mg (1500 mg,1 in 1 D)
+ Route of Admin : 1)Intravenous
+ Indication for use : 1)Prophylaxis against dehydration[10054931] [v.22.0]
+ Therapy Dates/Duration : 1) 13-JUN-2018 - ?-?-?
+
+
+ Seq.No. : 14
+ Drug : Seishoku(SODIUM CHLORIDE)      
+ Daily Dose : 1)1000 ml (1000 ml,1 in 1 D)
+ Route of Admin : 1)Intravenous
+ Indication for use : 1)Prophylaxis against dehydration[10054931] [v.22.0]
+ Therapy Dates/Duration : 1) 20-JUN-2018 - ?-?-?
+
+
+     
+ "," 
+
+Food allergy[10016946] [v.22.0] (?-?-?) ( Continuing: Unknown)
+
+DRAFT 
+ Company Remarks  (Cont...) 
+
+The case is serious.
+Given the temporal sequence, Baxter is unable to exclude the possibility of a causal association between 
+cyclophosphamide and the event of CYTOKINE RELEASE SYNDROME.Possibly associated for cyclophosphamide.
+29May2019
+
+ Additional information (continuation) 
+
+ Lab Result  : 
+
+Test name Test date Test result Normal value Classification
+
+BLOOD CULTURE 21-Jun-2018 negative results
+Cytokine release syndrome onset
+BODY  21-Jun-2018 38 degrees C
+TEMPERATURE
+
+25-Jun-2018 37 to 38 degrees 
+C
+
+27-Jun-2018 36 to 37 degrees 
+C
+
+C-REACTIVE  20-Jun-2018 increased
+PROTEIN      
+24-Jun   7.33 mg/dL N/A - 0.14
+-2018  
+
+02-Jul-2018 0.40 mg/dL
+     
+INTERFERON  14-Jun-2018 1.118 not 
+GAMMA reported
+
+20-Jun-2018 12.676 not 
+reported Date :04-JUN-2019
+Baxter Healthcare Corporation  Page : 5 / 5
+One Baxter Parkway
+DeerField,IL 60015
+UNITED STATES OF AMERICA
+
+ Continuation Sheet for CIOMS report   Mfr. Control No. :2019BAX010702 
+
+INTERLEUKIN-6 14-Jun-2018 14.543 not 
+reported
+
+20-Jun-2018 33.879 not 
+reported
+
+MATERIAL BLOOD 26-Feb-2018 not reported
+SAMPLING  
+
+PULSE RATE 21-Jun-2018 around 100 /min  
+DRAFT 
+27-Jun-2018 70s /min  
+
+ 
+
+ 
+
+ 
+
+     
+
+     
+
+DRAFT 
+
+     
+   
+
+     ",,,,CIOMS.pdf,CIOMS.pdf

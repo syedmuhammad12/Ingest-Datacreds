@@ -1,0 +1,776 @@
+03-05-2023 18:54:54,39 ERROR    [helper.py:214] start
+03-05-2023 18:54:54,53 ERROR    [helper.py:214] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\r2import\helper.py 167:'authoritynumb'
+03-05-2023 18:54:54,70 ERROR    [helper.py:214] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\r2import\views.py 73:The connection 'simplesafety' doesn't exist.
+04-05-2023 13:08:31,479 WARNING  [log.py:241] Not Found: /
+04-05-2023 13:08:31,878 WARNING  [log.py:241] Not Found: /favicon.ico
+04-05-2023 13:24:52,222 DEBUG    [hooks.py:420] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+04-05-2023 13:24:52,226 DEBUG    [hooks.py:420] Changing event name from before-call.apigateway to before-call.api-gateway
+04-05-2023 13:24:52,228 DEBUG    [hooks.py:420] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+04-05-2023 13:24:52,230 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+04-05-2023 13:24:52,230 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+04-05-2023 13:24:52,231 DEBUG    [hooks.py:420] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+04-05-2023 13:24:52,233 DEBUG    [hooks.py:420] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+04-05-2023 13:24:52,240 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+04-05-2023 13:24:52,240 DEBUG    [hooks.py:420] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+04-05-2023 13:24:52,241 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+04-05-2023 13:24:52,241 DEBUG    [hooks.py:420] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+04-05-2023 13:24:52,271 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\endpoints.json
+04-05-2023 13:24:52,292 DEBUG    [hooks.py:210] Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001E445604700>
+04-05-2023 13:24:52,775 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json
+04-05-2023 13:24:52,840 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000001E4455B05E0>
+04-05-2023 13:24:52,840 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000001E4741379D0>
+04-05-2023 13:24:52,843 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000001E4455B03A0>
+04-05-2023 13:24:52,856 DEBUG    [endpoint.py:292] Setting s3 timeout as (60, 60)
+04-05-2023 13:24:52,895 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\_retry.json
+04-05-2023 13:24:52,896 DEBUG    [client.py:165] Registering retry handlers for service: s3
+04-05-2023 13:24:52,898 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutBucketCors: calling handler <function validate_bucket_name at 0x000001E445622040>
+04-05-2023 13:24:52,898 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutBucketCors: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x000001E473C27370>>
+04-05-2023 13:24:52,898 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutBucketCors: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x000001E473C279D0>>
+04-05-2023 13:24:52,899 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutBucketCors: calling handler <function generate_idempotent_uuid at 0x000001E44561CE50>
+04-05-2023 13:24:52,907 DEBUG    [hooks.py:210] Event before-call.s3.PutBucketCors: calling handler <function add_expect_header at 0x000001E4456223A0>
+04-05-2023 13:24:52,907 DEBUG    [hooks.py:210] Event before-call.s3.PutBucketCors: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x000001E473C27370>>
+04-05-2023 13:24:52,907 DEBUG    [hooks.py:210] Event before-call.s3.PutBucketCors: calling handler <function inject_api_version_header_if_needed at 0x000001E445625700>
+04-05-2023 13:24:52,907 DEBUG    [endpoint.py:100] Making request for OperationModel(name=PutBucketCors) with params: {'url_path': '/dss-dev-ritrace?cors', 'query_string': {}, 'method': 'PUT', 'headers': {'Content-MD5': 'mtc/fYOw3NRHuhykL/56nA==', 'User-Agent': 'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38'}, 'body': b'<CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><CORSRule><AllowedHeader>Authorization</AllowedHeader><AllowedMethod>GET</AllowedMethod><AllowedMethod>PUT</AllowedMethod><AllowedOrigin>*</AllowedOrigin><ExposeHeader>ETag</ExposeHeader><ExposeHeader>x-amz-request-id</ExposeHeader><MaxAgeSeconds>3000</MaxAgeSeconds></CORSRule></CORSConfiguration>', 'url': 'https://s3.amazonaws.com/dss-dev-ritrace?cors', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001E4746140D0>, 'has_streaming_input': False, 'auth_type': None, 'signing': {'bucket': 'dss-dev-ritrace'}}}
+04-05-2023 13:24:52,909 DEBUG    [hooks.py:210] Event request-created.s3.PutBucketCors: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001E474614100>>
+04-05-2023 13:24:52,910 DEBUG    [hooks.py:210] Event choose-signer.s3.PutBucketCors: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x000001E473C27A00>>
+04-05-2023 13:24:52,910 DEBUG    [hooks.py:210] Event choose-signer.s3.PutBucketCors: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E474B70280>>
+04-05-2023 13:24:52,910 DEBUG    [hooks.py:210] Event choose-signer.s3.PutBucketCors: calling handler <function set_operation_specific_signer at 0x000001E44561CD30>
+04-05-2023 13:24:52,911 DEBUG    [hooks.py:210] Event before-sign.s3.PutBucketCors: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x000001E473C27A00>>
+04-05-2023 13:24:52,911 DEBUG    [utils.py:1931] Defaulting to S3 virtual host style addressing with path style addressing fallback.
+04-05-2023 13:24:52,911 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace?cors
+04-05-2023 13:24:52,911 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/?cors
+04-05-2023 13:24:52,913 DEBUG    [auth.py:380] Calculating signature using v4 auth.
+04-05-2023 13:24:52,913 DEBUG    [auth.py:381] CanonicalRequest:
+PUT
+/
+cors=
+content-md5:mtc/fYOw3NRHuhykL/56nA==
+host:dss-dev-ritrace.s3.amazonaws.com
+x-amz-content-sha256:d8961b555f4820ba61b28b6a05337bf0e5d08391594836dc5f5c19ef36001983
+x-amz-date:20230504T075452Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+d8961b555f4820ba61b28b6a05337bf0e5d08391594836dc5f5c19ef36001983
+04-05-2023 13:24:52,914 DEBUG    [auth.py:383] StringToSign:
+AWS4-HMAC-SHA256
+20230504T075452Z
+20230504/us-east-1/s3/aws4_request
+f631f1566308d5cd97833ff35bec3c8dffe4bcc47639744a8bf9bbed6f73928c
+04-05-2023 13:24:52,914 DEBUG    [auth.py:385] Signature:
+8a1094bc725c78fc51434875ce4afbc049a397914748e6ebb66ca9dfc96f0649
+04-05-2023 13:24:52,915 DEBUG    [endpoint.py:187] Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://dss-dev-ritrace.s3.amazonaws.com/?cors, headers={'Content-MD5': b'mtc/fYOw3NRHuhykL/56nA==', 'User-Agent': b'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38', 'X-Amz-Date': b'20230504T075452Z', 'X-Amz-Content-SHA256': b'd8961b555f4820ba61b28b6a05337bf0e5d08391594836dc5f5c19ef36001983', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAW3GZXGRDWQCHJYXB/20230504/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=8a1094bc725c78fc51434875ce4afbc049a397914748e6ebb66ca9dfc96f0649', 'Content-Length': '365'}>
+04-05-2023 13:24:52,917 DEBUG    [httpsession.py:51] Certificate path: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\certifi\cacert.pem
+04-05-2023 13:24:52,918 DEBUG    [connectionpool.py:1003] Starting new HTTPS connection (1): dss-dev-ritrace.s3.amazonaws.com:443
+04-05-2023 13:24:54,388 DEBUG    [connectionpool.py:456] https://dss-dev-ritrace.s3.amazonaws.com:443 "PUT /?cors HTTP/1.1" 200 0
+04-05-2023 13:24:54,389 DEBUG    [parsers.py:233] Response headers: {'x-amz-id-2': 'M+0iYifjmcDTRNW2XJdwKzDAeQABSlJxNFnIml/uWHjgfidg62PtBJt2Xwo8CuFqreEtnHHDE5Q=', 'x-amz-request-id': '0NGTN4KWVAYEWZ60', 'Date': 'Thu, 04 May 2023 07:54:29 GMT', 'Server': 'AmazonS3', 'Content-Length': '0'}
+04-05-2023 13:24:54,390 DEBUG    [parsers.py:234] Response body:
+b''
+04-05-2023 13:24:54,391 DEBUG    [hooks.py:210] Event needs-retry.s3.PutBucketCors: calling handler <botocore.retryhandler.RetryHandler object at 0x000001E473C271C0>
+04-05-2023 13:24:54,391 DEBUG    [retryhandler.py:187] No retry needed.
+04-05-2023 13:24:54,391 DEBUG    [hooks.py:210] Event needs-retry.s3.PutBucketCors: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x000001E473C27370>>
+04-05-2023 13:24:54,391 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x000001E4456220D0>
+04-05-2023 13:24:54,391 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x000001E445622040>
+04-05-2023 13:24:54,391 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x000001E473C27370>>
+04-05-2023 13:24:54,392 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x000001E473C279D0>>
+04-05-2023 13:24:54,392 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x000001E44561CE50>
+04-05-2023 13:24:54,393 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x000001E473C27A00>>
+04-05-2023 13:24:54,393 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E474B70280>>
+04-05-2023 13:24:54,393 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x000001E473C27A00>>
+04-05-2023 13:24:54,393 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:24:54,393 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:24:54,393 DEBUG    [auth.py:736] Calculating signature using hmacv1 auth.
+04-05-2023 13:24:54,393 DEBUG    [auth.py:738] HTTP request method: GET
+04-05-2023 13:24:54,393 DEBUG    [auth.py:730] StringToSign:
+GET
+
+
+1684482894
+/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:24:54,394 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x000001E4456220D0>
+04-05-2023 13:24:54,395 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x000001E445622040>
+04-05-2023 13:24:54,395 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x000001E473C27370>>
+04-05-2023 13:24:54,395 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x000001E473C279D0>>
+04-05-2023 13:24:54,395 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x000001E44561CE50>
+04-05-2023 13:24:54,396 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x000001E473C27A00>>
+04-05-2023 13:24:54,396 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E474B70280>>
+04-05-2023 13:24:54,396 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x000001E473C27A00>>
+04-05-2023 13:24:54,396 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/1.html
+04-05-2023 13:24:54,396 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/1.html
+04-05-2023 13:24:54,396 DEBUG    [auth.py:736] Calculating signature using hmacv1 auth.
+04-05-2023 13:24:54,396 DEBUG    [auth.py:738] HTTP request method: GET
+04-05-2023 13:24:54,396 DEBUG    [auth.py:730] StringToSign:
+GET
+
+
+1684482894
+/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/1.html
+04-05-2023 13:24:54,410 DEBUG    [connectionpool.py:1003] Starting new HTTPS connection (1): dss-dev-ritrace.s3.amazonaws.com:443
+04-05-2023 13:24:55,719 DEBUG    [connectionpool.py:456] https://dss-dev-ritrace.s3.amazonaws.com:443 "GET /media/public/automation_poc/sameer/uploads/8/1.html?AWSAccessKeyId=AKIAW3GZXGRDWQCHJYXB&Signature=nLin%2F4AtXRNiDZxHAlEoU64JNKU%3D&Expires=1684482894 HTTP/1.1" 200 106115
+04-05-2023 13:24:56,832 DEBUG    [sjisprober.py:65] SHIFT_JIS Japanese prober hit error at byte 43592
+04-05-2023 13:24:56,999 DEBUG    [eucjpprober.py:66] EUC-JP Japanese prober hit error at byte 42721
+04-05-2023 13:24:57,100 DEBUG    [mbcharsetprober.py:64] GB2312 Chinese prober hit error at byte 43592
+04-05-2023 13:24:57,196 DEBUG    [mbcharsetprober.py:64] EUC-KR Korean prober hit error at byte 42721
+04-05-2023 13:24:57,296 DEBUG    [mbcharsetprober.py:64] CP949 Korean prober hit error at byte 42721
+04-05-2023 13:24:57,397 DEBUG    [mbcharsetprober.py:64] Big5 Chinese prober hit error at byte 42722
+04-05-2023 13:24:57,499 DEBUG    [mbcharsetprober.py:64] EUC-TW Taiwan prober hit error at byte 42721
+04-05-2023 13:24:57,608 DEBUG    [mbcharsetprober.py:64] Johab Korean prober hit error at byte 42721
+04-05-2023 13:24:57,945 DEBUG    [charsetgroupprober.py:98] utf-8  confidence = 0.7525
+04-05-2023 13:24:57,945 DEBUG    [charsetgroupprober.py:95] SHIFT_JIS not active
+04-05-2023 13:24:57,945 DEBUG    [charsetgroupprober.py:95] EUC-JP not active
+04-05-2023 13:24:57,945 DEBUG    [charsetgroupprober.py:95] GB2312 not active
+04-05-2023 13:24:57,945 DEBUG    [charsetgroupprober.py:95] EUC-KR not active
+04-05-2023 13:24:57,946 DEBUG    [charsetgroupprober.py:95] CP949 not active
+04-05-2023 13:24:57,947 DEBUG    [charsetgroupprober.py:95] Big5 not active
+04-05-2023 13:24:57,947 DEBUG    [charsetgroupprober.py:95] EUC-TW not active
+04-05-2023 13:24:57,947 DEBUG    [charsetgroupprober.py:95] Johab not active
+04-05-2023 13:24:57,947 DEBUG    [charsetgroupprober.py:98] windows-1251 Russian confidence = 0.01
+04-05-2023 13:24:57,947 DEBUG    [charsetgroupprober.py:98] KOI8-R Russian confidence = 0.01
+04-05-2023 13:24:57,947 DEBUG    [charsetgroupprober.py:98] ISO-8859-5 Russian confidence = 0.01
+04-05-2023 13:24:57,947 DEBUG    [charsetgroupprober.py:98] MacCyrillic Russian confidence = 0.0
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:98] IBM866 Russian confidence = 0.0
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:98] IBM855 Russian confidence = 0.01
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:98] ISO-8859-7 Greek confidence = 0.01
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:98] windows-1253 Greek confidence = 0.01
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:98] ISO-8859-5 Bulgarian confidence = 0.01
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:98] windows-1251 Bulgarian confidence = 0.01
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:98] TIS-620 Thai confidence = 0.01
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:98] ISO-8859-9 Turkish confidence = 0.48589365234637094
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:98] windows-1255 Hebrew confidence = 0.0
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:98] windows-1255 Hebrew confidence = 0.01
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:98] windows-1255 Hebrew confidence = 0.01
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:98] utf-8  confidence = 0.7525
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:95] SHIFT_JIS not active
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:95] EUC-JP not active
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:95] GB2312 not active
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:95] EUC-KR not active
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:95] CP949 not active
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:95] Big5 not active
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:95] EUC-TW not active
+04-05-2023 13:24:57,948 DEBUG    [charsetgroupprober.py:95] Johab not active
+04-05-2023 13:25:10,471 DEBUG    [hooks.py:420] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+04-05-2023 13:25:10,474 DEBUG    [hooks.py:420] Changing event name from before-call.apigateway to before-call.api-gateway
+04-05-2023 13:25:10,476 DEBUG    [hooks.py:420] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+04-05-2023 13:25:10,479 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+04-05-2023 13:25:10,479 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+04-05-2023 13:25:10,480 DEBUG    [hooks.py:420] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+04-05-2023 13:25:10,481 DEBUG    [hooks.py:420] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+04-05-2023 13:25:10,485 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+04-05-2023 13:25:10,485 DEBUG    [hooks.py:420] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+04-05-2023 13:25:10,486 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+04-05-2023 13:25:10,486 DEBUG    [hooks.py:420] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+04-05-2023 13:25:10,738 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\boto3\data\s3\2006-03-01\resources-1.json
+04-05-2023 13:25:10,743 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\endpoints.json
+04-05-2023 13:25:10,754 DEBUG    [hooks.py:210] Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001E445604700>
+04-05-2023 13:25:10,972 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json
+04-05-2023 13:25:10,992 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000001E4455B05E0>
+04-05-2023 13:25:10,993 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000001E4742D1DC0>
+04-05-2023 13:25:10,993 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000001E4455B03A0>
+04-05-2023 13:25:10,995 DEBUG    [endpoint.py:292] Setting s3 timeout as (60, 60)
+04-05-2023 13:25:10,997 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\_retry.json
+04-05-2023 13:25:10,998 DEBUG    [client.py:165] Registering retry handlers for service: s3
+04-05-2023 13:25:10,999 DEBUG    [factory.py:65] Loading s3:s3
+04-05-2023 13:25:11,1 DEBUG    [factory.py:65] Loading s3:Bucket
+04-05-2023 13:25:11,2 DEBUG    [model.py:358] Renaming Bucket attribute name
+04-05-2023 13:25:11,3 DEBUG    [hooks.py:210] Event creating-resource-class.s3.Bucket: calling handler <function lazy_call.<locals>._handler at 0x000001E4742FEF70>
+04-05-2023 13:25:11,4 DEBUG    [factory.py:65] Loading s3:Object
+04-05-2023 13:25:11,5 DEBUG    [hooks.py:210] Event creating-resource-class.s3.Object: calling handler <function lazy_call.<locals>._handler at 0x000001E4742FEDC0>
+04-05-2023 13:25:11,6 DEBUG    [action.py:80] Calling s3:head_object with {'Bucket': 'dss-dev-ritrace', 'Key': 'media/public/automation_poc/sameer/uploads/8/page_1.png'}
+04-05-2023 13:25:11,8 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x000001E4456220D0>
+04-05-2023 13:25:11,8 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x000001E445622040>
+04-05-2023 13:25:11,8 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:25:11,8 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x000001E47677E280>>
+04-05-2023 13:25:11,8 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x000001E44561CE50>
+04-05-2023 13:25:11,8 DEBUG    [hooks.py:210] Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x000001E4456223A0>
+04-05-2023 13:25:11,8 DEBUG    [hooks.py:210] Event before-call.s3.HeadObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:25:11,8 DEBUG    [hooks.py:210] Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x000001E445625700>
+04-05-2023 13:25:11,8 DEBUG    [endpoint.py:100] Making request for OperationModel(name=HeadObject) with params: {'url_path': '/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38 Resource'}, 'body': b'', 'url': 'https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001E47677E8B0>, 'has_streaming_input': False, 'auth_type': None, 'signing': {'bucket': 'dss-dev-ritrace'}}}
+04-05-2023 13:25:11,10 DEBUG    [hooks.py:210] Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001E47677E8E0>>
+04-05-2023 13:25:11,10 DEBUG    [hooks.py:210] Event choose-signer.s3.HeadObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x000001E47677EFD0>>
+04-05-2023 13:25:11,11 DEBUG    [hooks.py:210] Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E4768479D0>>
+04-05-2023 13:25:11,11 DEBUG    [hooks.py:210] Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x000001E44561CD30>
+04-05-2023 13:25:11,11 DEBUG    [hooks.py:210] Event before-sign.s3.HeadObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x000001E47677EFD0>>
+04-05-2023 13:25:11,11 DEBUG    [utils.py:1931] Defaulting to S3 virtual host style addressing with path style addressing fallback.
+04-05-2023 13:25:11,11 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:25:11,12 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:25:11,12 DEBUG    [auth.py:380] Calculating signature using v4 auth.
+04-05-2023 13:25:11,12 DEBUG    [auth.py:381] CanonicalRequest:
+HEAD
+/media/public/automation_poc/sameer/uploads/8/page_1.png
+
+host:dss-dev-ritrace.s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20230504T075511Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+04-05-2023 13:25:11,12 DEBUG    [auth.py:383] StringToSign:
+AWS4-HMAC-SHA256
+20230504T075511Z
+20230504/us-east-1/s3/aws4_request
+1253d3a9b60e7c2062af98e97493e98df1c86be93aa28b2938c0809211e73661
+04-05-2023 13:25:11,13 DEBUG    [auth.py:385] Signature:
+2c0b9795b063a1d38ad0e64b6202987790020aab8d388e46518f95b07ec8c1ee
+04-05-2023 13:25:11,13 DEBUG    [endpoint.py:187] Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/page_1.png, headers={'User-Agent': b'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38 Resource', 'X-Amz-Date': b'20230504T075511Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAW3GZXGRDWQCHJYXB/20230504/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=2c0b9795b063a1d38ad0e64b6202987790020aab8d388e46518f95b07ec8c1ee'}>
+04-05-2023 13:25:11,14 DEBUG    [httpsession.py:51] Certificate path: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\certifi\cacert.pem
+04-05-2023 13:25:11,14 DEBUG    [connectionpool.py:1003] Starting new HTTPS connection (1): dss-dev-ritrace.s3.amazonaws.com:443
+04-05-2023 13:25:12,332 DEBUG    [connectionpool.py:456] https://dss-dev-ritrace.s3.amazonaws.com:443 "HEAD /media/public/automation_poc/sameer/uploads/8/page_1.png HTTP/1.1" 200 0
+04-05-2023 13:25:12,332 DEBUG    [parsers.py:233] Response headers: {'x-amz-id-2': 'dKRk1NN5W1zg2pgYSkfSYVY1FP27kPBOkeQs3hr8YS/QiJwsLNXYiEcQ/IRwOl+hrJry1N7aWJo=', 'x-amz-request-id': 'SE59HNF2QC1QDTKS', 'Date': 'Thu, 04 May 2023 07:54:47 GMT', 'Last-Modified': 'Tue, 21 Mar 2023 11:36:38 GMT', 'ETag': '"74b525c1dc5c46f7ece4275b3ebf952c"', 'x-amz-server-side-encryption': 'AES256', 'x-amz-version-id': 'UAgk3iTdcWInMGuKWuPeRHvR9XgqpATT', 'Accept-Ranges': 'bytes', 'Content-Type': 'binary/octet-stream', 'Server': 'AmazonS3', 'Content-Length': '260983'}
+04-05-2023 13:25:12,332 DEBUG    [parsers.py:234] Response body:
+b''
+04-05-2023 13:25:12,336 DEBUG    [hooks.py:210] Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000001E47677E340>
+04-05-2023 13:25:12,336 DEBUG    [retryhandler.py:187] No retry needed.
+04-05-2023 13:25:12,336 DEBUG    [hooks.py:210] Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:25:12,336 DEBUG    [action.py:85] Response: {'ResponseMetadata': {'RequestId': 'SE59HNF2QC1QDTKS', 'HostId': 'dKRk1NN5W1zg2pgYSkfSYVY1FP27kPBOkeQs3hr8YS/QiJwsLNXYiEcQ/IRwOl+hrJry1N7aWJo=', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amz-id-2': 'dKRk1NN5W1zg2pgYSkfSYVY1FP27kPBOkeQs3hr8YS/QiJwsLNXYiEcQ/IRwOl+hrJry1N7aWJo=', 'x-amz-request-id': 'SE59HNF2QC1QDTKS', 'date': 'Thu, 04 May 2023 07:54:47 GMT', 'last-modified': 'Tue, 21 Mar 2023 11:36:38 GMT', 'etag': '"74b525c1dc5c46f7ece4275b3ebf952c"', 'x-amz-server-side-encryption': 'AES256', 'x-amz-version-id': 'UAgk3iTdcWInMGuKWuPeRHvR9XgqpATT', 'accept-ranges': 'bytes', 'content-type': 'binary/octet-stream', 'server': 'AmazonS3', 'content-length': '260983'}, 'RetryAttempts': 0}, 'AcceptRanges': 'bytes', 'LastModified': datetime.datetime(2023, 3, 21, 11, 36, 38, tzinfo=tzutc()), 'ContentLength': 260983, 'ETag': '"74b525c1dc5c46f7ece4275b3ebf952c"', 'VersionId': 'UAgk3iTdcWInMGuKWuPeRHvR9XgqpATT', 'ContentType': 'binary/octet-stream', 'ServerSideEncryption': 'AES256', 'Metadata': {}}
+04-05-2023 13:25:12,339 DEBUG    [utils.py:599] Acquiring 0
+04-05-2023 13:25:12,346 DEBUG    [tasks.py:193] DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001E474931F70>}) about to wait for the following futures []
+04-05-2023 13:25:12,348 DEBUG    [tasks.py:203] DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001E474931F70>}) done waiting for dependent futures
+04-05-2023 13:25:12,348 DEBUG    [tasks.py:146] Executing task DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001E474931F70>}) with kwargs {'client': <botocore.client.S3 object at 0x000001E47673F5E0>, 'config': <boto3.s3.transfer.TransferConfig object at 0x000001E4742D0BE0>, 'osutil': <s3transfer.utils.OSUtils object at 0x000001E47677EF10>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x000001E47668EDC0>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001E474931F70>, 'io_executor': <s3transfer.futures.BoundedExecutor object at 0x000001E474614130>}
+04-05-2023 13:25:12,348 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x000001E4456220D0>
+04-05-2023 13:25:12,348 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x000001E445622040>
+04-05-2023 13:25:12,348 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:25:12,349 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x000001E47677E280>>
+04-05-2023 13:25:12,349 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x000001E44561CE50>
+04-05-2023 13:25:12,349 DEBUG    [hooks.py:210] Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x000001E4456223A0>
+04-05-2023 13:25:12,350 DEBUG    [hooks.py:210] Event before-call.s3.HeadObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:25:12,350 DEBUG    [hooks.py:210] Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x000001E445625700>
+04-05-2023 13:25:12,350 DEBUG    [endpoint.py:100] Making request for OperationModel(name=HeadObject) with params: {'url_path': '/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38 Resource'}, 'body': b'', 'url': 'https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001E47677E8B0>, 'has_streaming_input': False, 'auth_type': None, 'signing': {'bucket': 'dss-dev-ritrace'}}}
+04-05-2023 13:25:12,350 DEBUG    [hooks.py:210] Event request-created.s3.HeadObject: calling handler <function signal_not_transferring at 0x000001E473B0A790>
+04-05-2023 13:25:12,350 DEBUG    [hooks.py:210] Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001E47677E8E0>>
+04-05-2023 13:25:12,350 DEBUG    [hooks.py:210] Event choose-signer.s3.HeadObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x000001E47677EFD0>>
+04-05-2023 13:25:12,350 DEBUG    [hooks.py:210] Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E4768479D0>>
+04-05-2023 13:25:12,350 DEBUG    [hooks.py:210] Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x000001E44561CD30>
+04-05-2023 13:25:12,350 DEBUG    [hooks.py:210] Event before-sign.s3.HeadObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x000001E47677EFD0>>
+04-05-2023 13:25:12,350 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:25:12,350 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:25:12,351 DEBUG    [auth.py:380] Calculating signature using v4 auth.
+04-05-2023 13:25:12,351 DEBUG    [auth.py:381] CanonicalRequest:
+HEAD
+/media/public/automation_poc/sameer/uploads/8/page_1.png
+
+host:dss-dev-ritrace.s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20230504T075512Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+04-05-2023 13:25:12,351 DEBUG    [auth.py:383] StringToSign:
+AWS4-HMAC-SHA256
+20230504T075512Z
+20230504/us-east-1/s3/aws4_request
+9f1306cdbf73c416d1f9e4fe40bc38d6cbd10827f0a68da7f2f119eaa331d95e
+04-05-2023 13:25:12,352 DEBUG    [auth.py:385] Signature:
+5cef969679d49c545def6c83e62705b8cade32f1cffa19a65e8753334441fad5
+04-05-2023 13:25:12,352 DEBUG    [hooks.py:210] Event request-created.s3.HeadObject: calling handler <function signal_transferring at 0x000001E473B0A820>
+04-05-2023 13:25:12,352 DEBUG    [endpoint.py:187] Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/page_1.png, headers={'User-Agent': b'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38 Resource', 'X-Amz-Date': b'20230504T075512Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAW3GZXGRDWQCHJYXB/20230504/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=5cef969679d49c545def6c83e62705b8cade32f1cffa19a65e8753334441fad5'}>
+04-05-2023 13:25:12,352 DEBUG    [httpsession.py:51] Certificate path: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\certifi\cacert.pem
+04-05-2023 13:25:12,649 DEBUG    [connectionpool.py:456] https://dss-dev-ritrace.s3.amazonaws.com:443 "HEAD /media/public/automation_poc/sameer/uploads/8/page_1.png HTTP/1.1" 200 0
+04-05-2023 13:25:12,650 DEBUG    [parsers.py:233] Response headers: {'x-amz-id-2': 'OvaKnYZplIDGfiLDIUWS28GzQRewK2hl8YmTDish9YWi5qLOtkvyyOMOLGJVTHLrenJg4v8CEMk=', 'x-amz-request-id': 'SE52A8ZNS7Z63ZN1', 'Date': 'Thu, 04 May 2023 07:54:47 GMT', 'Last-Modified': 'Tue, 21 Mar 2023 11:36:38 GMT', 'ETag': '"74b525c1dc5c46f7ece4275b3ebf952c"', 'x-amz-server-side-encryption': 'AES256', 'x-amz-version-id': 'UAgk3iTdcWInMGuKWuPeRHvR9XgqpATT', 'Accept-Ranges': 'bytes', 'Content-Type': 'binary/octet-stream', 'Server': 'AmazonS3', 'Content-Length': '260983'}
+04-05-2023 13:25:12,650 DEBUG    [parsers.py:234] Response body:
+b''
+04-05-2023 13:25:12,650 DEBUG    [hooks.py:210] Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000001E47677E340>
+04-05-2023 13:25:12,651 DEBUG    [retryhandler.py:187] No retry needed.
+04-05-2023 13:25:12,651 DEBUG    [hooks.py:210] Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:25:12,651 DEBUG    [futures.py:316] Submitting task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'dss-dev-ritrace', 'key': 'media/public/automation_poc/sameer/uploads/8/page_1.png', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x000001E47668EDC0> for transfer request: 0.
+04-05-2023 13:25:12,652 DEBUG    [utils.py:599] Acquiring 0
+04-05-2023 13:25:12,653 DEBUG    [tasks.py:193] ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'dss-dev-ritrace', 'key': 'media/public/automation_poc/sameer/uploads/8/page_1.png', 'extra_args': {}}) about to wait for the following futures []
+04-05-2023 13:25:12,653 DEBUG    [utils.py:612] Releasing acquire 0/None
+04-05-2023 13:25:12,654 DEBUG    [tasks.py:203] ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'dss-dev-ritrace', 'key': 'media/public/automation_poc/sameer/uploads/8/page_1.png', 'extra_args': {}}) done waiting for dependent futures
+04-05-2023 13:25:12,655 DEBUG    [tasks.py:146] Executing task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'dss-dev-ritrace', 'key': 'media/public/automation_poc/sameer/uploads/8/page_1.png', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x000001E47673F5E0>, 'bucket': 'dss-dev-ritrace', 'key': 'media/public/automation_poc/sameer/uploads/8/page_1.png', 'fileobj': <tempfile.SpooledTemporaryFile object at 0x000001E476620550>, 'extra_args': {}, 'callbacks': [], 'max_attempts': 5, 'download_output_manager': <s3transfer.download.DownloadSeekableOutputManager object at 0x000001E44424E400>, 'io_chunksize': 262144, 'bandwidth_limiter': None}
+04-05-2023 13:25:12,655 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x000001E4456220D0>
+04-05-2023 13:25:12,655 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x000001E445622040>
+04-05-2023 13:25:12,655 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:25:12,655 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x000001E47677E280>>
+04-05-2023 13:25:12,655 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x000001E44561CE50>
+04-05-2023 13:25:12,656 DEBUG    [hooks.py:210] Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x000001E4456223A0>
+04-05-2023 13:25:12,656 DEBUG    [hooks.py:210] Event before-call.s3.GetObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:25:12,656 DEBUG    [hooks.py:210] Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x000001E445625700>
+04-05-2023 13:25:12,656 DEBUG    [endpoint.py:100] Making request for OperationModel(name=GetObject) with params: {'url_path': '/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png', 'query_string': {}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38 Resource'}, 'body': b'', 'url': 'https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001E47677E8B0>, 'has_streaming_input': False, 'auth_type': None, 'signing': {'bucket': 'dss-dev-ritrace'}}}
+04-05-2023 13:25:12,656 DEBUG    [hooks.py:210] Event request-created.s3.GetObject: calling handler <function signal_not_transferring at 0x000001E473B0A790>
+04-05-2023 13:25:12,656 DEBUG    [hooks.py:210] Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001E47677E8E0>>
+04-05-2023 13:25:12,656 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x000001E47677EFD0>>
+04-05-2023 13:25:12,656 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E4768479D0>>
+04-05-2023 13:25:12,656 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x000001E44561CD30>
+04-05-2023 13:25:12,656 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x000001E47677EFD0>>
+04-05-2023 13:25:12,659 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:25:12,659 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:25:12,660 DEBUG    [auth.py:380] Calculating signature using v4 auth.
+04-05-2023 13:25:12,660 DEBUG    [auth.py:381] CanonicalRequest:
+GET
+/media/public/automation_poc/sameer/uploads/8/page_1.png
+
+host:dss-dev-ritrace.s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20230504T075512Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+04-05-2023 13:25:12,660 DEBUG    [auth.py:383] StringToSign:
+AWS4-HMAC-SHA256
+20230504T075512Z
+20230504/us-east-1/s3/aws4_request
+5589f2dff578b9499f5c8a5ec414bcc90dbf41d7db0239f46a16bb00702eaee9
+04-05-2023 13:25:12,660 DEBUG    [auth.py:385] Signature:
+841cd7f3118ac7802db9a4e27e30061f59201105eb0d0119dd58eec309c8d430
+04-05-2023 13:25:12,660 DEBUG    [hooks.py:210] Event request-created.s3.GetObject: calling handler <function signal_transferring at 0x000001E473B0A820>
+04-05-2023 13:25:12,660 DEBUG    [endpoint.py:187] Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/page_1.png, headers={'User-Agent': b'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38 Resource', 'X-Amz-Date': b'20230504T075512Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAW3GZXGRDWQCHJYXB/20230504/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=841cd7f3118ac7802db9a4e27e30061f59201105eb0d0119dd58eec309c8d430'}>
+04-05-2023 13:25:12,661 DEBUG    [httpsession.py:51] Certificate path: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\certifi\cacert.pem
+04-05-2023 13:25:13,33 DEBUG    [connectionpool.py:456] https://dss-dev-ritrace.s3.amazonaws.com:443 "GET /media/public/automation_poc/sameer/uploads/8/page_1.png HTTP/1.1" 200 260983
+04-05-2023 13:25:13,34 DEBUG    [parsers.py:233] Response headers: {'x-amz-id-2': 'SUpTq5qM94kC1oKZI+0Y7RHMA5pLVmPWnXkkvDyp6HMN2EKVxV3EbFLmsiYG1JcIoy4V56+jhOc=', 'x-amz-request-id': 'SE51Y7F98KG08TMJ', 'Date': 'Thu, 04 May 2023 07:54:47 GMT', 'Last-Modified': 'Tue, 21 Mar 2023 11:36:38 GMT', 'ETag': '"74b525c1dc5c46f7ece4275b3ebf952c"', 'x-amz-server-side-encryption': 'AES256', 'x-amz-version-id': 'UAgk3iTdcWInMGuKWuPeRHvR9XgqpATT', 'Accept-Ranges': 'bytes', 'Content-Type': 'binary/octet-stream', 'Server': 'AmazonS3', 'Content-Length': '260983'}
+04-05-2023 13:25:13,34 DEBUG    [parsers.py:234] Response body:
+<botocore.response.StreamingBody object at 0x000001E4749B4910>
+04-05-2023 13:25:13,35 DEBUG    [hooks.py:210] Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000001E47677E340>
+04-05-2023 13:25:13,35 DEBUG    [retryhandler.py:187] No retry needed.
+04-05-2023 13:25:13,36 DEBUG    [hooks.py:210] Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:25:13,897 DEBUG    [tasks.py:193] IOWriteTask(transfer_id=0, {'offset': 0}) about to wait for the following futures []
+04-05-2023 13:25:13,897 DEBUG    [tasks.py:203] IOWriteTask(transfer_id=0, {'offset': 0}) done waiting for dependent futures
+04-05-2023 13:25:13,898 DEBUG    [tasks.py:146] Executing task IOWriteTask(transfer_id=0, {'offset': 0}) with kwargs {'fileobj': <tempfile.SpooledTemporaryFile object at 0x000001E476620550>, 'offset': 0}
+04-05-2023 13:25:13,898 DEBUG    [tasks.py:193] CompleteDownloadNOOPTask(transfer_id=0, {}) about to wait for the following futures []
+04-05-2023 13:25:13,898 DEBUG    [tasks.py:203] CompleteDownloadNOOPTask(transfer_id=0, {}) done waiting for dependent futures
+04-05-2023 13:25:13,898 DEBUG    [tasks.py:146] Executing task CompleteDownloadNOOPTask(transfer_id=0, {}) with kwargs {}
+04-05-2023 13:25:13,898 DEBUG    [utils.py:612] Releasing acquire 0/None
+04-05-2023 13:25:51,172 DEBUG    [hooks.py:420] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+04-05-2023 13:25:51,175 DEBUG    [hooks.py:420] Changing event name from before-call.apigateway to before-call.api-gateway
+04-05-2023 13:25:51,176 DEBUG    [hooks.py:420] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+04-05-2023 13:25:51,178 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+04-05-2023 13:25:51,178 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+04-05-2023 13:25:51,179 DEBUG    [hooks.py:420] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+04-05-2023 13:25:51,180 DEBUG    [hooks.py:420] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+04-05-2023 13:25:51,185 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+04-05-2023 13:25:51,185 DEBUG    [hooks.py:420] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+04-05-2023 13:25:51,186 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+04-05-2023 13:25:51,186 DEBUG    [hooks.py:420] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+04-05-2023 13:25:51,192 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\endpoints.json
+04-05-2023 13:25:51,205 DEBUG    [hooks.py:210] Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001E445604700>
+04-05-2023 13:25:51,504 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json
+04-05-2023 13:25:51,527 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000001E4455B05E0>
+04-05-2023 13:25:51,527 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000001E47433A670>
+04-05-2023 13:25:51,527 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000001E4455B03A0>
+04-05-2023 13:25:51,530 DEBUG    [endpoint.py:292] Setting s3 timeout as (60, 60)
+04-05-2023 13:25:51,532 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\_retry.json
+04-05-2023 13:25:51,532 DEBUG    [client.py:165] Registering retry handlers for service: s3
+04-05-2023 13:25:51,535 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutBucketCors: calling handler <function validate_bucket_name at 0x000001E445622040>
+04-05-2023 13:25:51,535 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutBucketCors: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x000001E4764A1280>>
+04-05-2023 13:25:51,536 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutBucketCors: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x000001E4764A1EB0>>
+04-05-2023 13:25:51,536 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutBucketCors: calling handler <function generate_idempotent_uuid at 0x000001E44561CE50>
+04-05-2023 13:25:51,538 DEBUG    [hooks.py:210] Event before-call.s3.PutBucketCors: calling handler <function add_expect_header at 0x000001E4456223A0>
+04-05-2023 13:25:51,538 DEBUG    [hooks.py:210] Event before-call.s3.PutBucketCors: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x000001E4764A1280>>
+04-05-2023 13:25:51,539 DEBUG    [hooks.py:210] Event before-call.s3.PutBucketCors: calling handler <function inject_api_version_header_if_needed at 0x000001E445625700>
+04-05-2023 13:25:51,539 DEBUG    [endpoint.py:100] Making request for OperationModel(name=PutBucketCors) with params: {'url_path': '/dss-dev-ritrace?cors', 'query_string': {}, 'method': 'PUT', 'headers': {'Content-MD5': 'mtc/fYOw3NRHuhykL/56nA==', 'User-Agent': 'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38'}, 'body': b'<CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><CORSRule><AllowedHeader>Authorization</AllowedHeader><AllowedMethod>GET</AllowedMethod><AllowedMethod>PUT</AllowedMethod><AllowedOrigin>*</AllowedOrigin><ExposeHeader>ETag</ExposeHeader><ExposeHeader>x-amz-request-id</ExposeHeader><MaxAgeSeconds>3000</MaxAgeSeconds></CORSRule></CORSConfiguration>', 'url': 'https://s3.amazonaws.com/dss-dev-ritrace?cors', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001E47629F760>, 'has_streaming_input': False, 'auth_type': None, 'signing': {'bucket': 'dss-dev-ritrace'}}}
+04-05-2023 13:25:51,540 DEBUG    [hooks.py:210] Event request-created.s3.PutBucketCors: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001E47629FA90>>
+04-05-2023 13:25:51,541 DEBUG    [hooks.py:210] Event choose-signer.s3.PutBucketCors: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x000001E4764A1DF0>>
+04-05-2023 13:25:51,542 DEBUG    [hooks.py:210] Event choose-signer.s3.PutBucketCors: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E476679370>>
+04-05-2023 13:25:51,542 DEBUG    [hooks.py:210] Event choose-signer.s3.PutBucketCors: calling handler <function set_operation_specific_signer at 0x000001E44561CD30>
+04-05-2023 13:25:51,542 DEBUG    [hooks.py:210] Event before-sign.s3.PutBucketCors: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x000001E4764A1DF0>>
+04-05-2023 13:25:51,542 DEBUG    [utils.py:1931] Defaulting to S3 virtual host style addressing with path style addressing fallback.
+04-05-2023 13:25:51,543 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace?cors
+04-05-2023 13:25:51,543 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/?cors
+04-05-2023 13:25:51,543 DEBUG    [auth.py:380] Calculating signature using v4 auth.
+04-05-2023 13:25:51,543 DEBUG    [auth.py:381] CanonicalRequest:
+PUT
+/
+cors=
+content-md5:mtc/fYOw3NRHuhykL/56nA==
+host:dss-dev-ritrace.s3.amazonaws.com
+x-amz-content-sha256:d8961b555f4820ba61b28b6a05337bf0e5d08391594836dc5f5c19ef36001983
+x-amz-date:20230504T075551Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+d8961b555f4820ba61b28b6a05337bf0e5d08391594836dc5f5c19ef36001983
+04-05-2023 13:25:51,543 DEBUG    [auth.py:383] StringToSign:
+AWS4-HMAC-SHA256
+20230504T075551Z
+20230504/us-east-1/s3/aws4_request
+3087098a4e324aba4c2aeb992b52a1453e6c0f3bcd275bf8d26d7370530e0943
+04-05-2023 13:25:51,543 DEBUG    [auth.py:385] Signature:
+661d01588469c5e5815ea172c9ed008250bb8c49dcb734205070b4e56ad7270a
+04-05-2023 13:25:51,544 DEBUG    [endpoint.py:187] Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://dss-dev-ritrace.s3.amazonaws.com/?cors, headers={'Content-MD5': b'mtc/fYOw3NRHuhykL/56nA==', 'User-Agent': b'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38', 'X-Amz-Date': b'20230504T075551Z', 'X-Amz-Content-SHA256': b'd8961b555f4820ba61b28b6a05337bf0e5d08391594836dc5f5c19ef36001983', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAW3GZXGRDWQCHJYXB/20230504/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=661d01588469c5e5815ea172c9ed008250bb8c49dcb734205070b4e56ad7270a', 'Content-Length': '365'}>
+04-05-2023 13:25:51,544 DEBUG    [httpsession.py:51] Certificate path: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\certifi\cacert.pem
+04-05-2023 13:25:51,544 DEBUG    [connectionpool.py:1003] Starting new HTTPS connection (1): dss-dev-ritrace.s3.amazonaws.com:443
+04-05-2023 13:25:52,897 DEBUG    [connectionpool.py:456] https://dss-dev-ritrace.s3.amazonaws.com:443 "PUT /?cors HTTP/1.1" 200 0
+04-05-2023 13:25:52,897 DEBUG    [parsers.py:233] Response headers: {'x-amz-id-2': 'Iuu7RkAZgOhNkNWBToLqRnQS9V+FYepdJd1oKva1edZ3iE1wIlGBA8K5pG+UHE3FswHV024GYqA=', 'x-amz-request-id': 'GF4FJVHFAR0HBP3R', 'Date': 'Thu, 04 May 2023 07:55:27 GMT', 'Server': 'AmazonS3', 'Content-Length': '0'}
+04-05-2023 13:25:52,897 DEBUG    [parsers.py:234] Response body:
+b''
+04-05-2023 13:25:52,897 DEBUG    [hooks.py:210] Event needs-retry.s3.PutBucketCors: calling handler <botocore.retryhandler.RetryHandler object at 0x000001E4764A1430>
+04-05-2023 13:25:52,897 DEBUG    [retryhandler.py:187] No retry needed.
+04-05-2023 13:25:52,897 DEBUG    [hooks.py:210] Event needs-retry.s3.PutBucketCors: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x000001E4764A1280>>
+04-05-2023 13:25:52,901 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x000001E4456220D0>
+04-05-2023 13:25:52,901 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x000001E445622040>
+04-05-2023 13:25:52,901 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x000001E4764A1280>>
+04-05-2023 13:25:52,901 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x000001E4764A1EB0>>
+04-05-2023 13:25:52,901 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x000001E44561CE50>
+04-05-2023 13:25:52,901 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x000001E4764A1DF0>>
+04-05-2023 13:25:52,905 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E476679370>>
+04-05-2023 13:25:52,905 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x000001E4764A1DF0>>
+04-05-2023 13:25:52,906 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_2.png
+04-05-2023 13:25:52,906 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/page_2.png
+04-05-2023 13:25:52,906 DEBUG    [auth.py:736] Calculating signature using hmacv1 auth.
+04-05-2023 13:25:52,906 DEBUG    [auth.py:738] HTTP request method: GET
+04-05-2023 13:25:52,906 DEBUG    [auth.py:730] StringToSign:
+GET
+
+
+1684482952
+/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_2.png
+04-05-2023 13:25:52,906 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x000001E4456220D0>
+04-05-2023 13:25:52,906 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x000001E445622040>
+04-05-2023 13:25:52,906 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x000001E4764A1280>>
+04-05-2023 13:25:52,906 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x000001E4764A1EB0>>
+04-05-2023 13:25:52,906 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x000001E44561CE50>
+04-05-2023 13:25:52,906 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x000001E4764A1DF0>>
+04-05-2023 13:25:52,908 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E476679370>>
+04-05-2023 13:25:52,908 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x000001E4764A1DF0>>
+04-05-2023 13:25:52,908 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/1.html
+04-05-2023 13:25:52,908 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/1.html
+04-05-2023 13:25:52,908 DEBUG    [auth.py:736] Calculating signature using hmacv1 auth.
+04-05-2023 13:25:52,908 DEBUG    [auth.py:738] HTTP request method: GET
+04-05-2023 13:25:52,908 DEBUG    [auth.py:730] StringToSign:
+GET
+
+
+1684482952
+/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/1.html
+04-05-2023 13:25:52,910 DEBUG    [connectionpool.py:1003] Starting new HTTPS connection (1): dss-dev-ritrace.s3.amazonaws.com:443
+04-05-2023 13:25:54,141 DEBUG    [connectionpool.py:456] https://dss-dev-ritrace.s3.amazonaws.com:443 "GET /media/public/automation_poc/sameer/uploads/8/1.html?AWSAccessKeyId=AKIAW3GZXGRDWQCHJYXB&Signature=UCj0g9SZynjsaPLdJwWeQ3QDJhQ%3D&Expires=1684482952 HTTP/1.1" 200 106115
+04-05-2023 13:25:55,384 DEBUG    [sjisprober.py:65] SHIFT_JIS Japanese prober hit error at byte 43592
+04-05-2023 13:25:55,578 DEBUG    [eucjpprober.py:66] EUC-JP Japanese prober hit error at byte 42721
+04-05-2023 13:25:55,725 DEBUG    [mbcharsetprober.py:64] GB2312 Chinese prober hit error at byte 43592
+04-05-2023 13:25:55,867 DEBUG    [mbcharsetprober.py:64] EUC-KR Korean prober hit error at byte 42721
+04-05-2023 13:25:56,13 DEBUG    [mbcharsetprober.py:64] CP949 Korean prober hit error at byte 42721
+04-05-2023 13:25:56,211 DEBUG    [mbcharsetprober.py:64] Big5 Chinese prober hit error at byte 42722
+04-05-2023 13:25:56,415 DEBUG    [mbcharsetprober.py:64] EUC-TW Taiwan prober hit error at byte 42721
+04-05-2023 13:25:56,556 DEBUG    [mbcharsetprober.py:64] Johab Korean prober hit error at byte 42721
+04-05-2023 13:25:56,885 DEBUG    [charsetgroupprober.py:98] utf-8  confidence = 0.7525
+04-05-2023 13:25:56,886 DEBUG    [charsetgroupprober.py:95] SHIFT_JIS not active
+04-05-2023 13:25:56,886 DEBUG    [charsetgroupprober.py:95] EUC-JP not active
+04-05-2023 13:25:56,886 DEBUG    [charsetgroupprober.py:95] GB2312 not active
+04-05-2023 13:25:56,886 DEBUG    [charsetgroupprober.py:95] EUC-KR not active
+04-05-2023 13:25:56,886 DEBUG    [charsetgroupprober.py:95] CP949 not active
+04-05-2023 13:25:56,886 DEBUG    [charsetgroupprober.py:95] Big5 not active
+04-05-2023 13:25:56,886 DEBUG    [charsetgroupprober.py:95] EUC-TW not active
+04-05-2023 13:25:56,886 DEBUG    [charsetgroupprober.py:95] Johab not active
+04-05-2023 13:25:56,887 DEBUG    [charsetgroupprober.py:98] windows-1251 Russian confidence = 0.01
+04-05-2023 13:25:56,887 DEBUG    [charsetgroupprober.py:98] KOI8-R Russian confidence = 0.01
+04-05-2023 13:25:56,887 DEBUG    [charsetgroupprober.py:98] ISO-8859-5 Russian confidence = 0.01
+04-05-2023 13:25:56,887 DEBUG    [charsetgroupprober.py:98] MacCyrillic Russian confidence = 0.0
+04-05-2023 13:25:56,887 DEBUG    [charsetgroupprober.py:98] IBM866 Russian confidence = 0.0
+04-05-2023 13:25:56,888 DEBUG    [charsetgroupprober.py:98] IBM855 Russian confidence = 0.01
+04-05-2023 13:25:56,888 DEBUG    [charsetgroupprober.py:98] ISO-8859-7 Greek confidence = 0.01
+04-05-2023 13:25:56,888 DEBUG    [charsetgroupprober.py:98] windows-1253 Greek confidence = 0.01
+04-05-2023 13:25:56,888 DEBUG    [charsetgroupprober.py:98] ISO-8859-5 Bulgarian confidence = 0.01
+04-05-2023 13:25:56,888 DEBUG    [charsetgroupprober.py:98] windows-1251 Bulgarian confidence = 0.01
+04-05-2023 13:25:56,888 DEBUG    [charsetgroupprober.py:98] TIS-620 Thai confidence = 0.01
+04-05-2023 13:25:56,888 DEBUG    [charsetgroupprober.py:98] ISO-8859-9 Turkish confidence = 0.48589365234637094
+04-05-2023 13:25:56,888 DEBUG    [charsetgroupprober.py:98] windows-1255 Hebrew confidence = 0.0
+04-05-2023 13:25:56,888 DEBUG    [charsetgroupprober.py:98] windows-1255 Hebrew confidence = 0.01
+04-05-2023 13:25:56,888 DEBUG    [charsetgroupprober.py:98] windows-1255 Hebrew confidence = 0.01
+04-05-2023 13:25:56,889 DEBUG    [charsetgroupprober.py:98] utf-8  confidence = 0.7525
+04-05-2023 13:25:56,889 DEBUG    [charsetgroupprober.py:95] SHIFT_JIS not active
+04-05-2023 13:25:56,889 DEBUG    [charsetgroupprober.py:95] EUC-JP not active
+04-05-2023 13:25:56,889 DEBUG    [charsetgroupprober.py:95] GB2312 not active
+04-05-2023 13:25:56,890 DEBUG    [charsetgroupprober.py:95] EUC-KR not active
+04-05-2023 13:25:56,890 DEBUG    [charsetgroupprober.py:95] CP949 not active
+04-05-2023 13:25:56,890 DEBUG    [charsetgroupprober.py:95] Big5 not active
+04-05-2023 13:25:56,890 DEBUG    [charsetgroupprober.py:95] EUC-TW not active
+04-05-2023 13:25:56,891 DEBUG    [charsetgroupprober.py:95] Johab not active
+04-05-2023 13:26:14,899 DEBUG    [hooks.py:420] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+04-05-2023 13:26:14,903 DEBUG    [hooks.py:420] Changing event name from before-call.apigateway to before-call.api-gateway
+04-05-2023 13:26:14,914 DEBUG    [hooks.py:420] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+04-05-2023 13:26:14,931 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+04-05-2023 13:26:14,931 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+04-05-2023 13:26:14,949 DEBUG    [hooks.py:420] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+04-05-2023 13:26:14,950 DEBUG    [hooks.py:420] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+04-05-2023 13:26:14,983 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+04-05-2023 13:26:14,995 DEBUG    [hooks.py:420] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+04-05-2023 13:26:15,7 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+04-05-2023 13:26:15,24 DEBUG    [hooks.py:420] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+04-05-2023 13:26:15,134 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\endpoints.json
+04-05-2023 13:26:15,151 DEBUG    [hooks.py:210] Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001E445604700>
+04-05-2023 13:26:16,402 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json
+04-05-2023 13:26:16,418 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000001E4455B05E0>
+04-05-2023 13:26:16,418 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000001E47641AB80>
+04-05-2023 13:26:16,418 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000001E4455B03A0>
+04-05-2023 13:26:16,422 DEBUG    [endpoint.py:292] Setting s3 timeout as (60, 60)
+04-05-2023 13:26:16,424 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\_retry.json
+04-05-2023 13:26:16,425 DEBUG    [client.py:165] Registering retry handlers for service: s3
+04-05-2023 13:26:16,432 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutBucketCors: calling handler <function validate_bucket_name at 0x000001E445622040>
+04-05-2023 13:26:16,432 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutBucketCors: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x000001E4743C8D00>>
+04-05-2023 13:26:16,432 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutBucketCors: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x000001E4743C8DC0>>
+04-05-2023 13:26:16,433 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutBucketCors: calling handler <function generate_idempotent_uuid at 0x000001E44561CE50>
+04-05-2023 13:26:16,434 DEBUG    [hooks.py:210] Event before-call.s3.PutBucketCors: calling handler <function add_expect_header at 0x000001E4456223A0>
+04-05-2023 13:26:16,434 DEBUG    [hooks.py:210] Event before-call.s3.PutBucketCors: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x000001E4743C8D00>>
+04-05-2023 13:26:16,434 DEBUG    [hooks.py:210] Event before-call.s3.PutBucketCors: calling handler <function inject_api_version_header_if_needed at 0x000001E445625700>
+04-05-2023 13:26:16,434 DEBUG    [endpoint.py:100] Making request for OperationModel(name=PutBucketCors) with params: {'url_path': '/dss-dev-ritrace?cors', 'query_string': {}, 'method': 'PUT', 'headers': {'Content-MD5': 'mtc/fYOw3NRHuhykL/56nA==', 'User-Agent': 'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38'}, 'body': b'<CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><CORSRule><AllowedHeader>Authorization</AllowedHeader><AllowedMethod>GET</AllowedMethod><AllowedMethod>PUT</AllowedMethod><AllowedOrigin>*</AllowedOrigin><ExposeHeader>ETag</ExposeHeader><ExposeHeader>x-amz-request-id</ExposeHeader><MaxAgeSeconds>3000</MaxAgeSeconds></CORSRule></CORSConfiguration>', 'url': 'https://s3.amazonaws.com/dss-dev-ritrace?cors', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001E473D11790>, 'has_streaming_input': False, 'auth_type': None, 'signing': {'bucket': 'dss-dev-ritrace'}}}
+04-05-2023 13:26:16,434 DEBUG    [hooks.py:210] Event request-created.s3.PutBucketCors: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001E473D11CA0>>
+04-05-2023 13:26:16,435 DEBUG    [hooks.py:210] Event choose-signer.s3.PutBucketCors: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x000001E4743C8AC0>>
+04-05-2023 13:26:16,435 DEBUG    [hooks.py:210] Event choose-signer.s3.PutBucketCors: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E4773E81F0>>
+04-05-2023 13:26:16,435 DEBUG    [hooks.py:210] Event choose-signer.s3.PutBucketCors: calling handler <function set_operation_specific_signer at 0x000001E44561CD30>
+04-05-2023 13:26:16,435 DEBUG    [hooks.py:210] Event before-sign.s3.PutBucketCors: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x000001E4743C8AC0>>
+04-05-2023 13:26:16,435 DEBUG    [utils.py:1931] Defaulting to S3 virtual host style addressing with path style addressing fallback.
+04-05-2023 13:26:16,436 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace?cors
+04-05-2023 13:26:16,436 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/?cors
+04-05-2023 13:26:16,437 DEBUG    [auth.py:380] Calculating signature using v4 auth.
+04-05-2023 13:26:16,437 DEBUG    [auth.py:381] CanonicalRequest:
+PUT
+/
+cors=
+content-md5:mtc/fYOw3NRHuhykL/56nA==
+host:dss-dev-ritrace.s3.amazonaws.com
+x-amz-content-sha256:d8961b555f4820ba61b28b6a05337bf0e5d08391594836dc5f5c19ef36001983
+x-amz-date:20230504T075616Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+d8961b555f4820ba61b28b6a05337bf0e5d08391594836dc5f5c19ef36001983
+04-05-2023 13:26:16,437 DEBUG    [auth.py:383] StringToSign:
+AWS4-HMAC-SHA256
+20230504T075616Z
+20230504/us-east-1/s3/aws4_request
+ce2be780ff8ff65ec9670cc65ff23137c9bbacb777c3756b521b256ae9155aa1
+04-05-2023 13:26:16,437 DEBUG    [auth.py:385] Signature:
+4c7d935bbbb7a74a360518fe963fda5db5946d6dfdd6e5af9f4408f56754d995
+04-05-2023 13:26:16,438 DEBUG    [endpoint.py:187] Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://dss-dev-ritrace.s3.amazonaws.com/?cors, headers={'Content-MD5': b'mtc/fYOw3NRHuhykL/56nA==', 'User-Agent': b'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38', 'X-Amz-Date': b'20230504T075616Z', 'X-Amz-Content-SHA256': b'd8961b555f4820ba61b28b6a05337bf0e5d08391594836dc5f5c19ef36001983', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAW3GZXGRDWQCHJYXB/20230504/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=4c7d935bbbb7a74a360518fe963fda5db5946d6dfdd6e5af9f4408f56754d995', 'Content-Length': '365'}>
+04-05-2023 13:26:16,438 DEBUG    [httpsession.py:51] Certificate path: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\certifi\cacert.pem
+04-05-2023 13:26:16,438 DEBUG    [connectionpool.py:1003] Starting new HTTPS connection (1): dss-dev-ritrace.s3.amazonaws.com:443
+04-05-2023 13:26:17,839 DEBUG    [connectionpool.py:456] https://dss-dev-ritrace.s3.amazonaws.com:443 "PUT /?cors HTTP/1.1" 200 0
+04-05-2023 13:26:17,840 DEBUG    [parsers.py:233] Response headers: {'x-amz-id-2': 'uJPCdiQ1JZzsuXnd9BsYy/qCpKvtQEM8Jy1M405Y72VHSgVKdSKCBsEVcR7haSky98+eBStw9CQ=', 'x-amz-request-id': '5E35XXAG7FRCPWG0', 'Date': 'Thu, 04 May 2023 07:55:52 GMT', 'Server': 'AmazonS3', 'Content-Length': '0'}
+04-05-2023 13:26:17,841 DEBUG    [parsers.py:234] Response body:
+b''
+04-05-2023 13:26:17,841 DEBUG    [hooks.py:210] Event needs-retry.s3.PutBucketCors: calling handler <botocore.retryhandler.RetryHandler object at 0x000001E4743C8B50>
+04-05-2023 13:26:17,841 DEBUG    [retryhandler.py:187] No retry needed.
+04-05-2023 13:26:17,841 DEBUG    [hooks.py:210] Event needs-retry.s3.PutBucketCors: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x000001E4743C8D00>>
+04-05-2023 13:26:17,842 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x000001E4456220D0>
+04-05-2023 13:26:17,842 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x000001E445622040>
+04-05-2023 13:26:17,843 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x000001E4743C8D00>>
+04-05-2023 13:26:17,843 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x000001E4743C8DC0>>
+04-05-2023 13:26:17,843 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x000001E44561CE50>
+04-05-2023 13:26:17,845 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x000001E4743C8AC0>>
+04-05-2023 13:26:17,846 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E4773E81F0>>
+04-05-2023 13:26:17,846 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x000001E4743C8AC0>>
+04-05-2023 13:26:17,846 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:26:17,846 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:26:17,846 DEBUG    [auth.py:736] Calculating signature using hmacv1 auth.
+04-05-2023 13:26:17,847 DEBUG    [auth.py:738] HTTP request method: GET
+04-05-2023 13:26:17,847 DEBUG    [auth.py:730] StringToSign:
+GET
+
+
+1684482977
+/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:26:17,847 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x000001E4456220D0>
+04-05-2023 13:26:17,847 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x000001E445622040>
+04-05-2023 13:26:17,848 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x000001E4743C8D00>>
+04-05-2023 13:26:17,848 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x000001E4743C8DC0>>
+04-05-2023 13:26:17,848 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x000001E44561CE50>
+04-05-2023 13:26:17,849 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x000001E4743C8AC0>>
+04-05-2023 13:26:17,849 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E4773E81F0>>
+04-05-2023 13:26:17,849 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x000001E4743C8AC0>>
+04-05-2023 13:26:17,849 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/1.html
+04-05-2023 13:26:17,850 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/1.html
+04-05-2023 13:26:17,850 DEBUG    [auth.py:736] Calculating signature using hmacv1 auth.
+04-05-2023 13:26:17,850 DEBUG    [auth.py:738] HTTP request method: GET
+04-05-2023 13:26:17,851 DEBUG    [auth.py:730] StringToSign:
+GET
+
+
+1684482977
+/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/1.html
+04-05-2023 13:26:17,856 DEBUG    [connectionpool.py:1003] Starting new HTTPS connection (1): dss-dev-ritrace.s3.amazonaws.com:443
+04-05-2023 13:26:19,105 DEBUG    [connectionpool.py:456] https://dss-dev-ritrace.s3.amazonaws.com:443 "GET /media/public/automation_poc/sameer/uploads/8/1.html?AWSAccessKeyId=AKIAW3GZXGRDWQCHJYXB&Signature=f%2FSlwZxmvjeQDXPD48wHj1JHCdg%3D&Expires=1684482977 HTTP/1.1" 200 106115
+04-05-2023 13:26:20,420 DEBUG    [sjisprober.py:65] SHIFT_JIS Japanese prober hit error at byte 43592
+04-05-2023 13:26:20,661 DEBUG    [eucjpprober.py:66] EUC-JP Japanese prober hit error at byte 42721
+04-05-2023 13:26:20,839 DEBUG    [mbcharsetprober.py:64] GB2312 Chinese prober hit error at byte 43592
+04-05-2023 13:26:20,962 DEBUG    [mbcharsetprober.py:64] EUC-KR Korean prober hit error at byte 42721
+04-05-2023 13:26:21,103 DEBUG    [mbcharsetprober.py:64] CP949 Korean prober hit error at byte 42721
+04-05-2023 13:26:21,260 DEBUG    [mbcharsetprober.py:64] Big5 Chinese prober hit error at byte 42722
+04-05-2023 13:26:21,417 DEBUG    [mbcharsetprober.py:64] EUC-TW Taiwan prober hit error at byte 42721
+04-05-2023 13:26:21,533 DEBUG    [mbcharsetprober.py:64] Johab Korean prober hit error at byte 42721
+04-05-2023 13:26:21,891 DEBUG    [charsetgroupprober.py:98] utf-8  confidence = 0.7525
+04-05-2023 13:26:21,892 DEBUG    [charsetgroupprober.py:95] SHIFT_JIS not active
+04-05-2023 13:26:21,892 DEBUG    [charsetgroupprober.py:95] EUC-JP not active
+04-05-2023 13:26:21,893 DEBUG    [charsetgroupprober.py:95] GB2312 not active
+04-05-2023 13:26:21,893 DEBUG    [charsetgroupprober.py:95] EUC-KR not active
+04-05-2023 13:26:21,893 DEBUG    [charsetgroupprober.py:95] CP949 not active
+04-05-2023 13:26:21,894 DEBUG    [charsetgroupprober.py:95] Big5 not active
+04-05-2023 13:26:21,894 DEBUG    [charsetgroupprober.py:95] EUC-TW not active
+04-05-2023 13:26:21,894 DEBUG    [charsetgroupprober.py:95] Johab not active
+04-05-2023 13:26:21,894 DEBUG    [charsetgroupprober.py:98] windows-1251 Russian confidence = 0.01
+04-05-2023 13:26:21,894 DEBUG    [charsetgroupprober.py:98] KOI8-R Russian confidence = 0.01
+04-05-2023 13:26:21,894 DEBUG    [charsetgroupprober.py:98] ISO-8859-5 Russian confidence = 0.01
+04-05-2023 13:26:21,894 DEBUG    [charsetgroupprober.py:98] MacCyrillic Russian confidence = 0.0
+04-05-2023 13:26:21,895 DEBUG    [charsetgroupprober.py:98] IBM866 Russian confidence = 0.0
+04-05-2023 13:26:21,895 DEBUG    [charsetgroupprober.py:98] IBM855 Russian confidence = 0.01
+04-05-2023 13:26:21,895 DEBUG    [charsetgroupprober.py:98] ISO-8859-7 Greek confidence = 0.01
+04-05-2023 13:26:21,895 DEBUG    [charsetgroupprober.py:98] windows-1253 Greek confidence = 0.01
+04-05-2023 13:26:21,895 DEBUG    [charsetgroupprober.py:98] ISO-8859-5 Bulgarian confidence = 0.01
+04-05-2023 13:26:21,895 DEBUG    [charsetgroupprober.py:98] windows-1251 Bulgarian confidence = 0.01
+04-05-2023 13:26:21,896 DEBUG    [charsetgroupprober.py:98] TIS-620 Thai confidence = 0.01
+04-05-2023 13:26:21,896 DEBUG    [charsetgroupprober.py:98] ISO-8859-9 Turkish confidence = 0.48589365234637094
+04-05-2023 13:26:21,897 DEBUG    [charsetgroupprober.py:98] windows-1255 Hebrew confidence = 0.0
+04-05-2023 13:26:21,897 DEBUG    [charsetgroupprober.py:98] windows-1255 Hebrew confidence = 0.01
+04-05-2023 13:26:21,897 DEBUG    [charsetgroupprober.py:98] windows-1255 Hebrew confidence = 0.01
+04-05-2023 13:26:21,897 DEBUG    [charsetgroupprober.py:98] utf-8  confidence = 0.7525
+04-05-2023 13:26:21,897 DEBUG    [charsetgroupprober.py:95] SHIFT_JIS not active
+04-05-2023 13:26:21,897 DEBUG    [charsetgroupprober.py:95] EUC-JP not active
+04-05-2023 13:26:21,898 DEBUG    [charsetgroupprober.py:95] GB2312 not active
+04-05-2023 13:26:21,898 DEBUG    [charsetgroupprober.py:95] EUC-KR not active
+04-05-2023 13:26:21,898 DEBUG    [charsetgroupprober.py:95] CP949 not active
+04-05-2023 13:26:21,902 DEBUG    [charsetgroupprober.py:95] Big5 not active
+04-05-2023 13:26:21,902 DEBUG    [charsetgroupprober.py:95] EUC-TW not active
+04-05-2023 13:26:21,903 DEBUG    [charsetgroupprober.py:95] Johab not active
+04-05-2023 13:26:39,373 DEBUG    [factory.py:65] Loading s3:Object
+04-05-2023 13:26:39,375 DEBUG    [hooks.py:210] Event creating-resource-class.s3.Object: calling handler <function lazy_call.<locals>._handler at 0x000001E4742FEDC0>
+04-05-2023 13:26:39,375 DEBUG    [action.py:80] Calling s3:head_object with {'Bucket': 'dss-dev-ritrace', 'Key': 'media/public/automation_poc/sameer/uploads/8/page_1.png'}
+04-05-2023 13:26:39,375 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x000001E4456220D0>
+04-05-2023 13:26:39,375 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x000001E445622040>
+04-05-2023 13:26:39,375 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:26:39,376 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x000001E47677E280>>
+04-05-2023 13:26:39,376 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x000001E44561CE50>
+04-05-2023 13:26:39,376 DEBUG    [hooks.py:210] Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x000001E4456223A0>
+04-05-2023 13:26:39,376 DEBUG    [hooks.py:210] Event before-call.s3.HeadObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:26:39,376 DEBUG    [hooks.py:210] Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x000001E445625700>
+04-05-2023 13:26:39,376 DEBUG    [endpoint.py:100] Making request for OperationModel(name=HeadObject) with params: {'url_path': '/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38 Resource'}, 'body': b'', 'url': 'https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001E47677E8B0>, 'has_streaming_input': False, 'auth_type': None, 'signing': {'bucket': 'dss-dev-ritrace'}}}
+04-05-2023 13:26:39,376 DEBUG    [hooks.py:210] Event request-created.s3.HeadObject: calling handler <function signal_not_transferring at 0x000001E473B0A790>
+04-05-2023 13:26:39,376 DEBUG    [hooks.py:210] Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001E47677E8E0>>
+04-05-2023 13:26:39,376 DEBUG    [hooks.py:210] Event choose-signer.s3.HeadObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x000001E47677EFD0>>
+04-05-2023 13:26:39,377 DEBUG    [hooks.py:210] Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E4768479D0>>
+04-05-2023 13:26:39,377 DEBUG    [hooks.py:210] Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x000001E44561CD30>
+04-05-2023 13:26:39,377 DEBUG    [hooks.py:210] Event before-sign.s3.HeadObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x000001E47677EFD0>>
+04-05-2023 13:26:39,377 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:26:39,377 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:26:39,378 DEBUG    [auth.py:380] Calculating signature using v4 auth.
+04-05-2023 13:26:39,378 DEBUG    [auth.py:381] CanonicalRequest:
+HEAD
+/media/public/automation_poc/sameer/uploads/8/page_1.png
+
+host:dss-dev-ritrace.s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20230504T075639Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+04-05-2023 13:26:39,378 DEBUG    [auth.py:383] StringToSign:
+AWS4-HMAC-SHA256
+20230504T075639Z
+20230504/us-east-1/s3/aws4_request
+5ef82fbeb87a4d6ba240ba452e3de0e079acf30217592804f7dcc1124d3c6687
+04-05-2023 13:26:39,378 DEBUG    [auth.py:385] Signature:
+3692db533778a1e7773e1a6bd299a3fb2b3cdda86564b2213a565501183581f3
+04-05-2023 13:26:39,378 DEBUG    [hooks.py:210] Event request-created.s3.HeadObject: calling handler <function signal_transferring at 0x000001E473B0A820>
+04-05-2023 13:26:39,378 DEBUG    [endpoint.py:187] Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/page_1.png, headers={'User-Agent': b'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38 Resource', 'X-Amz-Date': b'20230504T075639Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAW3GZXGRDWQCHJYXB/20230504/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=3692db533778a1e7773e1a6bd299a3fb2b3cdda86564b2213a565501183581f3'}>
+04-05-2023 13:26:39,379 DEBUG    [httpsession.py:51] Certificate path: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\certifi\cacert.pem
+04-05-2023 13:26:39,380 DEBUG    [connectionpool.py:273] Resetting dropped connection: dss-dev-ritrace.s3.amazonaws.com
+04-05-2023 13:26:40,692 DEBUG    [connectionpool.py:456] https://dss-dev-ritrace.s3.amazonaws.com:443 "HEAD /media/public/automation_poc/sameer/uploads/8/page_1.png HTTP/1.1" 200 0
+04-05-2023 13:26:40,692 DEBUG    [parsers.py:233] Response headers: {'x-amz-id-2': 'UsRJGO0dm+F3GeaWR+eD3viAtjMrDtaFNW16t3+8LHkbKpeIQntnNcaKnAfq2+i3k7zZjeVvxJE=', 'x-amz-request-id': 'KAF0Q396DJ1X1GJC', 'Date': 'Thu, 04 May 2023 07:56:15 GMT', 'Last-Modified': 'Tue, 21 Mar 2023 11:36:38 GMT', 'ETag': '"74b525c1dc5c46f7ece4275b3ebf952c"', 'x-amz-server-side-encryption': 'AES256', 'x-amz-version-id': 'UAgk3iTdcWInMGuKWuPeRHvR9XgqpATT', 'Accept-Ranges': 'bytes', 'Content-Type': 'binary/octet-stream', 'Server': 'AmazonS3', 'Content-Length': '260983'}
+04-05-2023 13:26:40,692 DEBUG    [parsers.py:234] Response body:
+b''
+04-05-2023 13:26:40,693 DEBUG    [hooks.py:210] Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000001E47677E340>
+04-05-2023 13:26:40,693 DEBUG    [retryhandler.py:187] No retry needed.
+04-05-2023 13:26:40,693 DEBUG    [hooks.py:210] Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:26:40,693 DEBUG    [action.py:85] Response: {'ResponseMetadata': {'RequestId': 'KAF0Q396DJ1X1GJC', 'HostId': 'UsRJGO0dm+F3GeaWR+eD3viAtjMrDtaFNW16t3+8LHkbKpeIQntnNcaKnAfq2+i3k7zZjeVvxJE=', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amz-id-2': 'UsRJGO0dm+F3GeaWR+eD3viAtjMrDtaFNW16t3+8LHkbKpeIQntnNcaKnAfq2+i3k7zZjeVvxJE=', 'x-amz-request-id': 'KAF0Q396DJ1X1GJC', 'date': 'Thu, 04 May 2023 07:56:15 GMT', 'last-modified': 'Tue, 21 Mar 2023 11:36:38 GMT', 'etag': '"74b525c1dc5c46f7ece4275b3ebf952c"', 'x-amz-server-side-encryption': 'AES256', 'x-amz-version-id': 'UAgk3iTdcWInMGuKWuPeRHvR9XgqpATT', 'accept-ranges': 'bytes', 'content-type': 'binary/octet-stream', 'server': 'AmazonS3', 'content-length': '260983'}, 'RetryAttempts': 0}, 'AcceptRanges': 'bytes', 'LastModified': datetime.datetime(2023, 3, 21, 11, 36, 38, tzinfo=tzutc()), 'ContentLength': 260983, 'ETag': '"74b525c1dc5c46f7ece4275b3ebf952c"', 'VersionId': 'UAgk3iTdcWInMGuKWuPeRHvR9XgqpATT', 'ContentType': 'binary/octet-stream', 'ServerSideEncryption': 'AES256', 'Metadata': {}}
+04-05-2023 13:26:40,693 DEBUG    [utils.py:599] Acquiring 0
+04-05-2023 13:26:40,702 DEBUG    [tasks.py:193] DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001E477DB08B0>}) about to wait for the following futures []
+04-05-2023 13:26:40,703 DEBUG    [tasks.py:203] DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001E477DB08B0>}) done waiting for dependent futures
+04-05-2023 13:26:40,704 DEBUG    [tasks.py:146] Executing task DownloadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001E477DB08B0>}) with kwargs {'client': <botocore.client.S3 object at 0x000001E47673F5E0>, 'config': <boto3.s3.transfer.TransferConfig object at 0x000001E4742D0BE0>, 'osutil': <s3transfer.utils.OSUtils object at 0x000001E477DC4F40>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x000001E477CE7F40>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001E477DB08B0>, 'io_executor': <s3transfer.futures.BoundedExecutor object at 0x000001E477DB0220>}
+04-05-2023 13:26:40,704 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x000001E4456220D0>
+04-05-2023 13:26:40,704 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x000001E445622040>
+04-05-2023 13:26:40,704 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:26:40,704 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x000001E47677E280>>
+04-05-2023 13:26:40,704 DEBUG    [hooks.py:210] Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x000001E44561CE50>
+04-05-2023 13:26:40,705 DEBUG    [hooks.py:210] Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x000001E4456223A0>
+04-05-2023 13:26:40,705 DEBUG    [hooks.py:210] Event before-call.s3.HeadObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:26:40,705 DEBUG    [hooks.py:210] Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x000001E445625700>
+04-05-2023 13:26:40,705 DEBUG    [endpoint.py:100] Making request for OperationModel(name=HeadObject) with params: {'url_path': '/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38 Resource'}, 'body': b'', 'url': 'https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001E47677E8B0>, 'has_streaming_input': False, 'auth_type': None, 'signing': {'bucket': 'dss-dev-ritrace'}}}
+04-05-2023 13:26:40,705 DEBUG    [hooks.py:210] Event request-created.s3.HeadObject: calling handler <function signal_not_transferring at 0x000001E473B0A790>
+04-05-2023 13:26:40,705 DEBUG    [hooks.py:210] Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001E47677E8E0>>
+04-05-2023 13:26:40,705 DEBUG    [hooks.py:210] Event choose-signer.s3.HeadObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x000001E47677EFD0>>
+04-05-2023 13:26:40,705 DEBUG    [hooks.py:210] Event choose-signer.s3.HeadObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E4768479D0>>
+04-05-2023 13:26:40,705 DEBUG    [hooks.py:210] Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x000001E44561CD30>
+04-05-2023 13:26:40,705 DEBUG    [hooks.py:210] Event before-sign.s3.HeadObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x000001E47677EFD0>>
+04-05-2023 13:26:40,705 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:26:40,705 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:26:40,705 DEBUG    [auth.py:380] Calculating signature using v4 auth.
+04-05-2023 13:26:40,705 DEBUG    [auth.py:381] CanonicalRequest:
+HEAD
+/media/public/automation_poc/sameer/uploads/8/page_1.png
+
+host:dss-dev-ritrace.s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20230504T075640Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+04-05-2023 13:26:40,705 DEBUG    [auth.py:383] StringToSign:
+AWS4-HMAC-SHA256
+20230504T075640Z
+20230504/us-east-1/s3/aws4_request
+f94415e5d75e834ad0870b0c6716c1e4eba8ce48b5b2870644f39cab89c66b69
+04-05-2023 13:26:40,705 DEBUG    [auth.py:385] Signature:
+1692dc7c1dfe7eada4cd71ef27770d4f46c65d173dbd972d84adcd3738e336e4
+04-05-2023 13:26:40,707 DEBUG    [hooks.py:210] Event request-created.s3.HeadObject: calling handler <function signal_transferring at 0x000001E473B0A820>
+04-05-2023 13:26:40,707 DEBUG    [endpoint.py:187] Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/page_1.png, headers={'User-Agent': b'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38 Resource', 'X-Amz-Date': b'20230504T075640Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAW3GZXGRDWQCHJYXB/20230504/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=1692dc7c1dfe7eada4cd71ef27770d4f46c65d173dbd972d84adcd3738e336e4'}>
+04-05-2023 13:26:40,707 DEBUG    [httpsession.py:51] Certificate path: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\certifi\cacert.pem
+04-05-2023 13:26:40,994 DEBUG    [connectionpool.py:456] https://dss-dev-ritrace.s3.amazonaws.com:443 "HEAD /media/public/automation_poc/sameer/uploads/8/page_1.png HTTP/1.1" 200 0
+04-05-2023 13:26:40,995 DEBUG    [parsers.py:233] Response headers: {'x-amz-id-2': 'r5ledtuto2UamhI931NaWtL1S1MQTWRg2XE9xg/zvS5kqGU4qmQ0n64SVqn/3Pg6WxvDjBLRiwk=', 'x-amz-request-id': 'KAFDNMW3PWX16GS8', 'Date': 'Thu, 04 May 2023 07:56:15 GMT', 'Last-Modified': 'Tue, 21 Mar 2023 11:36:38 GMT', 'ETag': '"74b525c1dc5c46f7ece4275b3ebf952c"', 'x-amz-server-side-encryption': 'AES256', 'x-amz-version-id': 'UAgk3iTdcWInMGuKWuPeRHvR9XgqpATT', 'Accept-Ranges': 'bytes', 'Content-Type': 'binary/octet-stream', 'Server': 'AmazonS3', 'Content-Length': '260983'}
+04-05-2023 13:26:40,995 DEBUG    [parsers.py:234] Response body:
+b''
+04-05-2023 13:26:40,996 DEBUG    [hooks.py:210] Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000001E47677E340>
+04-05-2023 13:26:40,996 DEBUG    [retryhandler.py:187] No retry needed.
+04-05-2023 13:26:40,996 DEBUG    [hooks.py:210] Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:26:40,997 DEBUG    [futures.py:316] Submitting task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'dss-dev-ritrace', 'key': 'media/public/automation_poc/sameer/uploads/8/page_1.png', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x000001E477CE7F40> for transfer request: 0.
+04-05-2023 13:26:40,997 DEBUG    [utils.py:599] Acquiring 0
+04-05-2023 13:26:41,12 DEBUG    [tasks.py:193] ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'dss-dev-ritrace', 'key': 'media/public/automation_poc/sameer/uploads/8/page_1.png', 'extra_args': {}}) about to wait for the following futures []
+04-05-2023 13:26:41,13 DEBUG    [utils.py:612] Releasing acquire 0/None
+04-05-2023 13:26:41,13 DEBUG    [tasks.py:203] ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'dss-dev-ritrace', 'key': 'media/public/automation_poc/sameer/uploads/8/page_1.png', 'extra_args': {}}) done waiting for dependent futures
+04-05-2023 13:26:41,13 DEBUG    [tasks.py:146] Executing task ImmediatelyWriteIOGetObjectTask(transfer_id=0, {'bucket': 'dss-dev-ritrace', 'key': 'media/public/automation_poc/sameer/uploads/8/page_1.png', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x000001E47673F5E0>, 'bucket': 'dss-dev-ritrace', 'key': 'media/public/automation_poc/sameer/uploads/8/page_1.png', 'fileobj': <tempfile.SpooledTemporaryFile object at 0x000001E477DC4FA0>, 'extra_args': {}, 'callbacks': [], 'max_attempts': 5, 'download_output_manager': <s3transfer.download.DownloadSeekableOutputManager object at 0x000001E477DA7520>, 'io_chunksize': 262144, 'bandwidth_limiter': None}
+04-05-2023 13:26:41,13 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x000001E4456220D0>
+04-05-2023 13:26:41,14 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x000001E445622040>
+04-05-2023 13:26:41,14 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:26:41,15 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x000001E47677E280>>
+04-05-2023 13:26:41,15 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x000001E44561CE50>
+04-05-2023 13:26:41,15 DEBUG    [hooks.py:210] Event before-call.s3.GetObject: calling handler <function add_expect_header at 0x000001E4456223A0>
+04-05-2023 13:26:41,16 DEBUG    [hooks.py:210] Event before-call.s3.GetObject: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:26:41,16 DEBUG    [hooks.py:210] Event before-call.s3.GetObject: calling handler <function inject_api_version_header_if_needed at 0x000001E445625700>
+04-05-2023 13:26:41,17 DEBUG    [endpoint.py:100] Making request for OperationModel(name=GetObject) with params: {'url_path': '/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png', 'query_string': {}, 'method': 'GET', 'headers': {'User-Agent': 'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38 Resource'}, 'body': b'', 'url': 'https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x000001E47677E8B0>, 'has_streaming_input': False, 'auth_type': None, 'signing': {'bucket': 'dss-dev-ritrace'}}}
+04-05-2023 13:26:41,17 DEBUG    [hooks.py:210] Event request-created.s3.GetObject: calling handler <function signal_not_transferring at 0x000001E473B0A790>
+04-05-2023 13:26:41,17 DEBUG    [hooks.py:210] Event request-created.s3.GetObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001E47677E8E0>>
+04-05-2023 13:26:41,18 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x000001E47677EFD0>>
+04-05-2023 13:26:41,18 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001E4768479D0>>
+04-05-2023 13:26:41,18 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x000001E44561CD30>
+04-05-2023 13:26:41,18 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x000001E47677EFD0>>
+04-05-2023 13:26:41,18 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:26:41,18 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/page_1.png
+04-05-2023 13:26:41,19 DEBUG    [auth.py:380] Calculating signature using v4 auth.
+04-05-2023 13:26:41,19 DEBUG    [auth.py:381] CanonicalRequest:
+GET
+/media/public/automation_poc/sameer/uploads/8/page_1.png
+
+host:dss-dev-ritrace.s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20230504T075641Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+04-05-2023 13:26:41,19 DEBUG    [auth.py:383] StringToSign:
+AWS4-HMAC-SHA256
+20230504T075641Z
+20230504/us-east-1/s3/aws4_request
+f6936e956bfbea6dd1165e5052bf92a4398e6323af4b25a28e4730af2b88ff75
+04-05-2023 13:26:41,19 DEBUG    [auth.py:385] Signature:
+5474a1b32c7d6c3b6d8154a17fe9b5b89b15732b7a73938d3bf0686c684262fb
+04-05-2023 13:26:41,19 DEBUG    [hooks.py:210] Event request-created.s3.GetObject: calling handler <function signal_transferring at 0x000001E473B0A820>
+04-05-2023 13:26:41,20 DEBUG    [endpoint.py:187] Sending http request: <AWSPreparedRequest stream_output=True, method=GET, url=https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/sameer/uploads/8/page_1.png, headers={'User-Agent': b'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38 Resource', 'X-Amz-Date': b'20230504T075641Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAW3GZXGRDWQCHJYXB/20230504/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=5474a1b32c7d6c3b6d8154a17fe9b5b89b15732b7a73938d3bf0686c684262fb'}>
+04-05-2023 13:26:41,20 DEBUG    [httpsession.py:51] Certificate path: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\certifi\cacert.pem
+04-05-2023 13:26:41,352 DEBUG    [connectionpool.py:456] https://dss-dev-ritrace.s3.amazonaws.com:443 "GET /media/public/automation_poc/sameer/uploads/8/page_1.png HTTP/1.1" 200 260983
+04-05-2023 13:26:41,353 DEBUG    [parsers.py:233] Response headers: {'x-amz-id-2': 'uhcpa0iQpnlG6Ez70r0FByhTyB/FJ+cioZ8CNLatXpf4Kk5Hw3k3gav/T7o1uIDgDK486hDDI/E=', 'x-amz-request-id': 'V7ZPDEV5F0J8PCKC', 'Date': 'Thu, 04 May 2023 07:56:16 GMT', 'Last-Modified': 'Tue, 21 Mar 2023 11:36:38 GMT', 'ETag': '"74b525c1dc5c46f7ece4275b3ebf952c"', 'x-amz-server-side-encryption': 'AES256', 'x-amz-version-id': 'UAgk3iTdcWInMGuKWuPeRHvR9XgqpATT', 'Accept-Ranges': 'bytes', 'Content-Type': 'binary/octet-stream', 'Server': 'AmazonS3', 'Content-Length': '260983'}
+04-05-2023 13:26:41,353 DEBUG    [parsers.py:234] Response body:
+<botocore.response.StreamingBody object at 0x000001E477DA7190>
+04-05-2023 13:26:41,354 DEBUG    [hooks.py:210] Event needs-retry.s3.GetObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000001E47677E340>
+04-05-2023 13:26:41,354 DEBUG    [retryhandler.py:187] No retry needed.
+04-05-2023 13:26:41,354 DEBUG    [hooks.py:210] Event needs-retry.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x000001E47677EFA0>>
+04-05-2023 13:26:42,482 DEBUG    [tasks.py:193] IOWriteTask(transfer_id=0, {'offset': 0}) about to wait for the following futures []
+04-05-2023 13:26:42,483 DEBUG    [tasks.py:203] IOWriteTask(transfer_id=0, {'offset': 0}) done waiting for dependent futures
+04-05-2023 13:26:42,483 DEBUG    [tasks.py:146] Executing task IOWriteTask(transfer_id=0, {'offset': 0}) with kwargs {'fileobj': <tempfile.SpooledTemporaryFile object at 0x000001E477DC4FA0>, 'offset': 0}
+04-05-2023 13:26:42,483 DEBUG    [tasks.py:193] CompleteDownloadNOOPTask(transfer_id=0, {}) about to wait for the following futures []
+04-05-2023 13:26:42,484 DEBUG    [tasks.py:203] CompleteDownloadNOOPTask(transfer_id=0, {}) done waiting for dependent futures
+04-05-2023 13:26:42,484 DEBUG    [tasks.py:146] Executing task CompleteDownloadNOOPTask(transfer_id=0, {}) with kwargs {}
+04-05-2023 13:26:42,484 DEBUG    [utils.py:612] Releasing acquire 0/None
+04-05-2023 15:21:45,744 INFO     [autoreload.py:266] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\R2xml\drugXmlElement.py changed, reloading.

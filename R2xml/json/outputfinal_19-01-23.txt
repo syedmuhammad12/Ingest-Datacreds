@@ -1,0 +1,98 @@
+[
+  {
+    "key": "PATIENTINITIALS",
+    "value": "CDKU"
+  },
+  {
+    "key": "COUNTRY",
+    "value": "China"
+  },
+  {
+    "key": "2. DATE OF BIRTH",
+    "value": "12 SEP 1981"
+  },
+  {
+    "key": "2a. AGE",
+    "value": "FY—‘ear"
+  },
+  {
+    "key": "3.8SEX",
+    "value": "M"
+  },
+  {
+    "key": "3a. WEIGHT",
+    "value": "-"
+  },
+  {
+    "key": "4-6 REACTION ONSET",
+    "value": "Day [ Month | Year\n29 | May |2021"
+  },
+  {
+    "key": "DAILY DOSE(S)",
+    "value": "Daily dose value pos"
+  },
+  {
+    "key": "16. ROUTE(S) OF ADMINISTRATION",
+    "value": "route pos"
+  },
+  {
+    "key": "CHECKALL APPROPRIATE TO ADVETREE REACTION",
+    "value": "[ PATIENT DIED\n\nO mvowepor\nPROLONGED IpATIENT\nTeSrTAAon\n\n[ WvoLvep persisrenT\nRSP\nSR o\nNeARCTY\nure\n\no THREATENING\n\nO coneenma\nRO\n\nO omen"
+  },
+  {
+    "key": "ABATE AFTER STOPPING DRUG?",
+    "value": "Oves  Onvo O\nCux"
+  },
+  {
+    "key": "DID REACTION REAPPEAR AFTER REINTRODUCTION?",
+    "value": "Oves  Ono\nOna  Ow"
+  },
+  {
+    "key": "23. OTHER RELEVANT HISTORY",
+    "value": "Not reported."
+  },
+  {
+    "key": "24a. NAME AND ADDRESS OF MANUFACTURER",
+    "value": "AbbVie\n\nPharmacovigilance, Linda Scarazzini, MD\n1 North Waukegan Road\n\nNorth Chicago, Illinois 60064 USA"
+  },
+  {
+    "key":"receivedateformat",
+    "value":"102"
+  },
+  {
+    "key":"receivedate",
+    "value":"20161228"
+  },
+  {
+    "key":"receiptdateformat",
+    "value":"102"
+  },
+  {
+    "key":"receiptdate",
+    "value":"20161228"
+  },
+  {
+    "key":"companynumb",
+    "value":"US-10OCT2017IRT25"
+  },
+  {
+    "key":"primarysourcereaction",
+    "value":"Seq. No. : 1 Reaction : INFECTION (PNEUMONIA) (Pneumonia (10035664), Pneumonia (10035664)) Start Date : UNK Stop Date : UNK Duration : UNK"
+  },
+  {
+    "key":"medicinalproduct",
+    "value":"VINCRISTINE(VINCRISTINE)(Unknown)(VI NCRISTINE) ,UNKNOWN,UNKNOWN"
+  },
+  {
+    "key":"INDICATIONFORUSE",
+    "value":"18. THERAPY DATES(from/to) 1) 07-AUG-2019"
+  },
+  {
+    "key":"THERAPYDATESFROMTO",
+    "value":""
+  },
+  {
+    "key":"THERAPYDURATION",
+    "value":""
+  }
+]

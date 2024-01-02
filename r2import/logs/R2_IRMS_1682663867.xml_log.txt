@@ -1,0 +1,5 @@
+28-04-2023 12:07:57,266 ERROR    [helper.py:214] start
+28-04-2023 12:07:57,279 ERROR    [helper.py:214] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\r2import\helper.py 167:'authoritynumb'
+28-04-2023 12:07:57,282 ERROR    [helper.py:214] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\r2import\helper.py 195:'reaction'
+28-04-2023 12:07:57,288 ERROR    [helper.py:214] Mandatory data missing: ['primarysourcereaction']
+28-04-2023 12:09:01,842 INFO     [autoreload.py:266] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\R2xml\reactionXmlElement.py changed, reloading.

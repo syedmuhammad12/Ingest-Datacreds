@@ -1,0 +1,6 @@
+23-05-2022 17:18:30,552 ERROR    [helper.py:180] ss
+23-05-2022 17:19:02,277 ERROR    [helper.py:179] C:\python projects\simple_safety\rest_api\safety_api\r2import\helper.py 167:'drug'
+23-05-2022 17:19:29,269 ERROR    [helper.py:179] C:\python projects\simple_safety\rest_api\safety_api\r2import\helper.py 167:'drug'
+23-05-2022 17:22:55,593 ERROR    [helper.py:178] C:\python projects\simple_safety\rest_api\safety_api\r2import\helper.py 166:'drug'
+23-05-2022 17:23:46,234 ERROR    [helper.py:179] C:\python projects\simple_safety\rest_api\safety_api\r2import\helper.py 165:'drug'
+23-05-2022 17:37:16,721 ERROR    [helper.py:179] C:\python projects\simple_safety\rest_api\safety_api\r2import\helper.py 165:'drug'

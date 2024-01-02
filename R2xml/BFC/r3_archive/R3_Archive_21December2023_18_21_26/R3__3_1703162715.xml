@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MCCI_IN200100UV01 ITSVersion="XML_1.0" xsi:schemaLocation="urn:hl7-org:v3 http://eudravigilance.ema.europa.eu/xsd/multicacheschemas/MCCI_IN200100UV01.xsd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xmlns:mif="urn:hl7-org:v3/mif">
+<id extension="c9e828f9-9ffe-11ee-b786-28dfeb6bed73-BIO" root="2.16.840.1.113883.3.989.2.1.3.22" />
+<creationTime value="20230627181515" />
+<responseModeCode code="D" />
+<interactionId root="2.16.840.1.113883.1.6" extension="MCCI_IN200100UV01" />
+<name code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.1" codeSystemVersion="2.0" />
+<PORR_IN049016UV>
+<id extension="" root="2.16.840.1.113883.3.989.2.1.3.1" />
+<creationTime value="20230627000000" /><interactionId root="2.16.840.1.113883.1.6" extension="MCCI_IN200100UV01" />
+<processingCode code="P" />
+<processingModeCode code="T" />
+<acceptAckCode code="AL" />
+<receiver typeCode="RCV">
+<device classCode="DEV" determinerCode="INSTANCE">
+<id extension="ss" root="2.16.840.1.113883.3.989.2.1.3.12" />
+</device>
+</receiver>
+<sender typeCode="SND">
+<device classCode="DEV" determinerCode="INSTANCE">
+<id extension="simplesafety" root="2.16.840.1.113883.3.989.2.1.3.11" />
+</device>
+</sender>
+<controlActProcess classCode="CACT" moodCode="EVN">
+<code code="PORR_TE049016UV" codeSystem="2.16.840.1.113883.1.18" />
+<effectiveTime value="20230627000000" /><subject typeCode="SUBJ">
+<investigationEvent classCode="INVSTG" moodCode="EVN">
+<id root="2.16.840.1.113883.3.989.2.1.3.1" extension="" />
+<id root="2.16.840.1.113883.3.989.2.1.3.2" extension="3401005100615202300019" />
+<code code="PAT_ADV_EVNT" codeSystem="2.16.840.1.113883.5.4" />
+<text mediaType="text/plain">On June 12, 2023, the consumer, Li Fen, female, 40 years old, came to our pharmacy to purchase Naphazoline Hydrochloride and Chlorphenamine Maleate and Vitamin B12 Eye Drops due to tired eyes. The pharmacist informed the route and dosage, one drop three times a day, for external application (dropping eyes), and instructed her precautions for use. Two days later, the consumer came to consult and said that she had eye discomfort during the medication period and suspected that it was related to Naphazoline Hydrochloride and Chlorphenamine Maleate and Vitamin B12 Eye Drops. The pharmacist suggested to stop the medication immediately for observation and to seek medical attention if necessary. The next day, the consumer was followed up by phone and told that the symptoms had improved.</text>
+<statusCode code="active" />
+<reference typeCode="REFR">
+<document classCode="DOC" moodCode="EVN">
+<code code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.27" displayName="documentsHeldBySender" />
+<title>Source of this Case Safety Report in E2B(R2) Format</title>
+</document>
+</reference>
+<component typeCode="COMP">
+<adverseEventAssessment classCode="INVSTG" moodCode="EVN">
+<subject1 typeCode="SBJ">
+<primaryRole classCode="INVSBJ">
+<player1 classCode="PSN" determinerCode="INSTANCE">
+<name nullFlavor="UNK" />
+<administrativeGenderCode code="2" codeSystem="1.0.5218" /><birthTime value="19830613" /></player1>
+<subjectOf2 typeCode="SBJ">
+<observation moodCode="EVN" classCode="OBS">
+<code code="3" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="PQ" value="40" unit="a" />
+</observation>
+</subjectOf2>
+<subjectOf2 typeCode="SBJ">
+<observation moodCode="EVN" classCode="OBS">
+<code code="4" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="CE" code="5" codeSystem="2.16.840.1.113883.3.989.2.1.1.9" codeSystemVersion="2.0" />
+</observation>
+</subjectOf2>
+<subjectOf2 typeCode="SBJ">
+<observation moodCode="EVN" classCode="OBS">
+<code code="7" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="PQ" value="75.0" unit="kg" />
+</observation>
+</subjectOf2>
+<subjectOf2 typeCode="SBJ">
+<organizer classCode="CATEGORY" moodCode="EVN">
+<code code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.20" />
+<component typeCode="COMP">
+<observation moodCode="EVN" classCode="OBS">
+<code code="10043887" codeSystemVersion="" codeSystem="2.16.840.1.113883.6.163" />
+</observation>
+</component>
+</organizer>
+</subjectOf2>
+<subjectOf2 typeCode="SBJ">
+<observation moodCode="EVN" classCode="OBS">
+<id root="RID1" />
+<code code="29" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<effectiveTime xsi:type="IVL_TS">
+<low value="20230613" />
+</effectiveTime>
+<value xsi:type="CE">
+<originalText>Abnormal eye sensation</originalText>
+</value>
+<outboundRelationship2 typeCode="PERT">
+<observation moodCode="EVN" classCode="OBS">
+<code code="34" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="BL" nullFlavor="NI" />
+</observation>
+</outboundRelationship2>
+<outboundRelationship2 typeCode="PERT">
+<observation moodCode="EVN" classCode="OBS">
+<code code="21" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="BL" nullFlavor="NI" />
+</observation>
+</outboundRelationship2>
+<outboundRelationship2 typeCode="PERT">
+<observation moodCode="EVN" classCode="OBS">
+<code code="33" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="BL" nullFlavor="NI" />
+</observation>
+</outboundRelationship2>
+<outboundRelationship2 typeCode="PERT">
+<observation moodCode="EVN" classCode="OBS">
+<code code="35" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="BL" nullFlavor="NI" />
+</observation>
+</outboundRelationship2>
+<outboundRelationship2 typeCode="PERT">
+<observation moodCode="EVN" classCode="OBS">
+<code code="12" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="BL" nullFlavor="NI" />
+</observation>
+</outboundRelationship2>
+<outboundRelationship2 typeCode="PERT">
+<observation moodCode="EVN" classCode="OBS">
+<code code="26" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="BL" nullFlavor="NI" />
+</observation>
+</outboundRelationship2>
+<outboundRelationship2 typeCode="PERT">
+<observation moodCode="EVN" classCode="OBS">
+<code code="27" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="CE" code="2" codeSystem="2.16.840.1.113883.3.989.2.1.1.11" codeSystemVersion="2.0" />
+</observation>
+</outboundRelationship2>
+</observation>
+</subjectOf2>
+<subjectOf2 typeCode="SBJ">
+<organizer classCode="CATEGORY" moodCode="EVN">
+<code code="4" codeSystem="2.16.840.1.113883.3.989.2.1.1.20" />
+<component typeCode="COMP">
+<substanceAdministration moodCode="EVN" classCode="SBADM">
+<id root="DID1" />
+<consumable typeCode="CSM">
+<instanceOfKind classCode="INST">
+<kindOfProduct classCode="MMAT" determinerCode="KIND">
+<code />
+<name>Naphazoline Hydrochloride and Chlorphenamine Maleate and Vitamin B12 Eye Drops</name>
+<asManufacturedProduct classCode="MANU" />
+<ingredient classCode="ACTI">
+<ingredientSubstance classCode="MMAT" determinerCode="KIND">
+<name>Naphazoline Hydrochloride and Chlorphenamine Maleate and Vitamin B12 Eye Drops</name>
+</ingredientSubstance>
+</ingredient>
+</kindOfProduct>
+</instanceOfKind>
+</consumable>
+<outboundRelationship2 typeCode="COMP">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<effectiveTime xsi:type="SXPR_TS">
+<comp xsi:type="PIVL_TS">
+<period nullFlavor="NI" />
+</comp>
+<comp xsi:type="IVL_TS" operator="A">
+<low value="20230612" />
+<high value="20230614" />
+</comp>
+</effectiveTime>
+<routeCode code="047" codeSystem="2.16.840.1.113883.3.989.2.1.1.14" codeSystemVersion="2.0" />
+<doseQuantity value="" unit="[drp]" />
+<consumable typeCode="CSM">
+<instanceOfKind classCode="INST">
+<productInstanceInstance classCode="MMAT" determinerCode="INSTANCE">
+<id nullFlavor="NI" />
+<lotNumberText></lotNumberText>
+</productInstanceInstance>
+<kindOfProduct classCode="MMAT" determinerCode="KIND">
+<formCode>
+<originalText>Eye Drops Solution</originalText>
+</formCode>
+</kindOfProduct>
+</instanceOfKind>
+</consumable>
+</substanceAdministration>
+</outboundRelationship2>
+<inboundRelationship typeCode="RSON">
+<observation moodCode="EVN" classCode="OBS">
+<code code="19" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="CE" code="10043888" />
+<performer typeCode="PRF">
+<assignedEntity classCode="ASSIGNED">
+<code code="3" codeSystem="2.16.840.1.113883.3.989.2.1.1.21" />
+</assignedEntity>
+</performer>
+<outboundRelationship1 typeCode="REFR">
+<actReference classCode="SBADM" moodCode="EVN">
+<id root="DID1" />
+</actReference>
+</outboundRelationship1>
+</observation>
+</inboundRelationship>
+<inboundRelationship typeCode="CAUS">
+<act classCode="ACT" moodCode="EVN">
+<code code="0" codeSystem="2.16.840.1.113883.3.989.2.1.1.15" codeSystemVersion="2.0" /></act>
+</inboundRelationship>
+</substanceAdministration>
+</component>
+</organizer>
+</subjectOf2>
+</primaryRole>
+</subject1>
+<component typeCode="COMP">
+<causalityAssessment classCode="OBS" moodCode="EVN">
+<code code="20" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="CE" code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.13" codeSystemVersion="2.0" />
+<subject2 typeCode="SUBJ">
+<productUseReference classCode="SBADM" moodCode="EVN">
+<id root="DID1" />
+</productUseReference>
+</subject2>
+</causalityAssessment>
+</component>
+<component typeCode="COMP">
+<causalityAssessment classCode="OBS" moodCode="EVN">
+<code code="39" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="ST">possibly</value>
+<methodCode>
+<originalText>Global Introspection</originalText>
+</methodCode>
+<author typeCode="AUT">
+<assignedEntity classCode="ASSIGNED">
+<code>
+<originalText>Reporter</originalText>
+</code>
+</assignedEntity>
+</author>
+<subject2 typeCode="SUBJ">
+<productUseReference classCode="SBADM" moodCode="EVN">
+<id root="DID1" />
+</productUseReference>
+</subject2>
+</causalityAssessment>
+</component>
+<component typeCode="COMP">
+<causalityAssessment classCode="OBS" moodCode="EVN">
+<code code="39" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="ST">possibly</value>
+<methodCode>
+<originalText>Global Introspection</originalText>
+</methodCode>
+<author typeCode="AUT">
+<assignedEntity classCode="ASSIGNED">
+<code>
+<originalText>Company</originalText>
+</code>
+</assignedEntity>
+</author>
+<subject2 typeCode="SUBJ">
+<productUseReference classCode="SBADM" moodCode="EVN">
+<id root="DID1" />
+</productUseReference>
+</subject2>
+</causalityAssessment>
+</component>
+</adverseEventAssessment>
+</component>
+<component typeCode="COMP">
+<observationEvent classCode="OBS" moodCode="EVN">
+<code code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" displayName="additionalDocumentsAvailable" />
+<value xsi:type="BL" value="true" />
+</observationEvent>
+</component>
+<component typeCode="COMP">
+<observationEvent classCode="OBS" moodCode="EVN">
+<code code="23" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="BL" nullFlavor="NI" />
+</observationEvent>
+</component>
+<outboundRelationship typeCode="SPRT">
+<relatedInvestigation classCode="INVSTG" moodCode="EVN">
+<code code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.22" />
+<subjectOf2 typeCode="SUBJ">
+<controlActEvent classCode="CACT" moodCode="EVN">
+<author typeCode="AUT">
+<assignedEntity classCode="ASSIGNED">
+<code code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.3" codeSystemVersion="2.0" />
+</assignedEntity>
+</author>
+</controlActEvent>
+</subjectOf2>
+</relatedInvestigation>
+</outboundRelationship>
+<subjectOf1 typeCode="SUBJ">
+<controlActEvent classCode="CACT" moodCode="EVN">
+<author typeCode="AUT">
+<assignedEntity classCode="ASSIGNED">
+<code code="6" codeSystem="2.16.840.1.113883.3.989.2.1.1.7" codeSystemVersion="2.0" /><addr />
+<assignedPerson classCode="PSN" determinerCode="INSTANCE">
+<name />
+</assignedPerson>
+<representedOrganization classCode="ORG" determinerCode="INSTANCE">
+<assignedEntity classCode="ASSIGNED">
+<representedOrganization classCode="ORG" determinerCode="INSTANCE">
+<name>simplesafety</name>
+</representedOrganization>
+</assignedEntity>
+</representedOrganization>
+</assignedEntity>
+</author>
+</controlActEvent>
+</subjectOf1>
+<subjectOf2 typeCode="SUBJ">
+<investigationCharacteristic classCode="OBS" moodCode="EVN">
+<code code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.23" />
+<value xsi:type="CE" code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.2" codeSystemVersion="2.0" />
+</investigationCharacteristic>
+</subjectOf2>
+<subjectOf2 typeCode="SUBJ">
+<investigationCharacteristic classCode="OBS" moodCode="EVN">
+<code code="2" codeSystem="2.16.840.1.113883.3.989.2.1.1.23" />
+<value xsi:type="BL" nullFlavor="NI" />
+</investigationCharacteristic>
+</subjectOf2>
+</investigationEvent>
+</subject>
+</controlActProcess>
+</PORR_IN049016UV>
+<receiver typeCode="RCV">
+<device classCode="DEV" determinerCode="INSTANCE">
+<id extension="ss" root="2.16.840.1.113883.3.989.2.1.3.14" />
+</device>
+</receiver>
+<sender typeCode="SND">
+<device classCode="DEV" determinerCode="INSTANCE">
+<id extension="simplesafety" root="2.16.840.1.113883.3.989.2.1.3.13" />
+</device>
+</sender>
+</MCCI_IN200100UV01>

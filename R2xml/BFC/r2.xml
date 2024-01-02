@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ichicsr SYSTEM "http://eudravigilance.ema.europa.eu/dtd/icsr21xml.dtd">
+<ichicsr lang="en">
+<ichicsrmessageheader>
+<messagetype>ichicsr</messagetype>
+<messageformatversion>2.1</messageformatversion>
+<messageformatrelease>2.0</messageformatrelease>
+<messagenumb>BAXGLB_R0002103645</messagenumb>
+<messagesenderidentifier>EVTEST</messagesenderidentifier>
+<messagereceiveridentifier>BAXTERR3</messagereceiveridentifier>
+<messagedateformat>204</messagedateformat>
+<messagedate>20171010034821</messagedate>
+</ichicsrmessageheader>
+<safetyreport>
+<safetyreportversion />
+<safetyreportid>US-10OCT2017IRT25</safetyreportid>
+<primarysourcecountry>US</primarysourcecountry>
+<occurcountry>US</occurcountry>
+<transmissiondateformat>102</transmissiondateformat>
+<transmissiondate>20171010</transmissiondate>
+<reporttype>2</reporttype>
+<serious>1</serious>
+<seriousnessdeath>2</seriousnessdeath>
+<seriousnesslifethreatening>2</seriousnesslifethreatening>
+<seriousnesshospitalization>1</seriousnesshospitalization>
+<seriousnessdisabling>2</seriousnessdisabling>
+<seriousnesscongenitalanomali>2</seriousnesscongenitalanomali>
+<seriousnessother>2</seriousnessother>
+<receivedateformat>102</receivedateformat>
+<receivedate>20161228</receivedate>
+<receiptdateformat>102</receiptdateformat>
+<receiptdate>20161228</receiptdate>
+<additionaldocument>1</additionaldocument>
+<documentlist>Source of this Case Safety Report in E2B(R3) Format: Additional documents: </documentlist>
+<fulfillexpeditecriteria>1</fulfillexpeditecriteria>
+<companynumb>US-10OCT2017IRT25</companynumb>
+<duplicate>1</duplicate>
+<reportduplicate>
+<duplicatesource>JDE</duplicatesource>
+<duplicatenumb>38414162</duplicatenumb>
+</reportduplicate>
+<primarysource>
+<reportertitle>
+</reportertitle>
+<reportergivename>MARY BETH</reportergivename>
+<reportermiddlename>
+</reportermiddlename>
+<reporterfamilyname>PARRY</reporterfamilyname>
+<reporterorganization>
+</reporterorganization>
+<reporterdepartment>
+</reporterdepartment>
+<reporterstreet>
+</reporterstreet>
+<reportercity>
+</reportercity>
+<reporterstate>
+</reporterstate>
+<reporterpostcode>
+</reporterpostcode>
+<reportercountry>US</reportercountry>
+<qualification>5</qualification>
+<literaturereference></literaturereference>
+<studyname>US-UNKNOWN: EVCT-999999-25#Phase 3, Prospective, Multicenter, Dose-Blind Extension Study</studyname>
+<sponsorstudynumb>161202</sponsorstudynumb>
+<observestudytype>1</observestudytype>
+</primarysource>
+<sender>
+<sendertype>1</sendertype>
+<senderorganization>BAXTERDR</senderorganization>
+<senderdepartment>Global Pharmacovigilance</senderdepartment>
+<sendertitle>Dr</sendertitle>
+<sendergivename>Jay</sendergivename>
+<sendermiddlename></sendermiddlename>
+<senderfamilyname>Ehrlich</senderfamilyname>
+<senderstreetaddress>One Baxter Parkway</senderstreetaddress>
+<sendercity>Deerfield</sendercity>
+<senderstate>IL</senderstate>
+<senderpostcode>60015</senderpostcode>
+<sendercountrycode>US</sendercountrycode>
+<sendertel>8479482978</sendertel>
+<senderfax></senderfax>
+<senderemailaddress>xyz</senderemailaddress>
+</sender>
+<receiver />
+<patient>
+<patientinitial>TP</patientinitial>
+<patientgpmedicalrecordnumb></patientgpmedicalrecordnumb>
+<patientspecialistrecordnumb></patientspecialistrecordnumb>
+<patienthospitalrecordnumb></patienthospitalrecordnumb>
+<patientinvestigationnumb></patientinvestigationnumb>
+<patientonsetage></patientonsetage>
+<patientonsetageunit></patientonsetageunit>
+<gestationperiod></gestationperiod>
+<gestationperiodunit></gestationperiodunit>
+<patientweight></patientweight>
+<patientheight></patientheight>
+<patientsex>1</patientsex>
+<patientmedicalhistorytext></patientmedicalhistorytext>
+<resultstestsprocedures></resultstestsprocedures>
+<patientpastdrugtherapy>
+<patientdrugname></patientdrugname>
+<patientindicationmeddraversion></patientindicationmeddraversion>
+<patientdrugindication></patientdrugindication>
+<patientdrgreactionmeddraversion></patientdrgreactionmeddraversion>
+<patientdrugreaction></patientdrugreaction>
+</patientpastdrugtherapy>
+<patientdeath>
+<patientdeathdateformat>102</patientdeathdateformat>
+<patientdeathdate>20161223</patientdeathdate>
+<patientautopsyyesno>3</patientautopsyyesno>
+<patientdeathcause>
+<patientdeathreportmeddraversion></patientdeathreportmeddraversion>
+<patientdeathreport></patientdeathreport>
+</patientdeathcause>
+</patientdeath>
+<parent>
+<parentidentification></parentidentification>
+<parentage>40</parentage>
+<parentageunit>801</parentageunit>
+<parentweight></parentweight>
+<parentheight></parentheight>
+<parentsex>2</parentsex>
+<parentmedicalrelevanttext></parentmedicalrelevanttext>
+</parent>
+<reaction>
+<primarysourcereaction>TO INCREASE BLOOD PRESSURE</primarysourcereaction>
+<reactionmeddraversionllt></reactionmeddraversionllt>
+<reactionmeddrallt></reactionmeddrallt>
+<termhighlighted>4</termhighlighted>
+<reactionoutcome>6</reactionoutcome>
+</reaction>
+<test>
+<testname>10005727</testname>
+<testresult>Negative</testresult>
+<lowtestrange></lowtestrange>
+<hightestrange></hightestrange>
+<moreinformation></moreinformation>
+</test>
+<drug>
+<drugcharacterization>1</drugcharacterization>
+<medicinalproduct>DIANEAL PD2</medicinalproduct>
+<obtaindrugcountry></obtaindrugcountry>
+<drugbatchnumb></drugbatchnumb>
+<drugauthorizationnumb>NDA 017512</drugauthorizationnumb>
+<drugauthorizationcountry>US</drugauthorizationcountry>
+<drugauthorizationholder></drugauthorizationholder>
+<drugstructuredosagenumb>10</drugstructuredosagenumb>
+<drugstructuredosageunit>012</drugstructuredosageunit>
+<drugseparatedosagenumb />
+<drugintervaldosageunitnumb>1</drugintervaldosageunitnumb>
+<drugintervaldosagedefinition>804</drugintervaldosagedefinition>
+<drugcumulativedosagenumb></drugcumulativedosagenumb>
+<drugcumulativedosageunit></drugcumulativedosageunit>
+<drugdosagetext></drugdosagetext>
+<drugdosageform></drugdosageform>
+<drugadministrationroute>25</drugadministrationroute>
+<drugparadministration>20</drugparadministration>
+<reactiongestationperiod></reactiongestationperiod>
+<reactiongestationperiodunit />
+<drugindicationmeddraversion></drugindicationmeddraversion>
+<drugindication></drugindication>
+<drugstartperiod></drugstartperiod>
+<drugstartperiodunit></drugstartperiodunit>
+<druglastperiod></druglastperiod>
+<druglastperiodunit></druglastperiodunit>
+<drugenddateformat>102</drugenddateformat>
+<drugenddate>20161223</drugenddate>
+<actiondrug>6</actiondrug>
+<drugrecurreadministration>1</drugrecurreadministration>
+<drugadditional>Ingredient (CALCIUM CHLORIDE, DIHYDRATE): 0.26; Ingredient (GLUCOSE, MONOHYDRATE): 15; Ingredient (MAGNESIUM CHLORIDE, HEXAHYDRATE): 0.05; Ingredient (SODIUM CHLORIDE): 5.38; Ingredient (SODIUM LACTATE): 4.48; Additional info: Off label use</drugadditional>
+<activesubstance>
+<activesubstancename>CALCIUM CHLORIDE, DIHYDRATE</activesubstancename>
+</activesubstance>
+<activesubstance>
+<activesubstancename>GLUCOSE, MONOHYDRATE</activesubstancename>
+</activesubstance>
+<activesubstance>
+<activesubstancename>MAGNESIUM CHLORIDE, HEXAHYDRATE</activesubstancename>
+</activesubstance>
+<activesubstance>
+<activesubstancename>SODIUM CHLORIDE</activesubstancename>
+</activesubstance>
+<activesubstance>
+<activesubstancename>SODIUM LACTATE</activesubstancename>
+</activesubstance>
+<drugrecurrence>
+<drugrecuractionmeddraversion></drugrecuractionmeddraversion>
+<drugrecuraction></drugrecuraction>
+</drugrecurrence>
+</drug>
+<drug>
+<drugcharacterization>1</drugcharacterization>
+<medicinalproduct>DIANEAL PD2</medicinalproduct>
+<obtaindrugcountry></obtaindrugcountry>
+<drugauthorizationnumb>NDA 017512</drugauthorizationnumb>
+<drugauthorizationcountry>US</drugauthorizationcountry>
+<drugauthorizationholder></drugauthorizationholder>
+<drugcumulativedosagenumb></drugcumulativedosagenumb>
+<drugcumulativedosageunit></drugcumulativedosageunit>
+<reactiongestationperiod></reactiongestationperiod>
+<reactiongestationperiodunit />
+<drugindicationmeddraversion></drugindicationmeddraversion>
+<drugindication></drugindication>
+<drugstartperiod></drugstartperiod>
+<drugstartperiodunit></drugstartperiodunit>
+<druglastperiod></druglastperiod>
+<druglastperiodunit></druglastperiodunit>
+<actiondrug>6</actiondrug>
+<drugrecurreadministration>3</drugrecurreadministration>
+<drugadditional>Ingredient (CALCIUM CHLORIDE, DIHYDRATE): 0.26; Ingredient (GLUCOSE, MONOHYDRATE): 25; Ingredient (MAGNESIUM CHLORIDE, HEXAHYDRATE): 0.05; Ingredient (SODIUM CHLORIDE): 5.38; Ingredient (SODIUM LACTATE): 4.48; </drugadditional>
+<activesubstance>
+<activesubstancename>CALCIUM CHLORIDE, DIHYDRATE</activesubstancename>
+</activesubstance>
+<activesubstance>
+<activesubstancename>GLUCOSE, MONOHYDRATE</activesubstancename>
+</activesubstance>
+<activesubstance>
+<activesubstancename>MAGNESIUM CHLORIDE, HEXAHYDRATE</activesubstancename>
+</activesubstance>
+<activesubstance>
+<activesubstancename>SODIUM CHLORIDE</activesubstancename>
+</activesubstance>
+<activesubstance>
+<activesubstancename>SODIUM LACTATE</activesubstancename>
+</activesubstance>
+</drug>
+<drug>
+<drugcharacterization>2</drugcharacterization>
+<medicinalproduct>ACETAMINOPHEN</medicinalproduct>
+<obtaindrugcountry></obtaindrugcountry>
+<drugcumulativedosagenumb></drugcumulativedosagenumb>
+<drugcumulativedosageunit></drugcumulativedosageunit>
+<reactiongestationperiod></reactiongestationperiod>
+<reactiongestationperiodunit />
+<drugindicationmeddraversion></drugindicationmeddraversion>
+<drugindication></drugindication>
+<drugstartperiod></drugstartperiod>
+<drugstartperiodunit></drugstartperiodunit>
+<druglastperiod></druglastperiod>
+<druglastperiodunit></druglastperiodunit>
+<actiondrug></actiondrug>
+<drugrecurreadministration></drugrecurreadministration>
+<drugadditional></drugadditional>
+<activesubstance>
+<activesubstancename>PARACETAMOL</activesubstancename>
+</activesubstance>
+</drug>
+<summary>
+<narrativeincludeclinical>This is a spontaneous report by a Consumer in the UNITED STATES OF AMERICA of PASSED AWAY and TO INCREASE BLOOD PRESSURE in a Male patient (age not reported) coincident with Dianeal PD2 (coded to DIANEAL PD2 for reporting purposes) therapies. 
+
+SUSPECT PRODUCT DETAILS: On an unreported date, the patient began treatment with Dianeal PD2 (1.5% and 2.5%) therapies (doses, frequencies and lot numbers not reported) intraperitoneally (IP) for peritoneal dialysis (PD). Dianeal PD2 1.5% was ongoing until the time of death. It was not reported if Dianeal PD2 2.5% therapy was ongoing until the time of death. Action taken with Dianeal therapies was not applicable.
+
+EVENT DETAILS: During a call, the following was reported. The patient was hospitalized for the last eight and half months for an unspecified indication. On an unreported date, the patient was admitted to the intensive care unit (ICU) for an unspecified indication and hospice care was initiated. On an unreported date, the patient was placed on Dianeal PD2 1.5% therapy TO INCREASE BLOOD PRESSURE before he passed away. On 23Dec2016, the patient PASSED AWAY. The cause of death was not reported.
+
+OUTCOME: PASSED AWAY: Fatal (date of death: 23Dec2016), Cause of death: Not reported. Autopsy: It was not reported if an autopsy was performed. TO INCREASE BLOOD PRESSURE: Not reported.
+
+MEDICAL HISTORY: Not reported.
+
+CONCOMITANT THERAPY: Not reported.
+
+CAUSALITY ASSESSMENT: Not reported.
+
+CAUSALITY ASSESSMENT:  Not Reported
+
+&lt;&lt;CB_OffLabelUse_Local - No translation&gt;&gt;
+
+
+CONCOMITANT THERAPY: &lt;&lt;CB_CONCOMITANTMEDICATIONS_NAME - No translation&gt;&gt;
+
+CAUSALITY ASSESSMENT: Not Reported
+
+&lt;&lt;CB_OffLabelUse_Local - No translation&gt;&gt; 
+
+This is one of the multiple reports received from the reporter. Baxter captured (XXXX) as additional events. Baxter/Reporter considered the event/s (XXXXX) serious/non-serious.</narrativeincludeclinical>
+<reportercomment></reportercomment>
+<senderdiagnosismeddraversion></senderdiagnosismeddraversion>
+<senderdiagnosis></senderdiagnosis>
+<sendercomment>Based on the very limited amount of information provided, a causal relationship cannot be excluded for the event of PASSED AWAY, Without knowing the patient's medical history, state of health, or cause of death, a full assessment is limited. This does not necessarily reflect a conclusion by Baxter that the case or information contained within constitutes an admission that the dialysate therapy caused or contributed to the event.
+Due to the limited amount of information provided, the event of TO INCREASE BLOOD PRESSURE is conservatively assessed as possibly associated with dialysate therapy. This does not necessarily reflect a conclusion by Baxter that the case or information contained within constitutes an admission that the dialysate therapy caused or contributed to the event.
+Events: PASSED AWAY, TO INCREASE BLOOD PRESSURE - serious, possibly associated.
+05Jan2017</sendercomment>
+</summary>
+</patient>
+</safetyreport>
+</ichicsr>

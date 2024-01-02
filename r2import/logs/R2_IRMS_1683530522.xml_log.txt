@@ -1,0 +1,107 @@
+08-05-2023 12:52:16,692 ERROR    [helper.py:214] start
+08-05-2023 12:52:16,709 ERROR    [helper.py:214] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\r2import\helper.py 167:'authoritynumb'
+08-05-2023 12:52:16,723 ERROR    [helper.py:214] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\r2import\views.py 73:The connection 'simplesafety' doesn't exist.
+08-05-2023 12:58:28,4 DEBUG    [hooks.py:420] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+08-05-2023 12:58:28,7 DEBUG    [hooks.py:420] Changing event name from before-call.apigateway to before-call.api-gateway
+08-05-2023 12:58:28,8 DEBUG    [hooks.py:420] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+08-05-2023 12:58:28,10 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+08-05-2023 12:58:28,11 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+08-05-2023 12:58:28,11 DEBUG    [hooks.py:420] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+08-05-2023 12:58:28,12 DEBUG    [hooks.py:420] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+08-05-2023 12:58:28,16 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+08-05-2023 12:58:28,16 DEBUG    [hooks.py:420] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+08-05-2023 12:58:28,17 DEBUG    [hooks.py:420] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+08-05-2023 12:58:28,17 DEBUG    [hooks.py:420] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+08-05-2023 12:58:28,26 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\endpoints.json
+08-05-2023 12:58:28,38 DEBUG    [hooks.py:210] Event choose-service-name: calling handler <function handle_service_name_alias at 0x0000028A1E7C20D0>
+08-05-2023 12:58:28,276 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json
+08-05-2023 12:58:28,299 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x0000028A1E771040>
+08-05-2023 12:58:28,300 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x0000028A4D131AF0>
+08-05-2023 12:58:28,309 DEBUG    [hooks.py:210] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x0000028A1E76EDC0>
+08-05-2023 12:58:28,313 DEBUG    [endpoint.py:292] Setting s3 timeout as (60, 60)
+08-05-2023 12:58:28,340 DEBUG    [loaders.py:175] Loading JSON file: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\botocore\data\_retry.json
+08-05-2023 12:58:28,340 DEBUG    [client.py:165] Registering retry handlers for service: s3
+08-05-2023 12:58:28,342 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutBucketCors: calling handler <function validate_bucket_name at 0x0000028A1E7DA9D0>
+08-05-2023 12:58:28,342 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutBucketCors: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x0000028A4CBEF100>>
+08-05-2023 12:58:28,342 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutBucketCors: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x0000028A4CBEF190>>
+08-05-2023 12:58:28,343 DEBUG    [hooks.py:210] Event before-parameter-build.s3.PutBucketCors: calling handler <function generate_idempotent_uuid at 0x0000028A1E7DA820>
+08-05-2023 12:58:28,344 DEBUG    [hooks.py:210] Event before-call.s3.PutBucketCors: calling handler <function add_expect_header at 0x0000028A1E7DAD30>
+08-05-2023 12:58:28,344 DEBUG    [hooks.py:210] Event before-call.s3.PutBucketCors: calling handler <bound method S3RegionRedirector.set_request_url of <botocore.utils.S3RegionRedirector object at 0x0000028A4CBEF100>>
+08-05-2023 12:58:28,344 DEBUG    [hooks.py:210] Event before-call.s3.PutBucketCors: calling handler <function inject_api_version_header_if_needed at 0x0000028A1E7E10D0>
+08-05-2023 12:58:28,345 DEBUG    [endpoint.py:100] Making request for OperationModel(name=PutBucketCors) with params: {'url_path': '/dss-dev-ritrace?cors', 'query_string': {}, 'method': 'PUT', 'headers': {'Content-MD5': 'mtc/fYOw3NRHuhykL/56nA==', 'User-Agent': 'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38'}, 'body': b'<CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><CORSRule><AllowedHeader>Authorization</AllowedHeader><AllowedMethod>GET</AllowedMethod><AllowedMethod>PUT</AllowedMethod><AllowedOrigin>*</AllowedOrigin><ExposeHeader>ETag</ExposeHeader><ExposeHeader>x-amz-request-id</ExposeHeader><MaxAgeSeconds>3000</MaxAgeSeconds></CORSRule></CORSConfiguration>', 'url': 'https://s3.amazonaws.com/dss-dev-ritrace?cors', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x0000028A4CBB6640>, 'has_streaming_input': False, 'auth_type': None, 'signing': {'bucket': 'dss-dev-ritrace'}}}
+08-05-2023 12:58:28,345 DEBUG    [hooks.py:210] Event request-created.s3.PutBucketCors: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x0000028A4CBB6040>>
+08-05-2023 12:58:28,345 DEBUG    [hooks.py:210] Event choose-signer.s3.PutBucketCors: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x0000028A4CBEF1F0>>
+08-05-2023 12:58:28,345 DEBUG    [hooks.py:210] Event choose-signer.s3.PutBucketCors: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000028A4CFEFF70>>
+08-05-2023 12:58:28,345 DEBUG    [hooks.py:210] Event choose-signer.s3.PutBucketCors: calling handler <function set_operation_specific_signer at 0x0000028A1E7DA700>
+08-05-2023 12:58:28,345 DEBUG    [hooks.py:210] Event before-sign.s3.PutBucketCors: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x0000028A4CBEF1F0>>
+08-05-2023 12:58:28,346 DEBUG    [utils.py:1931] Defaulting to S3 virtual host style addressing with path style addressing fallback.
+08-05-2023 12:58:28,346 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace?cors
+08-05-2023 12:58:28,346 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/?cors
+08-05-2023 12:58:28,346 DEBUG    [auth.py:380] Calculating signature using v4 auth.
+08-05-2023 12:58:28,346 DEBUG    [auth.py:381] CanonicalRequest:
+PUT
+/
+cors=
+content-md5:mtc/fYOw3NRHuhykL/56nA==
+host:dss-dev-ritrace.s3.amazonaws.com
+x-amz-content-sha256:d8961b555f4820ba61b28b6a05337bf0e5d08391594836dc5f5c19ef36001983
+x-amz-date:20230508T072828Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+d8961b555f4820ba61b28b6a05337bf0e5d08391594836dc5f5c19ef36001983
+08-05-2023 12:58:28,346 DEBUG    [auth.py:383] StringToSign:
+AWS4-HMAC-SHA256
+20230508T072828Z
+20230508/us-east-1/s3/aws4_request
+f026f591698484defe0991fe4d50b261ce777a2df6431710eb6337771056324a
+08-05-2023 12:58:28,346 DEBUG    [auth.py:385] Signature:
+a179a03d767701f84b2960d19bfa7d123cc13a464c834b92cf15314b5082c87e
+08-05-2023 12:58:28,350 DEBUG    [endpoint.py:187] Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://dss-dev-ritrace.s3.amazonaws.com/?cors, headers={'Content-MD5': b'mtc/fYOw3NRHuhykL/56nA==', 'User-Agent': b'Boto3/1.18.38 Python/3.9.13 Windows/10 Botocore/1.21.38', 'X-Amz-Date': b'20230508T072828Z', 'X-Amz-Content-SHA256': b'd8961b555f4820ba61b28b6a05337bf0e5d08391594836dc5f5c19ef36001983', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAW3GZXGRDWQCHJYXB/20230508/us-east-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=a179a03d767701f84b2960d19bfa7d123cc13a464c834b92cf15314b5082c87e', 'Content-Length': '365'}>
+08-05-2023 12:58:28,351 DEBUG    [httpsession.py:51] Certificate path: C:\qinecsa\python_projects\data_indigestion\rest_api\env\lib\site-packages\certifi\cacert.pem
+08-05-2023 12:58:28,352 DEBUG    [connectionpool.py:1003] Starting new HTTPS connection (1): dss-dev-ritrace.s3.amazonaws.com:443
+08-05-2023 12:58:30,142 DEBUG    [connectionpool.py:456] https://dss-dev-ritrace.s3.amazonaws.com:443 "PUT /?cors HTTP/1.1" 200 0
+08-05-2023 12:58:30,143 DEBUG    [parsers.py:233] Response headers: {'x-amz-id-2': '9FNmJH4j9cLHGqc5P+/nNyp/6V9JPYlHay7whOHbwm3tYH/Slr2uLKmatK/EiIQS1bkhpiiw8ADdcN24YY0AyO2zM8wsV8Nv', 'x-amz-request-id': '4PYADYEMGPV2SVJP', 'Date': 'Mon, 08 May 2023 07:27:59 GMT', 'Server': 'AmazonS3', 'Content-Length': '0'}
+08-05-2023 12:58:30,143 DEBUG    [parsers.py:234] Response body:
+b''
+08-05-2023 12:58:30,143 DEBUG    [hooks.py:210] Event needs-retry.s3.PutBucketCors: calling handler <botocore.retryhandler.RetryHandler object at 0x0000028A4CBEF040>
+08-05-2023 12:58:30,143 DEBUG    [retryhandler.py:187] No retry needed.
+08-05-2023 12:58:30,143 DEBUG    [hooks.py:210] Event needs-retry.s3.PutBucketCors: calling handler <bound method S3RegionRedirector.redirect_from_error of <botocore.utils.S3RegionRedirector object at 0x0000028A4CBEF100>>
+08-05-2023 12:58:30,144 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x0000028A1E7DAA60>
+08-05-2023 12:58:30,144 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x0000028A1E7DA9D0>
+08-05-2023 12:58:30,144 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x0000028A4CBEF100>>
+08-05-2023 12:58:30,144 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x0000028A4CBEF190>>
+08-05-2023 12:58:30,144 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x0000028A1E7DA820>
+08-05-2023 12:58:30,145 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x0000028A4CBEF1F0>>
+08-05-2023 12:58:30,145 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000028A4CFEFF70>>
+08-05-2023 12:58:30,145 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x0000028A4CBEF1F0>>
+08-05-2023 12:58:30,145 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/uploads/13/page_2.png
+08-05-2023 12:58:30,146 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/uploads/13/page_2.png
+08-05-2023 12:58:30,146 DEBUG    [auth.py:736] Calculating signature using hmacv1 auth.
+08-05-2023 12:58:30,146 DEBUG    [auth.py:738] HTTP request method: GET
+08-05-2023 12:58:30,146 DEBUG    [auth.py:730] StringToSign:
+GET
+
+
+1684826910
+/dss-dev-ritrace/media/public/automation_poc/uploads/13/page_2.png
+08-05-2023 12:58:30,146 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x0000028A1E7DAA60>
+08-05-2023 12:58:30,147 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x0000028A1E7DA9D0>
+08-05-2023 12:58:30,147 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirector.redirect_from_cache of <botocore.utils.S3RegionRedirector object at 0x0000028A4CBEF100>>
+08-05-2023 12:58:30,147 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ArnParamHandler.handle_arn of <botocore.utils.S3ArnParamHandler object at 0x0000028A4CBEF190>>
+08-05-2023 12:58:30,147 DEBUG    [hooks.py:210] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x0000028A1E7DA820>
+08-05-2023 12:58:30,147 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method S3EndpointSetter.set_signer of <botocore.utils.S3EndpointSetter object at 0x0000028A4CBEF1F0>>
+08-05-2023 12:58:30,147 DEBUG    [hooks.py:210] Event choose-signer.s3.GetObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x0000028A4CFEFF70>>
+08-05-2023 12:58:30,147 DEBUG    [hooks.py:210] Event before-sign.s3.GetObject: calling handler <bound method S3EndpointSetter.set_endpoint of <botocore.utils.S3EndpointSetter object at 0x0000028A4CBEF1F0>>
+08-05-2023 12:58:30,148 DEBUG    [utils.py:1145] Checking for DNS compatible bucket for: https://s3.amazonaws.com/dss-dev-ritrace/media/public/automation_poc/uploads/13/1.html
+08-05-2023 12:58:30,148 DEBUG    [utils.py:1164] URI updated to: https://dss-dev-ritrace.s3.amazonaws.com/media/public/automation_poc/uploads/13/1.html
+08-05-2023 12:58:30,148 DEBUG    [auth.py:736] Calculating signature using hmacv1 auth.
+08-05-2023 12:58:30,148 DEBUG    [auth.py:738] HTTP request method: GET
+08-05-2023 12:58:30,148 DEBUG    [auth.py:730] StringToSign:
+GET
+
+
+1684826910
+/dss-dev-ritrace/media/public/automation_poc/uploads/13/1.html
+08-05-2023 12:58:30,166 DEBUG    [connectionpool.py:1003] Starting new HTTPS connection (1): dss-dev-ritrace.s3.amazonaws.com:443
+08-05-2023 12:58:31,334 DEBUG    [connectionpool.py:456] https://dss-dev-ritrace.s3.amazonaws.com:443 "GET /media/public/automation_poc/uploads/13/1.html?AWSAccessKeyId=AKIAW3GZXGRDWQCHJYXB&Signature=q4fFbkuqH%2FzoC%2FIfCK7IZ4t0LSM%3D&Expires=1684826910 HTTP/1.1" 200 112757
+08-05-2023 13:03:57,252 INFO     [autoreload.py:266] C:\qinecsa\python_projects\data_indigestion\rest_api\data_ingestion\R2xml\jsonfile.py changed, reloading.

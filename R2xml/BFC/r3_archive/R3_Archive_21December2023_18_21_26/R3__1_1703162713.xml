@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MCCI_IN200100UV01 ITSVersion="XML_1.0" xsi:schemaLocation="urn:hl7-org:v3 http://eudravigilance.ema.europa.eu/xsd/multicacheschemas/MCCI_IN200100UV01.xsd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xmlns:mif="urn:hl7-org:v3/mif">
+<id extension="c8867cf8-9ffe-11ee-ba1f-28dfeb6bed73-BIO" root="2.16.840.1.113883.3.989.2.1.3.22" />
+<creationTime value="20230511181512" />
+<responseModeCode code="D" />
+<interactionId root="2.16.840.1.113883.1.6" extension="MCCI_IN200100UV01" />
+<name code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.1" codeSystemVersion="2.0" />
+<PORR_IN049016UV>
+<id extension="" root="2.16.840.1.113883.3.989.2.1.3.1" />
+<creationTime value="20230511000000" /><interactionId root="2.16.840.1.113883.1.6" extension="MCCI_IN200100UV01" />
+<processingCode code="P" />
+<processingModeCode code="T" />
+<acceptAckCode code="AL" />
+<receiver typeCode="RCV">
+<device classCode="DEV" determinerCode="INSTANCE">
+<id extension="ss" root="2.16.840.1.113883.3.989.2.1.3.12" />
+</device>
+</receiver>
+<sender typeCode="SND">
+<device classCode="DEV" determinerCode="INSTANCE">
+<id extension="simplesafety" root="2.16.840.1.113883.3.989.2.1.3.11" />
+</device>
+</sender>
+<controlActProcess classCode="CACT" moodCode="EVN">
+<code code="PORR_TE049016UV" codeSystem="2.16.840.1.113883.1.18" />
+<effectiveTime value="20230511000000" /><subject typeCode="SUBJ">
+<investigationEvent classCode="INVSTG" moodCode="EVN">
+<id root="2.16.840.1.113883.3.989.2.1.3.1" extension="" />
+<id root="2.16.840.1.113883.3.989.2.1.3.2" extension="1401051519956202300305" />
+<code code="PAT_ADV_EVNT" codeSystem="2.16.840.1.113883.5.4" />
+<text mediaType="text/plain">The patient is a middle-aged female with a chronic course and a 1-year medical history. She was admitted to the hospital via outpatient clinic with "dry mouth and eyes for 1 year and right temporomandibular joint pain for 1 week". Physical examination: no abnormal signs in the heart, lungs and abdomen. The physiological curvature of the spine existed, and forward flexion, back extension and lateral bending were available, the vertebrae and paravertebral muscles tenderness (-), bilateral straight leg raising test (-), sacroiliac joint tenderness (-), bilateral "4" test (-), left hand PIP2 and right hand PIP1 and 2 tenderness (+), left wrist joint swelling and tenderness (+), and bone rubbing sensation could be palpated in the left knee joint. There was no myalgia in the extremities, normal muscle strength and muscle tone, and no edema in both lower extremities. Bilateral babinski signs (-). Auxiliary examination: (April 17, 2023, in this hospital) blood routine examination: white blood cell count 5.60×10^9/L, neutrophil % 70.9%, hemoglobin 141g/L, platelet count 334×10^9/L, C-reactive protein &lt;1.00mg/L, erythrocyte sedimentation rate 6mm/h. Blood biochemistry examination: total cholesterol 3.17mmol/L, Triglycerides 4.07mmol/L, HDL cholesterol 0.81mmol/L, the others were normal. Immunoglobulin A 3.16g/L, immunoglobulin G 15.67g/L, immunoglobulin M 1.26g/L. RF 20.85IU/mL, rheumatoid combination: U1-SnRNP positive (+), the rest negative. Antinuclear antibody positive (+) 1:1000 granular type. Salivary flow rate + three eye tests: salivary flow rate basal 0ml/min, 0.5ml/min after stimulation, tear secretion test: left was 16mm/5min, right was 16mm/5min, break-up time of tear film: left &gt; 10 seconds, right &gt; 10 seconds, bilateral corneal staining were (-). Ultrasound of both hands: no significant abnormalities were seen in both hands. After treatment with Anethol Trithione Tablets, diarrhea developed outside the hospital.</text>
+<statusCode code="active" />
+<reference typeCode="REFR">
+<document classCode="DOC" moodCode="EVN">
+<code code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.27" displayName="documentsHeldBySender" />
+<title>Source of this Case Safety Report in E2B(R2) Format</title>
+</document>
+</reference>
+<component typeCode="COMP">
+<adverseEventAssessment classCode="INVSTG" moodCode="EVN">
+<subject1 typeCode="SBJ">
+<primaryRole classCode="INVSBJ">
+<player1 classCode="PSN" determinerCode="INSTANCE">
+<name nullFlavor="UNK" />
+<administrativeGenderCode code="2" codeSystem="1.0.5218" /><birthTime value="19780103" /></player1>
+<subjectOf2 typeCode="SBJ">
+<observation moodCode="EVN" classCode="OBS">
+<code code="3" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="PQ" value="45" unit="a" />
+</observation>
+</subjectOf2>
+<subjectOf2 typeCode="SBJ">
+<observation moodCode="EVN" classCode="OBS">
+<code code="4" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="CE" code="5" codeSystem="2.16.840.1.113883.3.989.2.1.1.9" codeSystemVersion="2.0" />
+</observation>
+</subjectOf2>
+<subjectOf2 typeCode="SBJ">
+<observation moodCode="EVN" classCode="OBS">
+<code code="7" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="PQ" value="60.0" unit="kg" />
+</observation>
+</subjectOf2>
+<subjectOf2 typeCode="SBJ">
+<organizer classCode="CATEGORY" moodCode="EVN">
+<code code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.20" />
+<component typeCode="COMP">
+<observation moodCode="EVN" classCode="OBS">
+<code code="10040633" codeSystemVersion="" codeSystem="2.16.840.1.113883.6.163" />
+</observation>
+</component>
+</organizer>
+</subjectOf2>
+<subjectOf2 typeCode="SBJ">
+<observation moodCode="EVN" classCode="OBS">
+<id root="RID1" />
+<code code="29" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<effectiveTime xsi:type="IVL_TS">
+<low value="20230508" />
+</effectiveTime>
+<value xsi:type="CE" codeSystem="2.16.840.1.113883.6.163" code="10012727">
+<originalText>Diarrhea</originalText>
+</value>
+<outboundRelationship2 typeCode="PERT">
+<observation moodCode="EVN" classCode="OBS">
+<code code="34" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="BL" nullFlavor="NI" />
+</observation>
+</outboundRelationship2>
+<outboundRelationship2 typeCode="PERT">
+<observation moodCode="EVN" classCode="OBS">
+<code code="21" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="BL" nullFlavor="NI" />
+</observation>
+</outboundRelationship2>
+<outboundRelationship2 typeCode="PERT">
+<observation moodCode="EVN" classCode="OBS">
+<code code="33" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="BL" nullFlavor="NI" />
+</observation>
+</outboundRelationship2>
+<outboundRelationship2 typeCode="PERT">
+<observation moodCode="EVN" classCode="OBS">
+<code code="35" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="BL" nullFlavor="NI" />
+</observation>
+</outboundRelationship2>
+<outboundRelationship2 typeCode="PERT">
+<observation moodCode="EVN" classCode="OBS">
+<code code="12" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="BL" nullFlavor="NI" />
+</observation>
+</outboundRelationship2>
+<outboundRelationship2 typeCode="PERT">
+<observation moodCode="EVN" classCode="OBS">
+<code code="26" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="BL" nullFlavor="NI" />
+</observation>
+</outboundRelationship2>
+<outboundRelationship2 typeCode="PERT">
+<observation moodCode="EVN" classCode="OBS">
+<code code="27" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="CE" code="2" codeSystem="2.16.840.1.113883.3.989.2.1.1.11" codeSystemVersion="2.0" />
+</observation>
+</outboundRelationship2>
+</observation>
+</subjectOf2>
+<subjectOf2 typeCode="SBJ">
+<organizer classCode="CATEGORY" moodCode="EVN">
+<code code="4" codeSystem="2.16.840.1.113883.3.989.2.1.1.20" />
+<component typeCode="COMP">
+<substanceAdministration moodCode="EVN" classCode="SBADM">
+<id root="DID1" />
+<consumable typeCode="CSM">
+<instanceOfKind classCode="INST">
+<kindOfProduct classCode="MMAT" determinerCode="KIND">
+<code />
+<name>Anethol Trithione Tablets</name>
+<asManufacturedProduct classCode="MANU" />
+<ingredient classCode="ACTI">
+<ingredientSubstance classCode="MMAT" determinerCode="KIND">
+<name>Anethol Trithione Tablets</name>
+</ingredientSubstance>
+</ingredient>
+</kindOfProduct>
+</instanceOfKind>
+</consumable>
+<outboundRelationship2 typeCode="COMP">
+<substanceAdministration classCode="SBADM" moodCode="EVN">
+<effectiveTime xsi:type="SXPR_TS">
+<comp xsi:type="PIVL_TS">
+<period nullFlavor="NI" />
+</comp>
+<comp xsi:type="IVL_TS" operator="A">
+<low value="20230508" />
+<high value="20230508" />
+</comp>
+</effectiveTime>
+<routeCode code="048" codeSystem="2.16.840.1.113883.3.989.2.1.1.14" codeSystemVersion="2.0" />
+<doseQuantity value="" unit="kg" />
+<consumable typeCode="CSM">
+<instanceOfKind classCode="INST">
+<productInstanceInstance classCode="MMAT" determinerCode="INSTANCE">
+<id nullFlavor="NI" />
+<lotNumberText></lotNumberText>
+</productInstanceInstance>
+<kindOfProduct classCode="MMAT" determinerCode="KIND">
+<formCode>
+<originalText>Tablet</originalText>
+</formCode>
+</kindOfProduct>
+</instanceOfKind>
+</consumable>
+</substanceAdministration>
+</outboundRelationship2>
+<inboundRelationship typeCode="RSON">
+<observation moodCode="EVN" classCode="OBS">
+<code code="19" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="CE" code="10040633" />
+<performer typeCode="PRF">
+<assignedEntity classCode="ASSIGNED">
+<code code="3" codeSystem="2.16.840.1.113883.3.989.2.1.1.21" />
+</assignedEntity>
+</performer>
+<outboundRelationship1 typeCode="REFR">
+<actReference classCode="SBADM" moodCode="EVN">
+<id root="DID1" />
+</actReference>
+</outboundRelationship1>
+</observation>
+</inboundRelationship>
+<inboundRelationship typeCode="CAUS">
+<act classCode="ACT" moodCode="EVN">
+<code code="0" codeSystem="2.16.840.1.113883.3.989.2.1.1.15" codeSystemVersion="2.0" /></act>
+</inboundRelationship>
+</substanceAdministration>
+</component>
+</organizer>
+</subjectOf2>
+</primaryRole>
+</subject1>
+<component typeCode="COMP">
+<causalityAssessment classCode="OBS" moodCode="EVN">
+<code code="20" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="CE" code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.13" codeSystemVersion="2.0" />
+<subject2 typeCode="SUBJ">
+<productUseReference classCode="SBADM" moodCode="EVN">
+<id root="DID1" />
+</productUseReference>
+</subject2>
+</causalityAssessment>
+</component>
+<component typeCode="COMP">
+<causalityAssessment classCode="OBS" moodCode="EVN">
+<code code="39" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="ST">related</value>
+<methodCode>
+<originalText>Global Introspection</originalText>
+</methodCode>
+<author typeCode="AUT">
+<assignedEntity classCode="ASSIGNED">
+<code>
+<originalText>Reporter</originalText>
+</code>
+</assignedEntity>
+</author>
+<subject2 typeCode="SUBJ">
+<productUseReference classCode="SBADM" moodCode="EVN">
+<id root="DID1" />
+</productUseReference>
+</subject2>
+</causalityAssessment>
+</component>
+<component typeCode="COMP">
+<causalityAssessment classCode="OBS" moodCode="EVN">
+<code code="39" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="ST">related</value>
+<methodCode>
+<originalText>Global Introspection</originalText>
+</methodCode>
+<author typeCode="AUT">
+<assignedEntity classCode="ASSIGNED">
+<code>
+<originalText>Company</originalText>
+</code>
+</assignedEntity>
+</author>
+<subject2 typeCode="SUBJ">
+<productUseReference classCode="SBADM" moodCode="EVN">
+<id root="DID1" />
+</productUseReference>
+</subject2>
+</causalityAssessment>
+</component>
+</adverseEventAssessment>
+</component>
+<component typeCode="COMP">
+<observationEvent classCode="OBS" moodCode="EVN">
+<code code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" displayName="additionalDocumentsAvailable" />
+<value xsi:type="BL" value="true" />
+</observationEvent>
+</component>
+<component typeCode="COMP">
+<observationEvent classCode="OBS" moodCode="EVN">
+<code code="23" codeSystem="2.16.840.1.113883.3.989.2.1.1.19" />
+<value xsi:type="BL" nullFlavor="NI" />
+</observationEvent>
+</component>
+<outboundRelationship typeCode="SPRT">
+<relatedInvestigation classCode="INVSTG" moodCode="EVN">
+<code code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.22" />
+<subjectOf2 typeCode="SUBJ">
+<controlActEvent classCode="CACT" moodCode="EVN">
+<author typeCode="AUT">
+<assignedEntity classCode="ASSIGNED">
+<code code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.3" codeSystemVersion="2.0" />
+</assignedEntity>
+</author>
+</controlActEvent>
+</subjectOf2>
+</relatedInvestigation>
+</outboundRelationship>
+<subjectOf1 typeCode="SUBJ">
+<controlActEvent classCode="CACT" moodCode="EVN">
+<author typeCode="AUT">
+<assignedEntity classCode="ASSIGNED">
+<code code="6" codeSystem="2.16.840.1.113883.3.989.2.1.1.7" codeSystemVersion="2.0" /><addr />
+<assignedPerson classCode="PSN" determinerCode="INSTANCE">
+<name />
+</assignedPerson>
+<representedOrganization classCode="ORG" determinerCode="INSTANCE">
+<assignedEntity classCode="ASSIGNED">
+<representedOrganization classCode="ORG" determinerCode="INSTANCE">
+<name>simplesafety</name>
+</representedOrganization>
+</assignedEntity>
+</representedOrganization>
+</assignedEntity>
+</author>
+</controlActEvent>
+</subjectOf1>
+<subjectOf2 typeCode="SUBJ">
+<investigationCharacteristic classCode="OBS" moodCode="EVN">
+<code code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.23" />
+<value xsi:type="CE" code="1" codeSystem="2.16.840.1.113883.3.989.2.1.1.2" codeSystemVersion="2.0" />
+</investigationCharacteristic>
+</subjectOf2>
+<subjectOf2 typeCode="SUBJ">
+<investigationCharacteristic classCode="OBS" moodCode="EVN">
+<code code="2" codeSystem="2.16.840.1.113883.3.989.2.1.1.23" />
+<value xsi:type="BL" nullFlavor="NI" />
+</investigationCharacteristic>
+</subjectOf2>
+</investigationEvent>
+</subject>
+</controlActProcess>
+</PORR_IN049016UV>
+<receiver typeCode="RCV">
+<device classCode="DEV" determinerCode="INSTANCE">
+<id extension="ss" root="2.16.840.1.113883.3.989.2.1.3.14" />
+</device>
+</receiver>
+<sender typeCode="SND">
+<device classCode="DEV" determinerCode="INSTANCE">
+<id extension="simplesafety" root="2.16.840.1.113883.3.989.2.1.3.13" />
+</device>
+</sender>
+</MCCI_IN200100UV01>

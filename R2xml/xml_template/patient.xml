@@ -1,0 +1,21 @@
+<patient>
+	<patientinitial></patientinitial>
+	<patientgpmedicalrecordnumb></patientgpmedicalrecordnumb>
+	<patientspecialistrecordnumb></patientspecialistrecordnumb>
+	<patienthospitalrecordnumb></patienthospitalrecordnumb>
+	<patientinvestigationnumb></patientinvestigationnumb>
+	<patientbirthdateformat></patientbirthdateformat>
+	<patientbirthdate></patientbirthdate>
+	<patientonsetage></patientonsetage>
+	<patientonsetageunit></patientonsetageunit>
+	<gestationperiod></gestationperiod>
+	<gestationperiodunit></gestationperiodunit>
+	<patientagegroup></patientagegroup>
+	<patientweight></patientweight>
+	<patientheight></patientheight>
+	<patientsex></patientsex>
+	<lastmenstrualdateformat></lastmenstrualdateformat>
+	<patientlastmenstrualdate></patientlastmenstrualdate>
+	<patientmedicalhistorytext></patientmedicalhistorytext>
+	<resultstestsprocedures></resultstestsprocedures>
+</patient>

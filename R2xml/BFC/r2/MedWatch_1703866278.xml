@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ichicsr>
+<ichicsr lang="en">
+<ichicsrmessageheader>
+<messagetype>ichicsr</messagetype>
+<messageformatversion>2.1</messageformatversion>
+<messageformatrelease>1.0</messageformatrelease>
+<messagenumb>d565bad5-a66e-11ee-b8b2-84ef18696062-BIO</messagenumb>
+<messagesenderidentifier>SALVUS</messagesenderidentifier>
+<messagereceiveridentifier>SALVUS</messagereceiveridentifier>
+<messagedateformat>204</messagedateformat>
+<messagedate>20130806</messagedate>
+</ichicsrmessageheader>
+<safetyreport>
+
+
+
+
+<transmissiondateformat>102</transmissiondateformat>
+<transmissiondate>20130806</transmissiondate>
+<reporttype>1</reporttype>
+<serious>2</serious>
+<seriousnessdeath>2</seriousnessdeath>
+<seriousnesslifethreatening>2</seriousnesslifethreatening>
+<seriousnesshospitalization>2</seriousnesshospitalization>
+<seriousnessdisabling>2</seriousnessdisabling>
+<seriousnesscongenitalanomali>2</seriousnesscongenitalanomali>
+<seriousnessother>2</seriousnessother>
+<receivedateformat>102</receivedateformat>
+<receivedate>20130806</receivedate>
+<receiptdateformat>102</receiptdateformat>
+<receiptdate>20130806</receiptdate>
+
+<companynumb>SALVUS_SALVUS_2836807153</companynumb>
+
+
+
+<sender>
+
+<senderorganization>SALVUS</senderorganization>
+</sender>
+<receiver>
+
+<receiverorganization>SALVUS</receiverorganization>
+</receiver>
+<patient>
+<patientinitial>M-A  </patientinitial>
+
+
+
+
+<patientbirthdateformat>102</patientbirthdateformat>
+<patientbirthdate>1</patientbirthdate>
+
+<patientonsetageunit>0</patientonsetageunit>
+
+
+
+
+
+<patientsex>2</patientsex>
+
+
+<patientmedicalhistorytext>Burning in chest in February 2013 while taking Levoxyl (levothyroxine sodium), which she took for 15 years Prior treatment with Synthroid (levothyroxine sodium) with which she felt terrible Pregnant: Unknown</patientmedicalhistorytext>
+
+<reaction>
+<primarysourcereaction>Bloated feeling</primarysourcereaction>
+
+<reactionmeddrallt>10005264</reactionmeddrallt>
+
+
+
+<reactionstartdateformat>102</reactionstartdateformat>
+
+<reactionenddateformat>102</reactionenddateformat>
+
+
+
+
+
+
+</reaction><drug>
+<drugcharacterization>1</drugcharacterization>
+<medicinalproduct>Tirosint (levothyroxine sodium)</medicinalproduct>
+
+
+
+
+<drugauthorizationholder>NA</drugauthorizationholder>
+
+
+
+
+
+
+
+<drugdosagetext>unknown</drugdosagetext>
+
+<drugadministrationroute> oral</drugadministrationroute>
+
+<drugindication>10021114</drugindication>
+<drugstartdateformat>102</drugstartdateformat>
+
+<drugenddateformat>102</drugenddateformat>
+
+
+
+
+
+
+<activesubstance>
+<activesubstancename>Tirosint (levothyroxine sodium)</activesubstancename>
+</activesubstance>
+</drug><summary>
+<narrativeincludeclinical>DescribeReaction
+Bloated feeling Spontaneous report received on 22 July 2013 from a female consumer (initials M-A, age not provided) who began treatment with Tirosint (levothyroxine sodium) 50mcg daily for hypothyroidism on 18 July 2013. The consumer’s medical history is significant for burning in her chest in February 2013 while taking Levoxyl (levothyroxine sodium), which she took for 15 years; and prior treatment with Synthroid (levothyroxine sodium) with which she felt terrible. Concomitant medications were not provided. M-A began taking Tirosint on 18 July 2013 for the treatment of hypothyroidism. She had been taking Levoxyl for 15 years. M-A reported that in February 2013 she began to experience a burning in her chest. M-A fcontinued/] _
+OtherRelevantHistory
+Burning in chest in February 2013 while taking Levoxyl (levothyroxine sodium), which she took for 15 years Prior treatment with Synthroid (levothyroxine sodium) with which she felt terrible Pregnant: Unknown</narrativeincludeclinical>
+</summary></patient></safetyreport>
+</ichicsr>

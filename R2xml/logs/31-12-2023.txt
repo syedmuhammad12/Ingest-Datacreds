@@ -1,0 +1,500 @@
+31-12-2023 23:49:20,869 ERROR    [helper.py:161] D:\Freelancing\Maaz Bhai's Work\AWS-Deploy\rest_api\data_ingestion\R2xml\patientXmlElement.py 375:list index out of range
+31-12-2023 23:49:20,871 ERROR    [helper.py:161] D:\Freelancing\Maaz Bhai's Work\AWS-Deploy\rest_api\data_ingestion\R2xml\patientXmlElement.py 389:list index out of range
+31-12-2023 23:49:20,871 ERROR    [helper.py:161] D:\Freelancing\Maaz Bhai's Work\AWS-Deploy\rest_api\data_ingestion\R2xml\patientXmlElement.py 395:invalid literal for int() with base 10: 'Ibs'
+31-12-2023 23:49:21,666 ERROR    [helper.py:161] D:\Freelancing\Maaz Bhai's Work\AWS-Deploy\rest_api\data_ingestion\R2xml\reactionXmlElement.py 776:'DateOfEvent'
+31-12-2023 23:49:22,939 ERROR    [helper.py:161] D:\Freelancing\Maaz Bhai's Work\AWS-Deploy\rest_api\data_ingestion\R2xml\drugXmlElement.py 2134:list index out of range
+31-12-2023 23:49:22,940 ERROR    [helper.py:161] D:\Freelancing\Maaz Bhai's Work\AWS-Deploy\rest_api\data_ingestion\R2xml\drugXmlElement.py 2141:list index out of range
+31-12-2023 23:49:23,495 ERROR    [helper.py:161] D:\Freelancing\Maaz Bhai's Work\AWS-Deploy\rest_api\data_ingestion\R2xml\drugXmlElement.py 2169:list index out of range
+31-12-2023 23:49:23,497 ERROR    [helper.py:161] D:\Freelancing\Maaz Bhai's Work\AWS-Deploy\rest_api\data_ingestion\R2xml\drugXmlElement.py 1291:'CONCOMITANT NAME:'
+31-12-2023 23:50:27,347 DEBUG    [hooks.py:238] Event choose-service-name: calling handler <function handle_service_name_alias at 0x00000214C8A14820>
+31-12-2023 23:50:27,359 DEBUG    [hooks.py:238] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x00000214C898AB00>
+31-12-2023 23:50:27,361 DEBUG    [hooks.py:238] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x00000214C7DFCC10>
+31-12-2023 23:50:27,361 DEBUG    [hooks.py:238] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x00000214C898A8C0>
+31-12-2023 23:50:27,361 DEBUG    [configprovider.py:948] Looking for endpoint for s3 via: environment_service
+31-12-2023 23:50:27,362 DEBUG    [configprovider.py:948] Looking for endpoint for s3 via: environment_global
+31-12-2023 23:50:27,362 DEBUG    [configprovider.py:948] Looking for endpoint for s3 via: config_service
+31-12-2023 23:50:27,362 DEBUG    [configprovider.py:948] Looking for endpoint for s3 via: config_global
+31-12-2023 23:50:27,362 DEBUG    [configprovider.py:964] No configured endpoint found.
+31-12-2023 23:50:27,365 DEBUG    [endpoint.py:408] Setting s3 timeout as (60, 60)
+31-12-2023 23:50:27,369 DEBUG    [client.py:285] Registering retry handlers for service: s3
+31-12-2023 23:50:27,370 DEBUG    [utils.py:1728] Registering S3 region redirector handler
+31-12-2023 23:50:27,371 DEBUG    [utils.py:1669] Registering S3Express Identity Resolver
+31-12-2023 23:50:27,372 DEBUG    [transfer.py:201] Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+31-12-2023 23:50:27,373 DEBUG    [transfer.py:178] Using default client. pid: 71664, thread: 87036
+31-12-2023 23:50:27,373 DEBUG    [utils.py:632] Acquiring 0
+31-12-2023 23:50:27,375 DEBUG    [tasks.py:205] UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000214D5CF3760>}) about to wait for the following futures []
+31-12-2023 23:50:27,376 DEBUG    [tasks.py:216] UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000214D5CF3760>}) done waiting for dependent futures
+31-12-2023 23:50:27,377 DEBUG    [tasks.py:160] Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000214D5CF3760>}) with kwargs {'client': <botocore.client.S3 object at 0x00000214D4AEBD60>, 'config': <boto3.s3.transfer.TransferConfig object at 0x00000214D4AE9840>, 'osutil': <s3transfer.utils.OSUtils object at 0x00000214D4AE9660>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x00000214D5CF3AC0>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000214D5CF3760>}
+31-12-2023 23:50:27,377 DEBUG    [futures.py:318] Submitting task PutObjectTask(transfer_id=0, {'bucket': 'ingest-new', 'key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/1.pdf', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x00000214D5CF3AC0> for transfer request: 0.
+31-12-2023 23:50:27,377 DEBUG    [utils.py:632] Acquiring 0
+31-12-2023 23:50:27,380 DEBUG    [tasks.py:205] PutObjectTask(transfer_id=0, {'bucket': 'ingest-new', 'key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/1.pdf', 'extra_args': {}}) about to wait for the following futures []
+31-12-2023 23:50:27,380 DEBUG    [tasks.py:216] PutObjectTask(transfer_id=0, {'bucket': 'ingest-new', 'key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/1.pdf', 'extra_args': {}}) done waiting for dependent futures
+31-12-2023 23:50:27,380 DEBUG    [utils.py:645] Releasing acquire 0/None
+31-12-2023 23:50:27,380 DEBUG    [tasks.py:160] Executing task PutObjectTask(transfer_id=0, {'bucket': 'ingest-new', 'key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/1.pdf', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x00000214D4AEBD60>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x00000214D5E30DF0>, 'bucket': 'ingest-new', 'key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/1.pdf', 'extra_args': {}}
+31-12-2023 23:50:27,381 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x00000214C8A16B90>
+31-12-2023 23:50:27,381 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x00000214C8A15FC0>
+31-12-2023 23:50:27,381 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x00000214C8A17490>
+31-12-2023 23:50:27,381 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x00000214C8A15F30>
+31-12-2023 23:50:27,382 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000214C8A17D00>
+31-12-2023 23:50:27,382 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D5CF28F0>>
+31-12-2023 23:50:27,382 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D5CF3CD0>>
+31-12-2023 23:50:27,382 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x00000214C8A15D80>
+31-12-2023 23:50:27,382 DEBUG    [hooks.py:238] Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000214C8A17EB0>
+31-12-2023 23:50:27,382 DEBUG    [hooks.py:238] Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D5CF28F0>>
+31-12-2023 23:50:27,383 DEBUG    [regions.py:498] Calling endpoint provider with parameters: {'Bucket': 'ingest-new', 'Region': 'eu-north-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/1.pdf', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+31-12-2023 23:50:27,383 DEBUG    [regions.py:513] Endpoint provider result: https://ingest-new.s3.eu-north-1.amazonaws.com
+31-12-2023 23:50:27,383 DEBUG    [regions.py:660] Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+31-12-2023 23:50:27,384 DEBUG    [regions.py:733] Selected auth type "v4" as "v4" with signing context params: {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+31-12-2023 23:50:27,384 DEBUG    [hooks.py:238] Event before-call.s3.PutObject: calling handler <function conditionally_calculate_checksum at 0x00000214C88DA290>
+31-12-2023 23:50:27,386 DEBUG    [hooks.py:238] Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x00000214C8A16290>
+31-12-2023 23:50:27,386 DEBUG    [handlers.py:351] Adding expect 100 continue header to request.
+31-12-2023 23:50:27,386 DEBUG    [hooks.py:238] Event before-call.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D5CF3CD0>>
+31-12-2023 23:50:27,386 DEBUG    [hooks.py:238] Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x00000214C8A15A20>
+31-12-2023 23:50:27,386 DEBUG    [hooks.py:238] Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x00000214C8A175B0>
+31-12-2023 23:50:27,387 DEBUG    [endpoint.py:114] Making request for OperationModel(name=PutObject) with params: {'url_path': '/media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/1.pdf', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.34.0 md/Botocore#1.34.0 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.7 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.0', 'Content-MD5': 'MzKG4bgiiY73auPCzH3QCw==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x00000214D5E30DF0>, 'auth_path': '/ingest-new/media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/1.pdf', 'url': 'https://ingest-new.s3.eu-north-1.amazonaws.com/media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/1.pdf', 'context': {'client_region': 'eu-north-1', 'client_config': <botocore.config.Config object at 0x00000214D4AE9A80>, 'has_streaming_input': True, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'ingest-new', 'params': {'Bucket': 'ingest-new', 'Key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/1.pdf', 'Body': <s3transfer.utils.ReadFileChunk object at 0x00000214D5E30DF0>}}, 'S3Express': {'bucket_name': 'ingest-new'}, 'signing': {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'eu-north-1'}]}}}
+31-12-2023 23:50:27,387 DEBUG    [hooks.py:238] Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x00000214D449AF80>
+31-12-2023 23:50:27,387 DEBUG    [hooks.py:238] Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000214D4AEA170>>
+31-12-2023 23:50:27,387 DEBUG    [hooks.py:238] Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x00000214C8A15C60>
+31-12-2023 23:50:27,388 DEBUG    [hooks.py:238] Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x00000214C8A17E20>
+31-12-2023 23:50:27,388 DEBUG    [hooks.py:238] Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D5CF3CD0>>
+31-12-2023 23:50:27,388 DEBUG    [auth.py:425] Calculating signature using v4 auth.
+31-12-2023 23:50:27,388 DEBUG    [auth.py:426] CanonicalRequest:
+PUT
+/media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/1.pdf
+
+content-md5:MzKG4bgiiY73auPCzH3QCw==
+host:ingest-new.s3.eu-north-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20231231T185027Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+31-12-2023 23:50:27,388 DEBUG    [auth.py:428] StringToSign:
+AWS4-HMAC-SHA256
+20231231T185027Z
+20231231/eu-north-1/s3/aws4_request
+74fd3ea0182ed073a5fab8058a4c8d193dd32f523fc7157d2a525415edaf1bce
+31-12-2023 23:50:27,389 DEBUG    [auth.py:430] Signature:
+efbcb16764a7b12c394dbfdec06d23cb9be125f0f1fa4463303b262e901ca29f
+31-12-2023 23:50:27,389 DEBUG    [hooks.py:238] Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x00000214D449B010>
+31-12-2023 23:50:27,389 DEBUG    [hooks.py:238] Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x00000214C8A17C70>
+31-12-2023 23:50:27,389 DEBUG    [endpoint.py:265] Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://ingest-new.s3.eu-north-1.amazonaws.com/media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/1.pdf, headers={'User-Agent': b'Boto3/1.34.0 md/Botocore#1.34.0 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.7 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.0', 'Content-MD5': b'MzKG4bgiiY73auPCzH3QCw==', 'Expect': b'100-continue', 'X-Amz-Date': b'20231231T185027Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAZDWTMXTK6AOP2ENE/20231231/eu-north-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=efbcb16764a7b12c394dbfdec06d23cb9be125f0f1fa4463303b262e901ca29f', 'amz-sdk-invocation-id': b'8d892499-cd12-4f53-9953-094a1bdb0641', 'amz-sdk-request': b'attempt=1', 'Content-Length': '251246'}>
+31-12-2023 23:50:27,390 DEBUG    [httpsession.py:97] Certificate path: D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\certifi\cacert.pem
+31-12-2023 23:50:27,391 DEBUG    [connectionpool.py:1048] Starting new HTTPS connection (1): ingest-new.s3.eu-north-1.amazonaws.com:443
+31-12-2023 23:50:28,53 DEBUG    [awsrequest.py:127] Waiting for 100 Continue response.
+31-12-2023 23:50:28,227 DEBUG    [awsrequest.py:173] 100 Continue response seen, now sending request body.
+31-12-2023 23:50:29,207 DEBUG    [connectionpool.py:546] https://ingest-new.s3.eu-north-1.amazonaws.com:443 "PUT /media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/1.pdf HTTP/1.1" 200 0
+31-12-2023 23:50:29,207 DEBUG    [parsers.py:240] Response headers: {'x-amz-id-2': 'zAe38vQ9R/A6yn3UTImBGmGaoDmbCNK4HBUOtiO+K8vfLce//9kY+c6HiKAkoMz+gvQZe/EmVQQ=', 'x-amz-request-id': '9AE3SBJ1JG5STTWG', 'Date': 'Sun, 31 Dec 2023 18:50:29 GMT', 'x-amz-version-id': 'nnTTziY6kO4FCWppKlJiIfhRD0hGOJuV', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"333286e1b822898ef76ae3c2cc7dd00b"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+31-12-2023 23:50:29,208 DEBUG    [parsers.py:241] Response body:
+b''
+31-12-2023 23:50:29,208 DEBUG    [hooks.py:238] Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x00000214D5CF2830>
+31-12-2023 23:50:29,208 DEBUG    [retryhandler.py:211] No retry needed.
+31-12-2023 23:50:29,208 DEBUG    [hooks.py:238] Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D5CF28F0>>
+31-12-2023 23:50:29,208 DEBUG    [utils.py:645] Releasing acquire 0/None
+31-12-2023 23:50:29,209 DEBUG    [transfer.py:201] Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+31-12-2023 23:50:29,210 DEBUG    [transfer.py:178] Using default client. pid: 71664, thread: 87036
+31-12-2023 23:50:29,210 DEBUG    [utils.py:632] Acquiring 0
+31-12-2023 23:50:29,210 DEBUG    [tasks.py:205] UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000214D5CF3AC0>}) about to wait for the following futures []
+31-12-2023 23:50:29,210 DEBUG    [tasks.py:216] UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000214D5CF3AC0>}) done waiting for dependent futures
+31-12-2023 23:50:29,211 DEBUG    [tasks.py:160] Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000214D5CF3AC0>}) with kwargs {'client': <botocore.client.S3 object at 0x00000214D4AEBD60>, 'config': <boto3.s3.transfer.TransferConfig object at 0x00000214D4AEAA40>, 'osutil': <s3transfer.utils.OSUtils object at 0x00000214D4AE96F0>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x00000214D5E33850>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000214D5CF3AC0>}
+31-12-2023 23:50:29,211 DEBUG    [futures.py:318] Submitting task PutObjectTask(transfer_id=0, {'bucket': 'ingest-new', 'key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_1.png', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x00000214D5E33850> for transfer request: 0.
+31-12-2023 23:50:29,211 DEBUG    [utils.py:632] Acquiring 0
+31-12-2023 23:50:29,211 DEBUG    [tasks.py:205] PutObjectTask(transfer_id=0, {'bucket': 'ingest-new', 'key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_1.png', 'extra_args': {}}) about to wait for the following futures []
+31-12-2023 23:50:29,211 DEBUG    [utils.py:645] Releasing acquire 0/None
+31-12-2023 23:50:29,211 DEBUG    [tasks.py:216] PutObjectTask(transfer_id=0, {'bucket': 'ingest-new', 'key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_1.png', 'extra_args': {}}) done waiting for dependent futures
+31-12-2023 23:50:29,212 DEBUG    [tasks.py:160] Executing task PutObjectTask(transfer_id=0, {'bucket': 'ingest-new', 'key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_1.png', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x00000214D4AEBD60>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x00000214D5C776A0>, 'bucket': 'ingest-new', 'key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_1.png', 'extra_args': {}}
+31-12-2023 23:50:29,212 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x00000214C8A16B90>
+31-12-2023 23:50:29,212 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x00000214C8A15FC0>
+31-12-2023 23:50:29,212 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x00000214C8A17490>
+31-12-2023 23:50:29,212 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x00000214C8A15F30>
+31-12-2023 23:50:29,212 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000214C8A17D00>
+31-12-2023 23:50:29,212 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D5CF28F0>>
+31-12-2023 23:50:29,212 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D5CF3CD0>>
+31-12-2023 23:50:29,212 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x00000214C8A15D80>
+31-12-2023 23:50:29,212 DEBUG    [hooks.py:238] Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000214C8A17EB0>
+31-12-2023 23:50:29,212 DEBUG    [hooks.py:238] Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D5CF28F0>>
+31-12-2023 23:50:29,212 DEBUG    [regions.py:498] Calling endpoint provider with parameters: {'Bucket': 'ingest-new', 'Region': 'eu-north-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_1.png', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+31-12-2023 23:50:29,213 DEBUG    [regions.py:513] Endpoint provider result: https://ingest-new.s3.eu-north-1.amazonaws.com
+31-12-2023 23:50:29,213 DEBUG    [regions.py:660] Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+31-12-2023 23:50:29,213 DEBUG    [regions.py:733] Selected auth type "v4" as "v4" with signing context params: {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+31-12-2023 23:50:29,213 DEBUG    [hooks.py:238] Event before-call.s3.PutObject: calling handler <function conditionally_calculate_checksum at 0x00000214C88DA290>
+31-12-2023 23:50:29,217 DEBUG    [hooks.py:238] Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x00000214C8A16290>
+31-12-2023 23:50:29,217 DEBUG    [handlers.py:351] Adding expect 100 continue header to request.
+31-12-2023 23:50:29,217 DEBUG    [hooks.py:238] Event before-call.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D5CF3CD0>>
+31-12-2023 23:50:29,217 DEBUG    [hooks.py:238] Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x00000214C8A15A20>
+31-12-2023 23:50:29,218 DEBUG    [hooks.py:238] Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x00000214C8A175B0>
+31-12-2023 23:50:29,218 DEBUG    [endpoint.py:114] Making request for OperationModel(name=PutObject) with params: {'url_path': '/media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_1.png', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.34.0 md/Botocore#1.34.0 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.7 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.0', 'Content-MD5': 'yVbZOlJfZGvspBq0zuTGEA==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x00000214D5C776A0>, 'auth_path': '/ingest-new/media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_1.png', 'url': 'https://ingest-new.s3.eu-north-1.amazonaws.com/media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_1.png', 'context': {'client_region': 'eu-north-1', 'client_config': <botocore.config.Config object at 0x00000214D4AE9A80>, 'has_streaming_input': True, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'ingest-new', 'params': {'Bucket': 'ingest-new', 'Key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_1.png', 'Body': <s3transfer.utils.ReadFileChunk object at 0x00000214D5C776A0>}}, 'S3Express': {'bucket_name': 'ingest-new'}, 'signing': {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'eu-north-1'}]}}}
+31-12-2023 23:50:29,219 DEBUG    [hooks.py:238] Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x00000214D449AF80>
+31-12-2023 23:50:29,219 DEBUG    [hooks.py:238] Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000214D4AEA170>>
+31-12-2023 23:50:29,219 DEBUG    [hooks.py:238] Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x00000214C8A15C60>
+31-12-2023 23:50:29,219 DEBUG    [hooks.py:238] Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x00000214C8A17E20>
+31-12-2023 23:50:29,219 DEBUG    [hooks.py:238] Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D5CF3CD0>>
+31-12-2023 23:50:29,220 DEBUG    [auth.py:425] Calculating signature using v4 auth.
+31-12-2023 23:50:29,220 DEBUG    [auth.py:426] CanonicalRequest:
+PUT
+/media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_1.png
+
+content-md5:yVbZOlJfZGvspBq0zuTGEA==
+host:ingest-new.s3.eu-north-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20231231T185029Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+31-12-2023 23:50:29,220 DEBUG    [auth.py:428] StringToSign:
+AWS4-HMAC-SHA256
+20231231T185029Z
+20231231/eu-north-1/s3/aws4_request
+6dfd1a62ecd2122df0d9e971f2ede903dc664f785e0ae6226911c428e1a1c341
+31-12-2023 23:50:29,220 DEBUG    [auth.py:430] Signature:
+6b8f30122e01c4aeb645785c8b1f68f15fc1fdec9ca70efaee71e121e62f7c2c
+31-12-2023 23:50:29,220 DEBUG    [hooks.py:238] Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x00000214D449B010>
+31-12-2023 23:50:29,221 DEBUG    [hooks.py:238] Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x00000214C8A17C70>
+31-12-2023 23:50:29,221 DEBUG    [endpoint.py:265] Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://ingest-new.s3.eu-north-1.amazonaws.com/media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_1.png, headers={'User-Agent': b'Boto3/1.34.0 md/Botocore#1.34.0 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.7 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.0', 'Content-MD5': b'yVbZOlJfZGvspBq0zuTGEA==', 'Expect': b'100-continue', 'X-Amz-Date': b'20231231T185029Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAZDWTMXTK6AOP2ENE/20231231/eu-north-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=6b8f30122e01c4aeb645785c8b1f68f15fc1fdec9ca70efaee71e121e62f7c2c', 'amz-sdk-invocation-id': b'd7ed4ff5-ba9c-4cdf-a14a-1ef2d07b15a6', 'amz-sdk-request': b'attempt=1', 'Content-Length': '1560979'}>
+31-12-2023 23:50:29,221 DEBUG    [httpsession.py:97] Certificate path: D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\certifi\cacert.pem
+31-12-2023 23:50:29,222 DEBUG    [awsrequest.py:127] Waiting for 100 Continue response.
+31-12-2023 23:50:29,381 DEBUG    [awsrequest.py:173] 100 Continue response seen, now sending request body.
+31-12-2023 23:50:33,344 DEBUG    [connectionpool.py:546] https://ingest-new.s3.eu-north-1.amazonaws.com:443 "PUT /media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_1.png HTTP/1.1" 200 0
+31-12-2023 23:50:33,345 DEBUG    [parsers.py:240] Response headers: {'x-amz-id-2': '5JG7FN9L835F3vKt+Z05ksAwxUgFeBqzVxsy6mPrKU3dM8yq4chwgD0peWWrgdMj6waVmjeEykU=', 'x-amz-request-id': 'M4MFE2RF9ZR3J4GK', 'Date': 'Sun, 31 Dec 2023 18:50:30 GMT', 'x-amz-version-id': 'ZXh4GU2DG_gF3a3FfUEUZYuofzTCA4er', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"c956d93a525f646beca41ab4cee4c610"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+31-12-2023 23:50:33,345 DEBUG    [parsers.py:241] Response body:
+b''
+31-12-2023 23:50:33,345 DEBUG    [hooks.py:238] Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x00000214D5CF2830>
+31-12-2023 23:50:33,345 DEBUG    [retryhandler.py:211] No retry needed.
+31-12-2023 23:50:33,345 DEBUG    [hooks.py:238] Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D5CF28F0>>
+31-12-2023 23:50:33,346 DEBUG    [utils.py:645] Releasing acquire 0/None
+31-12-2023 23:50:33,406 DEBUG    [transfer.py:201] Opting out of CRT Transfer Manager. Preferred client: auto, CRT available: False, Instance Optimized: False.
+31-12-2023 23:50:33,420 DEBUG    [transfer.py:178] Using default client. pid: 71664, thread: 87036
+31-12-2023 23:50:33,421 DEBUG    [utils.py:632] Acquiring 0
+31-12-2023 23:50:33,435 DEBUG    [tasks.py:205] UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000214D5CF37C0>}) about to wait for the following futures []
+31-12-2023 23:50:33,435 DEBUG    [tasks.py:216] UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000214D5CF37C0>}) done waiting for dependent futures
+31-12-2023 23:50:33,436 DEBUG    [tasks.py:160] Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000214D5CF37C0>}) with kwargs {'client': <botocore.client.S3 object at 0x00000214D4AEBD60>, 'config': <boto3.s3.transfer.TransferConfig object at 0x00000214D5E331F0>, 'osutil': <s3transfer.utils.OSUtils object at 0x00000214D5E33850>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x00000214D5E33250>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000214D5CF37C0>}
+31-12-2023 23:50:33,436 DEBUG    [futures.py:318] Submitting task PutObjectTask(transfer_id=0, {'bucket': 'ingest-new', 'key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_2.png', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x00000214D5E33250> for transfer request: 0.
+31-12-2023 23:50:33,436 DEBUG    [utils.py:632] Acquiring 0
+31-12-2023 23:50:33,437 DEBUG    [tasks.py:205] PutObjectTask(transfer_id=0, {'bucket': 'ingest-new', 'key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_2.png', 'extra_args': {}}) about to wait for the following futures []
+31-12-2023 23:50:33,437 DEBUG    [utils.py:645] Releasing acquire 0/None
+31-12-2023 23:50:33,437 DEBUG    [tasks.py:216] PutObjectTask(transfer_id=0, {'bucket': 'ingest-new', 'key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_2.png', 'extra_args': {}}) done waiting for dependent futures
+31-12-2023 23:50:33,438 DEBUG    [tasks.py:160] Executing task PutObjectTask(transfer_id=0, {'bucket': 'ingest-new', 'key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_2.png', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x00000214D4AEBD60>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x00000214D5C776A0>, 'bucket': 'ingest-new', 'key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_2.png', 'extra_args': {}}
+31-12-2023 23:50:33,438 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x00000214C8A16B90>
+31-12-2023 23:50:33,438 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x00000214C8A15FC0>
+31-12-2023 23:50:33,438 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x00000214C8A17490>
+31-12-2023 23:50:33,438 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x00000214C8A15F30>
+31-12-2023 23:50:33,438 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000214C8A17D00>
+31-12-2023 23:50:33,438 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D5CF28F0>>
+31-12-2023 23:50:33,439 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D5CF3CD0>>
+31-12-2023 23:50:33,439 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x00000214C8A15D80>
+31-12-2023 23:50:33,439 DEBUG    [hooks.py:238] Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000214C8A17EB0>
+31-12-2023 23:50:33,439 DEBUG    [hooks.py:238] Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D5CF28F0>>
+31-12-2023 23:50:33,439 DEBUG    [regions.py:498] Calling endpoint provider with parameters: {'Bucket': 'ingest-new', 'Region': 'eu-north-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_2.png', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+31-12-2023 23:50:33,440 DEBUG    [regions.py:513] Endpoint provider result: https://ingest-new.s3.eu-north-1.amazonaws.com
+31-12-2023 23:50:33,440 DEBUG    [regions.py:660] Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+31-12-2023 23:50:33,440 DEBUG    [regions.py:733] Selected auth type "v4" as "v4" with signing context params: {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+31-12-2023 23:50:33,441 DEBUG    [hooks.py:238] Event before-call.s3.PutObject: calling handler <function conditionally_calculate_checksum at 0x00000214C88DA290>
+31-12-2023 23:50:33,442 DEBUG    [hooks.py:238] Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x00000214C8A16290>
+31-12-2023 23:50:33,442 DEBUG    [handlers.py:351] Adding expect 100 continue header to request.
+31-12-2023 23:50:33,443 DEBUG    [hooks.py:238] Event before-call.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D5CF3CD0>>
+31-12-2023 23:50:33,443 DEBUG    [hooks.py:238] Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x00000214C8A15A20>
+31-12-2023 23:50:33,443 DEBUG    [hooks.py:238] Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x00000214C8A175B0>
+31-12-2023 23:50:33,443 DEBUG    [endpoint.py:114] Making request for OperationModel(name=PutObject) with params: {'url_path': '/media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_2.png', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.34.0 md/Botocore#1.34.0 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.7 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.0', 'Content-MD5': '2xkXbiUtzNIsxEp2dwo2iw==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x00000214D5C776A0>, 'auth_path': '/ingest-new/media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_2.png', 'url': 'https://ingest-new.s3.eu-north-1.amazonaws.com/media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_2.png', 'context': {'client_region': 'eu-north-1', 'client_config': <botocore.config.Config object at 0x00000214D4AE9A80>, 'has_streaming_input': True, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'ingest-new', 'params': {'Bucket': 'ingest-new', 'Key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_2.png', 'Body': <s3transfer.utils.ReadFileChunk object at 0x00000214D5C776A0>}}, 'S3Express': {'bucket_name': 'ingest-new'}, 'signing': {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'eu-north-1'}]}}}
+31-12-2023 23:50:33,443 DEBUG    [hooks.py:238] Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x00000214D449AF80>
+31-12-2023 23:50:33,444 DEBUG    [hooks.py:238] Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000214D4AEA170>>
+31-12-2023 23:50:33,444 DEBUG    [hooks.py:238] Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x00000214C8A15C60>
+31-12-2023 23:50:33,444 DEBUG    [hooks.py:238] Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x00000214C8A17E20>
+31-12-2023 23:50:33,444 DEBUG    [hooks.py:238] Event before-sign.s3.PutObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D5CF3CD0>>
+31-12-2023 23:50:33,444 DEBUG    [auth.py:425] Calculating signature using v4 auth.
+31-12-2023 23:50:33,444 DEBUG    [auth.py:426] CanonicalRequest:
+PUT
+/media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_2.png
+
+content-md5:2xkXbiUtzNIsxEp2dwo2iw==
+host:ingest-new.s3.eu-north-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20231231T185033Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+31-12-2023 23:50:33,444 DEBUG    [auth.py:428] StringToSign:
+AWS4-HMAC-SHA256
+20231231T185033Z
+20231231/eu-north-1/s3/aws4_request
+5c45d06a4985333ae35fda3632b2e5828244008c04a8a73b898d5dcba88d5100
+31-12-2023 23:50:33,445 DEBUG    [auth.py:430] Signature:
+2da1d7f60879c124227e0b6ac3888c97c3b688693f2781a1c6ebf3d6e4edbc54
+31-12-2023 23:50:33,445 DEBUG    [hooks.py:238] Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x00000214D449B010>
+31-12-2023 23:50:33,445 DEBUG    [hooks.py:238] Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x00000214C8A17C70>
+31-12-2023 23:50:33,445 DEBUG    [endpoint.py:265] Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://ingest-new.s3.eu-north-1.amazonaws.com/media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_2.png, headers={'User-Agent': b'Boto3/1.34.0 md/Botocore#1.34.0 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.7 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.0', 'Content-MD5': b'2xkXbiUtzNIsxEp2dwo2iw==', 'Expect': b'100-continue', 'X-Amz-Date': b'20231231T185033Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAZDWTMXTK6AOP2ENE/20231231/eu-north-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=2da1d7f60879c124227e0b6ac3888c97c3b688693f2781a1c6ebf3d6e4edbc54', 'amz-sdk-invocation-id': b'd4ba8ff6-f966-4333-856e-2131140af21e', 'amz-sdk-request': b'attempt=1', 'Content-Length': '670249'}>
+31-12-2023 23:50:33,445 DEBUG    [httpsession.py:97] Certificate path: D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\certifi\cacert.pem
+31-12-2023 23:50:33,446 DEBUG    [awsrequest.py:127] Waiting for 100 Continue response.
+31-12-2023 23:50:33,612 DEBUG    [awsrequest.py:173] 100 Continue response seen, now sending request body.
+31-12-2023 23:50:35,359 DEBUG    [connectionpool.py:546] https://ingest-new.s3.eu-north-1.amazonaws.com:443 "PUT /media/public/automation_poc/raj/uploads/data_ingestion/7/1.pdf/uploads/data_ingestion/7/page_2.png HTTP/1.1" 200 0
+31-12-2023 23:50:35,359 DEBUG    [parsers.py:240] Response headers: {'x-amz-id-2': 'lo0+gMvoiQWs4k5U+8G2DxxzBLsEoJ7IQMA5DsoA7HUG/LkDkU5Wkx+9n2e+8H53/J0m/pIbq3s=', 'x-amz-request-id': 'C8RAPXQYQ8F1AXKH', 'Date': 'Sun, 31 Dec 2023 18:50:34 GMT', 'x-amz-version-id': 'tgwC5bc_XdkuhUnUjn.COKMe8xHqOuy1', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"db19176e252dccd22cc44a76770a368b"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+31-12-2023 23:50:35,359 DEBUG    [parsers.py:241] Response body:
+b''
+31-12-2023 23:50:35,359 DEBUG    [hooks.py:238] Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x00000214D5CF2830>
+31-12-2023 23:50:35,360 DEBUG    [retryhandler.py:211] No retry needed.
+31-12-2023 23:50:35,360 DEBUG    [hooks.py:238] Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D5CF28F0>>
+31-12-2023 23:50:35,360 DEBUG    [utils.py:645] Releasing acquire 0/None
+31-12-2023 23:50:40,528 DEBUG    [hooks.py:482] Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+31-12-2023 23:50:40,532 DEBUG    [hooks.py:482] Changing event name from before-call.apigateway to before-call.api-gateway
+31-12-2023 23:50:40,533 DEBUG    [hooks.py:482] Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+31-12-2023 23:50:40,534 DEBUG    [hooks.py:482] Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+31-12-2023 23:50:40,534 DEBUG    [hooks.py:482] Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+31-12-2023 23:50:40,535 DEBUG    [hooks.py:482] Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+31-12-2023 23:50:40,537 DEBUG    [hooks.py:482] Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+31-12-2023 23:50:40,541 DEBUG    [hooks.py:482] Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+31-12-2023 23:50:40,541 DEBUG    [hooks.py:482] Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+31-12-2023 23:50:40,542 DEBUG    [hooks.py:482] Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+31-12-2023 23:50:40,542 DEBUG    [hooks.py:482] Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+31-12-2023 23:50:40,546 DEBUG    [loaders.py:180] Loading JSON file: D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\botocore\data\endpoints.json
+31-12-2023 23:50:40,564 DEBUG    [loaders.py:180] Loading JSON file: D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\botocore\data\sdk-default-configuration.json
+31-12-2023 23:50:40,565 DEBUG    [hooks.py:238] Event choose-service-name: calling handler <function handle_service_name_alias at 0x00000214C8A14820>
+31-12-2023 23:50:40,644 DEBUG    [loaders.py:180] Loading JSON file: D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\botocore\data\s3\2006-03-01\service-2.json.gz
+31-12-2023 23:50:40,729 DEBUG    [loaders.py:180] Loading JSON file: D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+31-12-2023 23:50:40,737 DEBUG    [loaders.py:180] Loading JSON file: D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\botocore\data\partitions.json
+31-12-2023 23:50:40,738 DEBUG    [hooks.py:238] Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x00000214C898AB00>
+31-12-2023 23:50:40,739 DEBUG    [hooks.py:238] Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x00000214D5C8D1B0>
+31-12-2023 23:50:40,739 DEBUG    [hooks.py:238] Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x00000214C898A8C0>
+31-12-2023 23:50:40,739 DEBUG    [configprovider.py:948] Looking for endpoint for s3 via: environment_service
+31-12-2023 23:50:40,739 DEBUG    [configprovider.py:948] Looking for endpoint for s3 via: environment_global
+31-12-2023 23:50:40,739 DEBUG    [configprovider.py:948] Looking for endpoint for s3 via: config_service
+31-12-2023 23:50:40,739 DEBUG    [configprovider.py:948] Looking for endpoint for s3 via: config_global
+31-12-2023 23:50:40,739 DEBUG    [configprovider.py:964] No configured endpoint found.
+31-12-2023 23:50:40,740 DEBUG    [endpoint.py:408] Setting s3 timeout as (60, 60)
+31-12-2023 23:50:40,742 DEBUG    [loaders.py:180] Loading JSON file: D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\botocore\data\_retry.json
+31-12-2023 23:50:40,743 DEBUG    [client.py:285] Registering retry handlers for service: s3
+31-12-2023 23:50:40,743 DEBUG    [utils.py:1728] Registering S3 region redirector handler
+31-12-2023 23:50:40,743 DEBUG    [utils.py:1669] Registering S3Express Identity Resolver
+31-12-2023 23:50:40,744 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutBucketCors: calling handler <function validate_bucket_name at 0x00000214C8A15F30>
+31-12-2023 23:50:40,744 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutBucketCors: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000214C8A17D00>
+31-12-2023 23:50:40,744 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutBucketCors: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D856DF60>>
+31-12-2023 23:50:40,744 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutBucketCors: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D856DF30>>
+31-12-2023 23:50:40,744 DEBUG    [hooks.py:238] Event before-parameter-build.s3.PutBucketCors: calling handler <function generate_idempotent_uuid at 0x00000214C8A15D80>
+31-12-2023 23:50:40,744 DEBUG    [hooks.py:238] Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000214C8A17EB0>
+31-12-2023 23:50:40,744 DEBUG    [hooks.py:238] Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D856DF60>>
+31-12-2023 23:50:40,745 DEBUG    [regions.py:498] Calling endpoint provider with parameters: {'Bucket': 'ingest-new', 'Region': 'eu-north-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True, 'UseS3ExpressControlEndpoint': True}
+31-12-2023 23:50:40,745 DEBUG    [regions.py:513] Endpoint provider result: https://ingest-new.s3.eu-north-1.amazonaws.com
+31-12-2023 23:50:40,745 DEBUG    [regions.py:660] Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+31-12-2023 23:50:40,745 DEBUG    [regions.py:733] Selected auth type "v4" as "v4" with signing context params: {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+31-12-2023 23:50:40,746 DEBUG    [hooks.py:238] Event before-call.s3.PutBucketCors: calling handler <function add_expect_header at 0x00000214C8A16290>
+31-12-2023 23:50:40,746 DEBUG    [hooks.py:238] Event before-call.s3.PutBucketCors: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D856DF30>>
+31-12-2023 23:50:40,746 DEBUG    [hooks.py:238] Event before-call.s3.PutBucketCors: calling handler <function add_recursion_detection_header at 0x00000214C8A15A20>
+31-12-2023 23:50:40,746 DEBUG    [hooks.py:238] Event before-call.s3.PutBucketCors: calling handler <function inject_api_version_header_if_needed at 0x00000214C8A175B0>
+31-12-2023 23:50:40,746 DEBUG    [endpoint.py:114] Making request for OperationModel(name=PutBucketCors) with params: {'url_path': '?cors', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.34.0 md/Botocore#1.34.0 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.7 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.0', 'Content-MD5': 'mtc/fYOw3NRHuhykL/56nA=='}, 'body': b'<CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/"><CORSRule><AllowedHeader>Authorization</AllowedHeader><AllowedMethod>GET</AllowedMethod><AllowedMethod>PUT</AllowedMethod><AllowedOrigin>*</AllowedOrigin><ExposeHeader>ETag</ExposeHeader><ExposeHeader>x-amz-request-id</ExposeHeader><MaxAgeSeconds>3000</MaxAgeSeconds></CORSRule></CORSConfiguration>', 'auth_path': '/ingest-new/', 'url': 'https://ingest-new.s3.eu-north-1.amazonaws.com/?cors', 'context': {'client_region': 'eu-north-1', 'client_config': <botocore.config.Config object at 0x00000214D4AEA260>, 'has_streaming_input': False, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'ingest-new', 'params': {'Bucket': 'ingest-new', 'CORSConfiguration': {'CORSRules': [{'AllowedHeaders': ['Authorization'], 'AllowedMethods': ['GET', 'PUT'], 'AllowedOrigins': ['*'], 'ExposeHeaders': ['ETag', 'x-amz-request-id'], 'MaxAgeSeconds': 3000}]}}}, 'S3Express': {'bucket_name': 'ingest-new'}, 'signing': {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'eu-north-1'}]}, 'checksum': {'request_algorithm': 'conditional-md5'}}}
+31-12-2023 23:50:40,747 DEBUG    [hooks.py:238] Event request-created.s3.PutBucketCors: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000214D4AE9FF0>>
+31-12-2023 23:50:40,747 DEBUG    [hooks.py:238] Event choose-signer.s3.PutBucketCors: calling handler <function set_operation_specific_signer at 0x00000214C8A15C60>
+31-12-2023 23:50:40,747 DEBUG    [hooks.py:238] Event before-sign.s3.PutBucketCors: calling handler <function remove_arn_from_signing_path at 0x00000214C8A17E20>
+31-12-2023 23:50:40,748 DEBUG    [hooks.py:238] Event before-sign.s3.PutBucketCors: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D856DF30>>
+31-12-2023 23:50:40,750 DEBUG    [auth.py:425] Calculating signature using v4 auth.
+31-12-2023 23:50:40,750 DEBUG    [auth.py:426] CanonicalRequest:
+PUT
+/
+cors=
+content-md5:mtc/fYOw3NRHuhykL/56nA==
+host:ingest-new.s3.eu-north-1.amazonaws.com
+x-amz-content-sha256:d8961b555f4820ba61b28b6a05337bf0e5d08391594836dc5f5c19ef36001983
+x-amz-date:20231231T185040Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+d8961b555f4820ba61b28b6a05337bf0e5d08391594836dc5f5c19ef36001983
+31-12-2023 23:50:40,750 DEBUG    [auth.py:428] StringToSign:
+AWS4-HMAC-SHA256
+20231231T185040Z
+20231231/eu-north-1/s3/aws4_request
+177c0104b80a3d48949701862955c1d1503c794369d0c4922e54a2450f084eaa
+31-12-2023 23:50:40,751 DEBUG    [auth.py:430] Signature:
+61732104f3c1082a9d26f92aeee7abbbcf4a0d9ede08dbede02eca521b68748b
+31-12-2023 23:50:40,751 DEBUG    [hooks.py:238] Event request-created.s3.PutBucketCors: calling handler <function add_retry_headers at 0x00000214C8A17C70>
+31-12-2023 23:50:40,751 DEBUG    [endpoint.py:265] Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://ingest-new.s3.eu-north-1.amazonaws.com/?cors, headers={'User-Agent': b'Boto3/1.34.0 md/Botocore#1.34.0 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.7 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.0', 'Content-MD5': b'mtc/fYOw3NRHuhykL/56nA==', 'X-Amz-Date': b'20231231T185040Z', 'X-Amz-Content-SHA256': b'd8961b555f4820ba61b28b6a05337bf0e5d08391594836dc5f5c19ef36001983', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAZDWTMXTK6AOP2ENE/20231231/eu-north-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=61732104f3c1082a9d26f92aeee7abbbcf4a0d9ede08dbede02eca521b68748b', 'amz-sdk-invocation-id': b'6ff1c696-aa74-49f7-849c-e3198bc4c5d5', 'amz-sdk-request': b'attempt=1', 'Content-Length': '365'}>
+31-12-2023 23:50:40,752 DEBUG    [httpsession.py:97] Certificate path: D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\certifi\cacert.pem
+31-12-2023 23:50:40,752 DEBUG    [connectionpool.py:1048] Starting new HTTPS connection (1): ingest-new.s3.eu-north-1.amazonaws.com:443
+31-12-2023 23:50:42,125 DEBUG    [connectionpool.py:546] https://ingest-new.s3.eu-north-1.amazonaws.com:443 "PUT /?cors HTTP/1.1" 200 0
+31-12-2023 23:50:42,125 DEBUG    [parsers.py:240] Response headers: {'x-amz-id-2': 'CXoj+Ob8N0bKksWMIP7atOIddPx4KtOnijBPqaZiyLDVIYspPir/98rVTW+v/83PgsId8+YHEsg=', 'x-amz-request-id': 'QA5HGNY1VSWMW6PP', 'Date': 'Sun, 31 Dec 2023 18:50:42 GMT', 'Server': 'AmazonS3', 'Content-Length': '0'}
+31-12-2023 23:50:42,126 DEBUG    [parsers.py:241] Response body:
+b''
+31-12-2023 23:50:42,126 DEBUG    [hooks.py:238] Event needs-retry.s3.PutBucketCors: calling handler <botocore.retryhandler.RetryHandler object at 0x00000214D856DEA0>
+31-12-2023 23:50:42,126 DEBUG    [retryhandler.py:211] No retry needed.
+31-12-2023 23:50:42,126 DEBUG    [hooks.py:238] Event needs-retry.s3.PutBucketCors: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D856DF60>>
+31-12-2023 23:50:42,127 DEBUG    [hooks.py:238] Event before-parameter-build.s3.GetObject: calling handler <function sse_md5 at 0x00000214C8A15FC0>
+31-12-2023 23:50:42,127 DEBUG    [hooks.py:238] Event before-parameter-build.s3.GetObject: calling handler <function validate_bucket_name at 0x00000214C8A15F30>
+31-12-2023 23:50:42,127 DEBUG    [hooks.py:238] Event before-parameter-build.s3.GetObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000214C8A17D00>
+31-12-2023 23:50:42,127 DEBUG    [hooks.py:238] Event before-parameter-build.s3.GetObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D856DF60>>
+31-12-2023 23:50:42,127 DEBUG    [hooks.py:238] Event before-parameter-build.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D856DF30>>
+31-12-2023 23:50:42,127 DEBUG    [hooks.py:238] Event before-parameter-build.s3.GetObject: calling handler <function generate_idempotent_uuid at 0x00000214C8A15D80>
+31-12-2023 23:50:42,128 DEBUG    [hooks.py:238] Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000214C8A17EB0>
+31-12-2023 23:50:42,128 DEBUG    [hooks.py:238] Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D856DF60>>
+31-12-2023 23:50:42,128 DEBUG    [regions.py:498] Calling endpoint provider with parameters: {'Bucket': 'ingest-new', 'Region': 'aws-global', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': True, 'Key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/page_1.png', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+31-12-2023 23:50:42,129 DEBUG    [regions.py:513] Endpoint provider result: https://ingest-new.s3.amazonaws.com
+31-12-2023 23:50:42,129 DEBUG    [regions.py:660] Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+31-12-2023 23:50:42,129 DEBUG    [regions.py:733] Selected auth type "v4" as "v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+31-12-2023 23:50:42,130 DEBUG    [hooks.py:238] Event choose-signer.s3.GetObject: calling handler <function set_operation_specific_signer at 0x00000214C8A15C60>
+31-12-2023 23:50:42,130 DEBUG    [hooks.py:238] Event before-sign.s3.GetObject: calling handler <function remove_arn_from_signing_path at 0x00000214C8A17E20>
+31-12-2023 23:50:42,130 DEBUG    [hooks.py:238] Event before-sign.s3.GetObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D856DF30>>
+31-12-2023 23:50:42,131 DEBUG    [auth.py:425] Calculating signature using v4 auth.
+31-12-2023 23:50:42,131 DEBUG    [auth.py:426] CanonicalRequest:
+GET
+/media/public/automation_poc/raj/uploads/data_ingestion/7/page_1.png
+X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZDWTMXTK6AOP2ENE%2F20231231%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20231231T185042Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host
+host:ingest-new.s3.amazonaws.com
+
+host
+UNSIGNED-PAYLOAD
+31-12-2023 23:50:42,133 DEBUG    [auth.py:428] StringToSign:
+AWS4-HMAC-SHA256
+20231231T185042Z
+20231231/eu-north-1/s3/aws4_request
+7d29f82a7d5271f4c6e65ce0323c860b2259689345e38cb6a348f8eb482f9a4d
+31-12-2023 23:50:42,133 DEBUG    [auth.py:430] Signature:
+fd22bc4673315437cc25b3d375f3d69d355a0c1e8ffc6fef5bcd529738b5c928
+31-12-2023 23:50:42,852 DEBUG    [factory.py:65] Loading s3:Object
+31-12-2023 23:50:42,853 DEBUG    [hooks.py:238] Event creating-resource-class.s3.Object: calling handler <function lazy_call.<locals>._handler at 0x00000214D32B55A0>
+31-12-2023 23:50:42,853 DEBUG    [action.py:81] Calling s3:head_object with {'Bucket': 'ingest-new', 'Key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/page_2.png'}
+31-12-2023 23:50:42,853 DEBUG    [hooks.py:238] Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x00000214C8A15FC0>
+31-12-2023 23:50:42,853 DEBUG    [hooks.py:238] Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x00000214C8A15F30>
+31-12-2023 23:50:42,853 DEBUG    [hooks.py:238] Event before-parameter-build.s3.HeadObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000214C8A17D00>
+31-12-2023 23:50:42,854 DEBUG    [hooks.py:238] Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D54A8880>>
+31-12-2023 23:50:42,854 DEBUG    [hooks.py:238] Event before-parameter-build.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D54A8850>>
+31-12-2023 23:50:42,854 DEBUG    [hooks.py:238] Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x00000214C8A15D80>
+31-12-2023 23:50:42,854 DEBUG    [hooks.py:238] Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000214C8A17EB0>
+31-12-2023 23:50:42,854 DEBUG    [hooks.py:238] Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D54A8880>>
+31-12-2023 23:50:42,854 DEBUG    [regions.py:498] Calling endpoint provider with parameters: {'Bucket': 'ingest-new', 'Region': 'eu-north-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/page_2.png', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+31-12-2023 23:50:42,854 DEBUG    [regions.py:513] Endpoint provider result: https://ingest-new.s3.eu-north-1.amazonaws.com
+31-12-2023 23:50:42,854 DEBUG    [regions.py:660] Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+31-12-2023 23:50:42,854 DEBUG    [regions.py:733] Selected auth type "v4" as "v4" with signing context params: {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+31-12-2023 23:50:42,855 DEBUG    [hooks.py:238] Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x00000214C8A16290>
+31-12-2023 23:50:42,855 DEBUG    [hooks.py:238] Event before-call.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D54A8850>>
+31-12-2023 23:50:42,855 DEBUG    [hooks.py:238] Event before-call.s3.HeadObject: calling handler <function add_recursion_detection_header at 0x00000214C8A15A20>
+31-12-2023 23:50:42,855 DEBUG    [hooks.py:238] Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x00000214C8A175B0>
+31-12-2023 23:50:42,855 DEBUG    [endpoint.py:114] Making request for OperationModel(name=HeadObject) with params: {'url_path': '/media/public/automation_poc/raj/uploads/data_ingestion/7/page_2.png', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'Boto3/1.34.0 md/Botocore#1.34.0 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.7 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.0 Resource'}, 'body': b'', 'auth_path': '/ingest-new/media/public/automation_poc/raj/uploads/data_ingestion/7/page_2.png', 'url': 'https://ingest-new.s3.eu-north-1.amazonaws.com/media/public/automation_poc/raj/uploads/data_ingestion/7/page_2.png', 'context': {'client_region': 'eu-north-1', 'client_config': <botocore.config.Config object at 0x00000214D30301F0>, 'has_streaming_input': False, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'ingest-new', 'params': {'Bucket': 'ingest-new', 'Key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/page_2.png'}}, 'S3Express': {'bucket_name': 'ingest-new'}, 'signing': {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'eu-north-1'}]}}}
+31-12-2023 23:50:42,855 DEBUG    [hooks.py:238] Event request-created.s3.HeadObject: calling handler <function signal_not_transferring at 0x00000214D449AF80>
+31-12-2023 23:50:42,855 DEBUG    [hooks.py:238] Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000214D30311E0>>
+31-12-2023 23:50:42,855 DEBUG    [hooks.py:238] Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x00000214C8A15C60>
+31-12-2023 23:50:42,855 DEBUG    [hooks.py:238] Event before-sign.s3.HeadObject: calling handler <function remove_arn_from_signing_path at 0x00000214C8A17E20>
+31-12-2023 23:50:42,855 DEBUG    [hooks.py:238] Event before-sign.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D54A8850>>
+31-12-2023 23:50:42,856 DEBUG    [auth.py:425] Calculating signature using v4 auth.
+31-12-2023 23:50:42,856 DEBUG    [auth.py:426] CanonicalRequest:
+HEAD
+/media/public/automation_poc/raj/uploads/data_ingestion/7/page_2.png
+
+host:ingest-new.s3.eu-north-1.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20231231T185042Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+31-12-2023 23:50:42,856 DEBUG    [auth.py:428] StringToSign:
+AWS4-HMAC-SHA256
+20231231T185042Z
+20231231/eu-north-1/s3/aws4_request
+94005a48aa5e6fa99396e2ed567411fd9f6dce13969c5774ab7757a5c71291be
+31-12-2023 23:50:42,856 DEBUG    [auth.py:430] Signature:
+5ef68c6ce3e1252c5418202ae8a77cc5938d91eb78150f328edaaa02d9606ede
+31-12-2023 23:50:42,856 DEBUG    [hooks.py:238] Event request-created.s3.HeadObject: calling handler <function signal_transferring at 0x00000214D449B010>
+31-12-2023 23:50:42,856 DEBUG    [hooks.py:238] Event request-created.s3.HeadObject: calling handler <function add_retry_headers at 0x00000214C8A17C70>
+31-12-2023 23:50:42,856 DEBUG    [endpoint.py:265] Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=https://ingest-new.s3.eu-north-1.amazonaws.com/media/public/automation_poc/raj/uploads/data_ingestion/7/page_2.png, headers={'User-Agent': b'Boto3/1.34.0 md/Botocore#1.34.0 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.7 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.0 Resource', 'X-Amz-Date': b'20231231T185042Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAZDWTMXTK6AOP2ENE/20231231/eu-north-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=5ef68c6ce3e1252c5418202ae8a77cc5938d91eb78150f328edaaa02d9606ede', 'amz-sdk-invocation-id': b'bd3e087f-4a7e-491b-9008-071b2937d83f', 'amz-sdk-request': b'attempt=1'}>
+31-12-2023 23:50:42,856 DEBUG    [httpsession.py:97] Certificate path: D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\certifi\cacert.pem
+31-12-2023 23:50:42,857 DEBUG    [connectionpool.py:292] Resetting dropped connection: ingest-new.s3.eu-north-1.amazonaws.com
+31-12-2023 23:50:43,501 DEBUG    [connectionpool.py:546] https://ingest-new.s3.eu-north-1.amazonaws.com:443 "HEAD /media/public/automation_poc/raj/uploads/data_ingestion/7/page_2.png HTTP/1.1" 404 0
+31-12-2023 23:50:43,502 DEBUG    [parsers.py:240] Response headers: {'x-amz-request-id': '49M74DW0BVH3XZ2A', 'x-amz-id-2': 'ekbSrxw34Yj1OduoEzUF1iSq0NMLAq5rOMu0lmN2j9eGsgfZ/UQP2iG8B6+tbaB5oHAxn2F2wdE=', 'Content-Type': 'application/xml', 'Date': 'Sun, 31 Dec 2023 18:50:42 GMT', 'Server': 'AmazonS3'}
+31-12-2023 23:50:43,502 DEBUG    [parsers.py:241] Response body:
+b''
+31-12-2023 23:50:43,504 DEBUG    [hooks.py:238] Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x00000214D54A87C0>
+31-12-2023 23:50:43,504 DEBUG    [retryhandler.py:211] No retry needed.
+31-12-2023 23:50:43,504 DEBUG    [hooks.py:238] Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D54A8880>>
+31-12-2023 23:50:43,506 DEBUG    [factory.py:65] Loading s3:Object
+31-12-2023 23:50:43,506 DEBUG    [hooks.py:238] Event creating-resource-class.s3.Object: calling handler <function lazy_call.<locals>._handler at 0x00000214D32B55A0>
+31-12-2023 23:50:43,507 DEBUG    [action.py:81] Calling s3:head_object with {'Bucket': 'ingest-new', 'Key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/page_1.png'}
+31-12-2023 23:50:43,507 DEBUG    [hooks.py:238] Event before-parameter-build.s3.HeadObject: calling handler <function sse_md5 at 0x00000214C8A15FC0>
+31-12-2023 23:50:43,507 DEBUG    [hooks.py:238] Event before-parameter-build.s3.HeadObject: calling handler <function validate_bucket_name at 0x00000214C8A15F30>
+31-12-2023 23:50:43,507 DEBUG    [hooks.py:238] Event before-parameter-build.s3.HeadObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000214C8A17D00>
+31-12-2023 23:50:43,507 DEBUG    [hooks.py:238] Event before-parameter-build.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D54A8880>>
+31-12-2023 23:50:43,507 DEBUG    [hooks.py:238] Event before-parameter-build.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.inject_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D54A8850>>
+31-12-2023 23:50:43,507 DEBUG    [hooks.py:238] Event before-parameter-build.s3.HeadObject: calling handler <function generate_idempotent_uuid at 0x00000214C8A15D80>
+31-12-2023 23:50:43,507 DEBUG    [hooks.py:238] Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000214C8A17EB0>
+31-12-2023 23:50:43,507 DEBUG    [hooks.py:238] Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D54A8880>>
+31-12-2023 23:50:43,507 DEBUG    [regions.py:498] Calling endpoint provider with parameters: {'Bucket': 'ingest-new', 'Region': 'eu-north-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'Key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/page_1.png', 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+31-12-2023 23:50:43,508 DEBUG    [regions.py:513] Endpoint provider result: https://ingest-new.s3.eu-north-1.amazonaws.com
+31-12-2023 23:50:43,508 DEBUG    [regions.py:660] Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+31-12-2023 23:50:43,508 DEBUG    [regions.py:733] Selected auth type "v4" as "v4" with signing context params: {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+31-12-2023 23:50:43,508 DEBUG    [hooks.py:238] Event before-call.s3.HeadObject: calling handler <function add_expect_header at 0x00000214C8A16290>
+31-12-2023 23:50:43,508 DEBUG    [hooks.py:238] Event before-call.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D54A8850>>
+31-12-2023 23:50:43,508 DEBUG    [hooks.py:238] Event before-call.s3.HeadObject: calling handler <function add_recursion_detection_header at 0x00000214C8A15A20>
+31-12-2023 23:50:43,508 DEBUG    [hooks.py:238] Event before-call.s3.HeadObject: calling handler <function inject_api_version_header_if_needed at 0x00000214C8A175B0>
+31-12-2023 23:50:43,509 DEBUG    [endpoint.py:114] Making request for OperationModel(name=HeadObject) with params: {'url_path': '/media/public/automation_poc/raj/uploads/data_ingestion/7/page_1.png', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'Boto3/1.34.0 md/Botocore#1.34.0 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.7 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.0 Resource'}, 'body': b'', 'auth_path': '/ingest-new/media/public/automation_poc/raj/uploads/data_ingestion/7/page_1.png', 'url': 'https://ingest-new.s3.eu-north-1.amazonaws.com/media/public/automation_poc/raj/uploads/data_ingestion/7/page_1.png', 'context': {'client_region': 'eu-north-1', 'client_config': <botocore.config.Config object at 0x00000214D30301F0>, 'has_streaming_input': False, 'auth_type': 'v4', 's3_redirect': {'redirected': False, 'bucket': 'ingest-new', 'params': {'Bucket': 'ingest-new', 'Key': 'media/public/automation_poc/raj/uploads/data_ingestion/7/page_1.png'}}, 'S3Express': {'bucket_name': 'ingest-new'}, 'signing': {'region': 'eu-north-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'eu-north-1'}]}}}
+31-12-2023 23:50:43,509 DEBUG    [hooks.py:238] Event request-created.s3.HeadObject: calling handler <function signal_not_transferring at 0x00000214D449AF80>
+31-12-2023 23:50:43,509 DEBUG    [hooks.py:238] Event request-created.s3.HeadObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000214D30311E0>>
+31-12-2023 23:50:43,509 DEBUG    [hooks.py:238] Event choose-signer.s3.HeadObject: calling handler <function set_operation_specific_signer at 0x00000214C8A15C60>
+31-12-2023 23:50:43,509 DEBUG    [hooks.py:238] Event before-sign.s3.HeadObject: calling handler <function remove_arn_from_signing_path at 0x00000214C8A17E20>
+31-12-2023 23:50:43,509 DEBUG    [hooks.py:238] Event before-sign.s3.HeadObject: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x00000214D54A8850>>
+31-12-2023 23:50:43,509 DEBUG    [auth.py:425] Calculating signature using v4 auth.
+31-12-2023 23:50:43,509 DEBUG    [auth.py:426] CanonicalRequest:
+HEAD
+/media/public/automation_poc/raj/uploads/data_ingestion/7/page_1.png
+
+host:ingest-new.s3.eu-north-1.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20231231T185043Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+31-12-2023 23:50:43,509 DEBUG    [auth.py:428] StringToSign:
+AWS4-HMAC-SHA256
+20231231T185043Z
+20231231/eu-north-1/s3/aws4_request
+5503b5a59bb996560fcd27cc9606f34d4548e08302b7222daab511b49d5469c6
+31-12-2023 23:50:43,509 DEBUG    [auth.py:430] Signature:
+1a1b32b5df9b2e6b601cf10404f8059015cc64de7bc0affc9bef691be3b8fe14
+31-12-2023 23:50:43,510 DEBUG    [hooks.py:238] Event request-created.s3.HeadObject: calling handler <function signal_transferring at 0x00000214D449B010>
+31-12-2023 23:50:43,510 DEBUG    [hooks.py:238] Event request-created.s3.HeadObject: calling handler <function add_retry_headers at 0x00000214C8A17C70>
+31-12-2023 23:50:43,510 DEBUG    [endpoint.py:265] Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=https://ingest-new.s3.eu-north-1.amazonaws.com/media/public/automation_poc/raj/uploads/data_ingestion/7/page_1.png, headers={'User-Agent': b'Boto3/1.34.0 md/Botocore#1.34.0 ua/2.0 os/windows#10 md/arch#amd64 lang/python#3.10.7 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.0 Resource', 'X-Amz-Date': b'20231231T185043Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAZDWTMXTK6AOP2ENE/20231231/eu-north-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=1a1b32b5df9b2e6b601cf10404f8059015cc64de7bc0affc9bef691be3b8fe14', 'amz-sdk-invocation-id': b'a645f101-5f61-4132-a40c-376a7f7f4cfe', 'amz-sdk-request': b'attempt=1'}>
+31-12-2023 23:50:43,510 DEBUG    [httpsession.py:97] Certificate path: D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\certifi\cacert.pem
+31-12-2023 23:50:43,668 DEBUG    [connectionpool.py:546] https://ingest-new.s3.eu-north-1.amazonaws.com:443 "HEAD /media/public/automation_poc/raj/uploads/data_ingestion/7/page_1.png HTTP/1.1" 404 0
+31-12-2023 23:50:43,669 DEBUG    [parsers.py:240] Response headers: {'x-amz-request-id': '49M739E29BBTGVPP', 'x-amz-id-2': 'MXUP3VU8AaJDoEoeIVz775NE7MN/j2yhi60ZrVCkzCNSI7GTymI2+pMG8y/WFjc4l8Ap/K1U8lI=', 'Content-Type': 'application/xml', 'Date': 'Sun, 31 Dec 2023 18:50:43 GMT', 'Server': 'AmazonS3'}
+31-12-2023 23:50:43,669 DEBUG    [parsers.py:241] Response body:
+b''
+31-12-2023 23:50:43,669 DEBUG    [hooks.py:238] Event needs-retry.s3.HeadObject: calling handler <botocore.retryhandler.RetryHandler object at 0x00000214D54A87C0>
+31-12-2023 23:50:43,669 DEBUG    [retryhandler.py:211] No retry needed.
+31-12-2023 23:50:43,669 DEBUG    [hooks.py:238] Event needs-retry.s3.HeadObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x00000214D54A8880>>
+31-12-2023 23:50:43,742 ERROR    [log.py:241] Internal Server Error: /file/view/7/1
+Traceback (most recent call last):
+  File "D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\storages\backends\s3.py", line 461, in _open
+    f = S3File(name, mode, self)
+  File "D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\storages\backends\s3.py", line 132, in __init__
+    self.obj.load(**params)
+  File "D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\boto3\resources\factory.py", line 565, in do_action
+    response = action(self, *args, **kwargs)
+  File "D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\boto3\resources\action.py", line 88, in __call__
+    response = getattr(parent.meta.client, operation_name)(*args, **params)
+  File "D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\botocore\client.py", line 553, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\botocore\client.py", line 1009, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.exceptions.ClientError: An error occurred (404) when calling the HeadObject operation: Not Found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\Freelancing\Maaz Bhai's Work\AWS-Deploy\rest_api\data_ingestion\file_management\views.py", line 663, in get
+    json_data = self.extract_cordinates(file_id, page_no, template_name, tenant)
+  File "D:\Freelancing\Maaz Bhai's Work\AWS-Deploy\rest_api\data_ingestion\structured_doc\views.py", line 65, in extract_cordinates
+    with default_storage.open(str(file_name), mode='rb') as img:
+  File "D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\django\core\files\storage\base.py", line 22, in open
+    return self._open(name, mode)
+  File "D:\Freelancing\Maaz Bhai's Work\py_env\lib\site-packages\storages\backends\s3.py", line 464, in _open
+    raise FileNotFoundError("File does not exist: %s" % name)
+FileNotFoundError: File does not exist: media/public/automation_poc/raj/uploads/data_ingestion/7/page_1.png
+31-12-2023 23:51:19,549 INFO     [autoreload.py:266] D:\Freelancing\Maaz Bhai's Work\AWS-Deploy\rest_api\data_ingestion\file_management\views.py changed, reloading.
